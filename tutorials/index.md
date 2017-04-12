@@ -2,7 +2,7 @@
 layout: default
 title: Trends Global Tutorials
 ---
-    # {{ page.title }}
+#{{ page.title }}
 
 
 - | Subject | Video Link | Video Length | Code Link | Code Format |
