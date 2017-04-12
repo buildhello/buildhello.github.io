@@ -2,17 +2,14 @@
 layout: default
 title: Trends Global Tutorials
 ---
-    <h1>{{ page.title }}</h1>
-    <ul class="posts">
+    # {{ page.title }}
 
-<li>| Subject | Video Link | Video Length | Code Link | Code Format |    </li>
-<li>|-------|--------|---------|-------|--------|</li>
 
+- | Subject | Video Link | Video Length | Code Link | Code Format |
+- |-------|--------|---------|-------|--------|
 
       {% for tutorial in site.tutorial %}
-<li><span>{{ post.date | date_to_string }}</span>| {{tutorial.title}} |<a href="{{ tutorial.video.url }}" title="{{
-  tutorial.video.title}}>"{{tutorial.video.title}}</a> | {{tutorial.video.length}}
-  | <a href="{{tutorial.code.url}}" title ="{{tutorial.code.title}}">{{tutorial.code.title}}</a>|
-   {{tutorial.code.format}}|</li>
+- <span>{{ post.date | date_to_string }}</span>| {{tutorial.title}} |
+[{{tutorial.video.title}}]({{tutorial.video.url}})|{{TUTORIAL.video.length}} |
+[{{tutorial.code.title}}]({{tutorial.code.url}})  |{{tutorial.code.format}}|
       {% endfor %}
-    </ul>
