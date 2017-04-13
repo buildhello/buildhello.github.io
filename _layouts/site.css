@@ -62,10 +62,16 @@ ul.posts li {
 }
 
 
-.post tr:hover {
+.post td:hover {
 background-color: #f5f5f5;
 }
 
 .post table{
+
+}
+
+
+.post tbody{
 margin-bottom: 40px;
+
 }
