@@ -52,20 +52,20 @@ ul.posts li {
     list-style: none;
 }
 
-.post > thead, th, td {
-    padding: 15px;
+.post thead, th, td {
+    padding: 40px;
 //    text-align: left;
 }
 
-.post > thead, th, td {
+.post thead, th, td {
     border-bottom: 1px solid #ddd;
 }
 
 
-.post > tr:hover {
+.post tr:hover {
 background-color: #f5f5f5;
 }
 
-table{
+.post table{
 margin-bottom: 40px;
 }
