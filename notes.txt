@@ -50,3 +50,6 @@
 
 - github markdown (why???)
   https://help.github.com/categories/writing-on-github/
+
+- a link to quick tips jekyll
+  https://ilovesymposia.com/2015/01/04/some-things-i-learned-while-building-a-site-on-github-pages/
