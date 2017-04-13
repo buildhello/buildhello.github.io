@@ -53,3 +53,6 @@
 
 - a link to quick tips jekyll
   https://ilovesymposia.com/2015/01/04/some-things-i-learned-while-building-a-site-on-github-pages/
+
+- using kramdown
+  https://kramdown.gettalong.org/syntax.html#links-and-images
