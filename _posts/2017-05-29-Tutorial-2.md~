@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Tutorial 1"
+date: 2017-04-12
+---
+
+
+## Tutorial 1: Emacs Overview
+
+|Video Url | Video Length | Code Url |Code Format |
+|:-------:|:--------:|:---------:|:--------:|
+|[Tutorial 1 YouTube][videolink]{:target="_blank"}|22min|[Tutorial 1 Code][codelink]{:target="_blank"}|knitr|
+
+
+[videolink]: https://www.youtube.com/watch?v=wWyK4_8p7yU "Emacs Overview Video"
+[codelink]:{{ site.baseurl }}{% link tutorials/code/ex_r_1.html %}
