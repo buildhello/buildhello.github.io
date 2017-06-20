@@ -10,7 +10,7 @@ highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme       : tomorrow #
 extensions   : core
 widgets     : []            # {mathjax, quiz, bootstrap}
-mode        : selfcontained # {standalone, draft}
+mode        : draft # {standalone, draft}
 knit        : slidify::knit2slides
 --- #custbg
 
