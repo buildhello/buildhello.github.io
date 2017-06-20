@@ -4,18 +4,16 @@ subtitle    : Presentation
 author      : Yuri Tricys
 job         : Data Analyst
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
-theme       : swiss #
-transition  : horizontal-slide #
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme       : tomorrow #
 extensions   : core
 widgets     : []            # {mathjax, quiz, bootstrap}
-mode        : draft # {standalone, draft}
+mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 --- #custbg
 
-<link rel="stylesheet" href="/libraries/frameworks/deckjs/themes/style/swiss.css"/>
-<link rel="stylesheet" href="/libraries/frameworks/deckjs/themes/transition/horizontal-slide.css"/>
+<link rel="stylesheet" href="libraries/frameworks/deckjs/themes/style/swiss.css"/>
+<link rel="stylesheet" href="libraries/frameworks/deckjs/themes/transition/horizontal-slide.css"/>
 <!-- <link rel="shortcut icon" href= "images/favicons/favicon_/> -->
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
 
