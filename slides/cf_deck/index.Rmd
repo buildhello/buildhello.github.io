@@ -5,14 +5,88 @@ author      : Yuri Tricys
 job         : Data Analyst
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
-hitheme       : tomorrow #
+hitheme       : zenburn #
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
---- #custbg
 
+--- .class #id
 
 <style>
+
+body {
+ font-family: "Helvetica Neue", sans-serif;
+  <!-- color: #444; -->
+  <!-- color: #797979;               /*light gray*/ -->
+}
+
+/* Fonts and Spacing */
+article p, article li, article li.build, section p, section li{
+  font-family: 'Helvetica', sans-serif;
+  text-align: justify;
+  font-size:23px;
+  line-height: 1.5em;
+  color: #444;
+  color: #000;
+<!-- color: #797979;               /*light gray*/ -->
+}
+
+
+.title-slide {
+  background-color: #CBE7A5; /* #EDE0CF; ; #CA9F9D */
+  background-color:#fff;
+ <!-- background-image:url(http://goo.gl/EpXln); -->
+}
+
+.title-slide hgroup > h1{
+ font-family: 'Helvetica', sanserif;
+}
+
+.title-slide hgroup > h1,
+.title-slide hgroup > h2 {
+  color: #535E43 ;  /* ; #EF5150*/
+color: #535E43 ;
+}
+
+h1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 3em;
+ font-weight: 700;
+
+}
+
+
+slide.segue h2{
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 1.75em;
+ font-weight: 700;
+}
+
+h3{
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 1.2em;
+ font-weight: 700;
+color: #535E43 ;
+}
+
+slide:not(.segue)  h2{
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 1.75em;
+
+color: #535E43 ;
+
+}
+article p {
+  font-family: "Helvetica Neue", sans-serif;
+  color: #797979;               /*light gray*/
+}
+
+
+
+
+
+
+
 #custbg {
 //  background-image:url(imagesjpg71.jpg);
   background-repeat: no-repeat;
@@ -33,12 +107,14 @@ knit        : slidify::knit2slides
   color: #535E43 ;
   border: none;
  margin: 0 0 0 8px;
+text-align: center;
 }
 
 #custbg h3 {
  margin: 0 0 0 20px;
 color: #fff;
   color: #535E43 ;
+text-align: center;
 }
 
 #custbg p {
@@ -46,19 +122,6 @@ color: #fff;
 }
 </style>
 
-<br><br>
-<br><br>
-<br><br>
-<br>
-## Tricys Consulting
-### Outsourcing data analytics and research has never been easier
-<br>
-
-Community Futures Presentation<br>
-Yuri Tricys<br>
-Data Analyst<br>
-
---- .class #id
 
 ## A little bit about me:
 
@@ -205,3 +268,6 @@ only getting started
 
 
 ![width](data_scientist.jpg)
+
+<!--  LocalWords:  px
+ -->

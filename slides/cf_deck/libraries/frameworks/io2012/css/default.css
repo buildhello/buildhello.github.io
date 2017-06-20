@@ -239,9 +239,12 @@ body {
 slides > slide {
   display: none;
   font-family: 'Open Sans', Arial, sans-serif;
-  font-size: 26px;
+ font-family: "Helvetica Neue", sans-serif;
+font-size: 26px;
+  font-size: 1.75em;
   color: #797979;
   width: 900px;
+//  width: 1600px;
   height: 700px;
   margin-left: -450px;
   margin-top: -350px;
@@ -474,6 +477,7 @@ h2 {
   line-height: 45px;
   letter-spacing: -2px;
   color: #515151;
+
 }
 
 /* line 323, ../scss/default.scss */
