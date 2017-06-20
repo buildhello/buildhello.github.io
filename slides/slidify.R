@@ -7,3 +7,14 @@ install_github('ramnathv/slidify', force=TRUE)
 install_github('ramnathv/slidifyLibraries', force = TRUE)
 
 library(slidify)
+
+setwd("c:/Users/User/Documents/GitHub/Trends-Global.github.io/slides/cf_deck/")
+getwd()
+
+author("cf_deck")
+
+slidify('index.Rmd')
+
+library(knitr)
+
+browseURL('index.html')
