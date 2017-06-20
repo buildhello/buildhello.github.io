@@ -8,7 +8,7 @@ theme       : swiss #
 transition  : horizontal-slide #
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme       : tomorrow #
-extensions   : core
+extension   : core
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
