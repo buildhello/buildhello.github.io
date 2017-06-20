@@ -14,8 +14,8 @@ mode        : draft # {standalone, draft}
 knit        : slidify::knit2slides
 --- #custbg
 
-<link rel="stylesheet" href="libraries/frameworks/deckjs/themes/style/swiss.css">
-<link rel="stylesheet" href="libraries/frameworks/deckjs/themes/transition/horizontal-slide.css">
+<link rel="stylesheet" href="../libraries/frameworks/deckjs/themes/style/swiss.css">
+<link rel="stylesheet" href="../libraries/frameworks/deckjs/themes/transition/horizontal-slide.css">
 
 <style>
 #custbg {
