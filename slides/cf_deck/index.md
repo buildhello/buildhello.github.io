@@ -4,7 +4,7 @@ subtitle    : Presentation
 author      : Yuri Tricys
 job         : Data Analyst
 framework   : deckjs        # {io2012, html5slides, shower, dzslides, ...}
-theme       : swiss #
+hitheme       : swiss #
 transition  : horizontal-slide #
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 widgets     : []            # {mathjax, quiz, bootstrap}
