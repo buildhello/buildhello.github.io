@@ -3,9 +3,10 @@ title       : Community Futures
 subtitle    : Presentation
 author      : Yuri Tricys
 job         : Data Analyst
-framework   : deckjs        # {io2012, html5slides, shower, dzslides, ...}
+framework   : deck.js        # {io2012, html5slides, shower, dzslides, ...}
+hitheme     : swiss #
+transition  : horizontal-slide #
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
-hitheme     :  swiss #
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
