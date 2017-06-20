@@ -7,7 +7,7 @@ framework   : deckjs        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight  # {highlight.js, prettify, highlight}
 hitheme     :  swiss #
 widgets     : []            # {mathjax, quiz, bootstrap}
-mode        : selfcontained # {standalone, draft}
+mode        : standalone # {standalone, draft}
 knit        : slidify::knit2slides
 --- #custbg
 
