@@ -14,6 +14,10 @@ mode        : draft # {standalone, draft}
 knit        : slidify::knit2slides
 --- #custbg
 
+<link rel="stylesheet" href="frameworks/deckjs/themes/style/swiss.css">
+<link rel="stylesheet" href="frameworks/deckjs/themes/transition/horizontal-slide.css">
+
+
 <style>
 #custbg {
 //  background-image:url(imagesjpg71.jpg);
