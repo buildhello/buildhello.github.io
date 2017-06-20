@@ -147,8 +147,12 @@ text-align: center;
 
 ## Data now and tomorrow:
 
-* It was during that 3 year period, putting the big hours into data coding, that I began looking at the fast
-  changing global technological landscape
+<br>
+
+* It was during that 3 year period, putting the big hours into data coding, that I began looking at the fast changing global technological landscape
+
+
+<br>
 
 
 * ### OUR WORLD WAS CHANGING AND IT WAS CHANGING FAST!
@@ -161,8 +165,8 @@ text-align: center;
 
 * ### IT'S  STILL CHANGING
 
-* You can't see it, but demand for data analytics is growing at a lightning pace, and it's
-only getting started
+* You can't see it, but demand for data analytics is growing at a lightening pace, and
+  it's only getting started
 
 ![width](big-data-cartoon1.jpg)
 
@@ -184,11 +188,10 @@ only getting started
 
 ## Demand for data analytics:
 
-* According to McKinsey Global Institute, by 2018, the U.S. alone will face a shortage of
-  about 190,000 data scientists, and 1.5 million analysts and managers that 'get' big data
+* According to McKinsey Global Institute, by 2018, the U.S. alone will face a shortage of about 190,000 data scientists, and 1.5 million analysts and managers that 'get' big data
 
-* The ICTC (Information and Communications Technology Council) reports Canada will need
-  182,000 people to fill IT positions by 2019. Those positions with the highest demand (nonordinal):
+* The ICTC (Information and Communications Technology Council) reports Canada will need 182,000 people to fill IT positions by 2019. Those positions with the highest demand (nonordinal):
+
     * Information systems analysts and consultants
     * Computer and network operators and web technicians
     * **Computer programmers and interactive media developers**
@@ -212,7 +215,7 @@ only getting started
 
 ## Tricys Consulting:
 
-### SERVICES:
+* SERVICES:
 
 1. Auxiliary Research Services: diagrams, tables, flow-charts, summaries, graphs, interactive web charts, slides, brief reports
 
