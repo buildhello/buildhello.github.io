@@ -35,7 +35,15 @@ article p, article li, article li.build, section p, section li{
 .title-slide {
   background-color: #CBE7A5; /* #EDE0CF; ; #CA9F9D */
   background-color:#fff;
- <!-- background-image:url(http://goo.gl/EpXln); -->
+//  background-image:url(http://goo.gl/EpXln);
+//background-image:url("file:///C:/Users/User/Documents/GitHub/Trends-Global.github.io/slides/cf_deck/imagesjpg60.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+//  background-color: #fff;
+//  color: #535E43 ;
+  //color: #797979;
+
 }
 
 .title-slide hgroup > h1{
@@ -72,29 +80,18 @@ color: #535E43 ;
 slide:not(.segue)  h2{
   font-family: "Helvetica Neue", sans-serif;
   font-size: 1.75em;
-
 color: #535E43 ;
 
 }
 article p {
   font-family: "Helvetica Neue", sans-serif;
   color: #797979;               /*light gray*/
+color: #535E43 ;
+  color: #000;
 }
 
-
-
-
-
-
-
 #custbg {
-//  background-image:url(imagesjpg71.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-color: #fff;
-  color: #535E43 ;
-  color: #797979;
+
 }
 
 .deck-container .slide h1 {
@@ -147,13 +144,8 @@ text-align: center;
 
 ## Data now and tomorrow:
 
-<br>
 
-* It was during that 3 year period, putting the big hours into data coding, that I began looking at the fast changing global technological landscape
-
-
-<br>
-
+* It was during that 3 year period, putting the big hours into coding, that I began looking at the fast changing global technological landscape
 
 * ### OUR WORLD WAS CHANGING AND IT WAS CHANGING FAST!
 
@@ -192,13 +184,14 @@ text-align: center;
 
 * The ICTC (Information and Communications Technology Council) reports Canada will need 182,000 people to fill IT positions by 2019. Those positions with the highest demand (nonordinal):
 
-    * Information systems analysts and consultants
+    * Software engineers
     * Computer and network operators and web technicians
     * **Computer programmers and interactive media developers**
-    * Software engineers
+    * **Database analysts and data administrators**
+    * Information systems analysts and consultants
     * Graphic designers and illustrators
     * Computer and information systems managers
-    * **Database analysts and data administrators**
+
 
 --- .class #id
 
@@ -210,12 +203,11 @@ text-align: center;
 
 ![width](serveimage.jpg)
 
-
 --- .class #id
 
 ## Tricys Consulting:
 
-* SERVICES:
+### SERVICES:
 
 1. Auxiliary Research Services: diagrams, tables, flow-charts, summaries, graphs, interactive web charts, slides, brief reports
 

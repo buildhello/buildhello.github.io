@@ -1,3 +1,4 @@
+
 install.packages("devtools")
 library(devtools)
 install_github('slidify', 'ramnathv')
@@ -8,10 +9,10 @@ install_github('ramnathv/slidifyLibraries', force = TRUE)
 
 library(slidify)
 
-setwd("c:/Users/User/Documents/GitHub/Trends-Global.github.io/slides/cf_deck/")
+setwd("c:/Users/User/Documents/GitHub/Trends-Global.github.io/slides/cf_deck")
 getwd()
 
-author("cf_deck")
+author("cf_deck_2")
 
 slidify('index.Rmd')
 
