@@ -8,7 +8,7 @@ install_github('ramnathv/slidifyLibraries', force = TRUE)
 
 library(slidify)
 
-setwd("c:/Users/User/Documents/GitHub/Trends-Global.github.io/slides/")
+setwd("c:/Users/User/Documents/GitHub/Trends-Global.github.io/slides/cf_deck")
 getwd()
 
 author("cf_deck_2")
