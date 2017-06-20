@@ -3,13 +3,18 @@ title       :
 subtitle    :
 author      : Yuri Tricys
 job         :
-framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+framework   : deckjs        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      #
+frame       : swiss
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
+
+<link rel="stylesheet" href="libraries/frameworks/deckjs/themes/style/swiss.css"/>
+<link rel="stylesheet" href="libraries/frameworks/deckjs/themes/transition/horizontal-slide.css"/>
+
 
 ## Read-And-Delete
 
