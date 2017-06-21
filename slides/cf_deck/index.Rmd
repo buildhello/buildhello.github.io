@@ -1,6 +1,6 @@
 ---
-title       : Community Futures
-subtitle    : Presentation
+title       : Test Slide Deck
+subtitle    : Data Demand
 author      : Yuri Tricys
 job         : Data Analyst
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
@@ -193,74 +193,17 @@ text-align: center;
 
 --- .class #id
 
-## Tricys Consulting:
 
-* Profile: *A small data shop situated at the intersection of data science and research. Tricys Consulting will gather, wrangle, maintain, and analyse data,and prepare publishable results*
-
-* Mission: *To equip organizations with data rich analytics so they can better achieve their directives*
-
-![width](serveimage.jpg)
-
---- .class #id
-
-## Tricys Consulting:
-
-### SERVICES:
-
-1. Auxiliary Research Services: diagrams, tables, flow-charts, summaries, graphs, interactive web charts, slides, brief reports
-
-2. Research Services: evaluating research demand, research feasibility, data science, research, graphical representation, editing, generating and refining research questions, project planning, model selection, simulation, sensitivity analysis, academic writing, publication preparation
-
---- .class #id
-
-## Tricys Consulting:
-
-* ### LOCAL DEMAND:
-
-* There are local companies and organizations that work with data including:
-    * Core Logic
-    * Selkirk College
-    * Thought Exchange
-    * I4C iNNOVATiON
-
-* I4C iNNOVATiON is currently outsourcing data services
-* Thought Exchange has in house data analysts
-
---- .class #id
-
-## Tricys Consulting
-
-
-* ### NONLOCAL DEMAND:
-
-* There are a lot more nonlocal companies working with data
-    * Clean Energy Canada outsources all of the services we are offering
-    * Visual Capitalist is currently doing in house data collection but potentially
-     looking outside for that service
-
-* ### LOCAL COMPETITION
-
-* There are no remote data analysts in Nelson offering data analytics services
-
-
-
---- .class #id
 
 ## Summary:
 
 * In the midst of the communications revolution the data landscape is growing fast
 * Data analytics are right now in big demand, and will be even more so in coming years
-* Tricys Consulting has the skills and experience to perform in demand data analytics services
-* There is so far evidence of both local and external demand for remote data analytics services
-* Going into the data analytics business as a self-employed data analyst makes sense, right now
 
 
 --- .class #id
 
-## Last slide:
+## Data science:
 
 
 ![width](data_scientist.jpg)
-
-<!--  LocalWords:  px
- -->
