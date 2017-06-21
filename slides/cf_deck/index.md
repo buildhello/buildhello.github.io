@@ -127,9 +127,7 @@ text-align: center;
 * I've always had a passion to learn and discover new skills
 * I assembled my first computer from stock parts in 2000
 * In 2009, I began writing scripts in Stata, at UBC (Stata is data analysis software)
-* In 2012, almost a year after graduation from UBC, a former professor e-mailed me and
-  asked me to do research assistance. It must have been those essays I wrote (needless to
-  say at that time they were my best work)
+* In 2012, I started researching for a former professor
 
 --- .class #id
 
