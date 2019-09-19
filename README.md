@@ -1,1 +1,0 @@
-# Trends-Global.github.io
