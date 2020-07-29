@@ -4,11 +4,19 @@
   
   <url>
     <loc>https://buildhello.github.io/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://buildhello.github.io/blog/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://buildhello.github.io/headless/</loc>
+  </url>
+  
+  <url>
+    <loc>https://buildhello.github.io/post/</loc>
     <priority>0</priority>
   </url>
   
