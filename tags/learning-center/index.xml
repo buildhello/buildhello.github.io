@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Learning Center on Build Hello</title>
-    <link>https://buildhello.github.io/tags/learning-center/</link>
+    <link>www.buildhello.ca/tags/learning-center/</link>
     <description>Recent content in Learning Center on Build Hello</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://buildhello.github.io/tags/learning-center/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="www.buildhello.ca/tags/learning-center/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Build Hello Orientation Videos</title>
-      <link>https://buildhello.github.io/blog/2020-08-18-orientation-videos/</link>
+      <link>www.buildhello.ca/blog/2020-08-18-orientation-videos/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://buildhello.github.io/blog/2020-08-18-orientation-videos/</guid>
+      <guid>www.buildhello.ca/blog/2020-08-18-orientation-videos/</guid>
       <description>Welcome to Build Hello OrientationThe following videos will guide you through the orientation sections. Videos one and two are open for anyone interestedin working with Build Hello. After viewing the first two videos viewers should have some idea if they are interested in joining Build Hello.At this point, contact us and let us know you are interested. We&#39;ll get back to you with next steps in the process.</description>
     </item>
     
