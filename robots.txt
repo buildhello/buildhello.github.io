@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: 404.htmlSitemap:http://buildhello.ca/sitemap.xml
+Disallow: 404.htmlSitemap:https://buildhello.ca/sitemap.xml
 User-agent: Googlebot-Image
 Disallow: /
