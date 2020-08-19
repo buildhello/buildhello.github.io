@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 404.htmlSitemap:https://buildhello.github.io/sitemap.xml
+User-agent: Googlebot-Image
+Disallow: /

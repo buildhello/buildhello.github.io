@@ -6,9 +6,19 @@
     <description>Recent content in Categories on Build Hello</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
+    <lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://buildhello.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aug 2020</title>
+      <link>https://buildhello.github.io/categories/aug-2020/</link>
+      <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.github.io/categories/aug-2020/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

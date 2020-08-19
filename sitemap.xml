@@ -1,39 +1,77 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://buildhello.github.io/</loc>
-  </url>
-  
-  <url>
-    <loc>https://buildhello.github.io/blog/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://buildhello.github.io/headless/</loc>
-  </url>
-  
-  <url>
-    <loc>https://buildhello.github.io/post/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://buildhello.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://buildhello.github.io/samples/logos-files/</loc>
-  </url>
-  
-  <url>
-    <loc>https://buildhello.github.io/samples/</loc>
-  </url>
-  
-  <url>
-    <loc>https://buildhello.github.io/tags/</loc>
-  </url>
-  
+<url>
+<loc>https://buildhello.github.io/</loc>
+<lastmod>2020-08-18T00:00:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://buildhello.github.io/blog/</loc>
+<lastmod>2020-08-18T00:00:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://buildhello.github.io/categories/aug-2020/</loc>
+<lastmod>2020-08-18T00:00:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://buildhello.github.io/blog/2020-08-18-orientation-videos/</loc>
+<lastmod>2020-08-18T00:00:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://buildhello.github.io/categories/</loc>
+<lastmod>2020-08-18T00:00:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://buildhello.github.io/tags/learning-center/</loc>
+<lastmod>2020-08-18T00:00:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://buildhello.github.io/tags/orientation/</loc>
+<lastmod>2020-08-18T00:00:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://buildhello.github.io/tags/</loc>
+<lastmod>2020-08-18T00:00:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://buildhello.github.io/tags/videos/</loc>
+<lastmod>2020-08-18T00:00:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://buildhello.github.io/headless/</loc>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://buildhello.github.io/post/</loc>
+<priority>0</priority>
+</url>
+<url>
+<loc>https://buildhello.github.io/samples/logos-files/</loc>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://buildhello.github.io/samples/</loc>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
 </urlset>
