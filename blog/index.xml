@@ -6,10 +6,19 @@
     <description>Recent content on Build Hello</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://buildhello.ca/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Upgrading Your Business Website During The Great Pandemic</title>
+      <link>https://buildhello.ca/blog/2020-08-19-upgrading-your-website-during-the-great-pandemic/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/blog/2020-08-19-upgrading-your-website-during-the-great-pandemic/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Content Management Systems That Are Good For Business</title>
@@ -17,7 +26,16 @@
       <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://buildhello.ca/blog/2020-07-15-content-management-systems-that-are-good-for-business/</guid>
-      <description>https://en.wikipedia.org/wiki/List_of_content_management_systems</description>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Designing for the web in 2020</title>
+      <link>https://buildhello.ca/blog/2020-05-11-designing-for-the-web-in-2020/</link>
+      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/blog/2020-05-11-designing-for-the-web-in-2020/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marketing on Build Hello</title>
+    <link>https://buildhello.ca/tags/marketing/</link>
+    <description>Recent content in Marketing on Build Hello</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 11 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://buildhello.ca/tags/marketing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Designing for the web in 2020</title>
+      <link>https://buildhello.ca/blog/2020-05-11-designing-for-the-web-in-2020/</link>
+      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/blog/2020-05-11-designing-for-the-web-in-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
