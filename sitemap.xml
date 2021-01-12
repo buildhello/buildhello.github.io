@@ -143,7 +143,12 @@
 <priority>0</priority>
 </url>
 <url>
-<loc>https://buildhello.ca/samples/logos-files/</loc>
+<loc>https://buildhello.ca/samples/cards/</loc>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://buildhello.ca/samples/logos/logos-files/</loc>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

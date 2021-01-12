@@ -44,13 +44,24 @@
     </item>
     
     <item>
-      <title>LOGO SAMPLES</title>
-      <link>https://buildhello.ca/samples/logos-files/</link>
+      <title></title>
+      <link>https://buildhello.ca/samples/cards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://buildhello.ca/samples/logos-files/</guid>
+      <guid>https://buildhello.ca/samples/cards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LOGO SAMPLES</title>
+      <link>https://buildhello.ca/samples/logos/logos-files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/samples/logos/logos-files/</guid>
       <description>note: samples may be blurred as the svgs are not stored here  #+CAPTION:Build Hello Logo Light Background (Coffee plant leaf)
+/bh-logo-on-light-background.png
 #+CAPTION:Build Hello Logo Light Background (Coffee plant leaf)
+/bh-logo-on-light-background-straight.png
 #+CAPTION:Build Hello Logo Dark Background
 #+CAPTION:Build Hello Logo Dark Background
 #+CAPTION:Build Hello Logo Abstract Concept
