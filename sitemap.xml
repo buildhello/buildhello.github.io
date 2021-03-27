@@ -50,6 +50,12 @@
 <priority>0.5</priority>
 </url>
 <url>
+<loc>https://buildhello.ca/other/</loc>
+<lastmod>2020-08-18T00:00:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
 <loc>https://buildhello.ca/other/2020-08-18-hiring/</loc>
 <lastmod>2020-08-18T00:00:00+00:00</lastmod>
 <changefreq>daily</changefreq>
@@ -63,12 +69,6 @@
 </url>
 <url>
 <loc>https://buildhello.ca/tags/orientation/</loc>
-<lastmod>2020-08-18T00:00:00+00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-<url>
-<loc>https://buildhello.ca/other/</loc>
 <lastmod>2020-08-18T00:00:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -143,7 +143,7 @@
 <priority>0</priority>
 </url>
 <url>
-<loc>https://buildhello.ca/samples/cards/</loc>
+<loc>https://buildhello.ca/samples/cards-2/</loc>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

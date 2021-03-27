@@ -1,0 +1,41 @@
+#+TITLE: CARD SAMPLES
+
+#+OPTIONS: toc:nil H:6  num:nil todo:nil <:nil author:nil ^:{}
+#+OPTIONS: \n:t LaTeX:t stat:nil tasks:nil @:t
+#+OPTIONS: html-preamble:nil html-postamble:nil html-link-use-abs-url:nil html-scripts:nil
+#+HTML_DOCTYPE: html5
+#+OPTIONS: html5-fancy:t
+#+SUBTITLE:
+#+AUTHOR: Build Hello
+#+HTML_CONTAINER: section
+#+DESCRIPTION:
+# +HTML_LINK_HOME:"/"
+#+HTML_HEAD_EXTRA: <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0,minimum-scale=1.0,shrink-to-fit=no">
+#+HTML_HEAD_EXTRA: <meta http-equiv="content-type" content="text/html; charset=utf-8">
+#+HTML_HEAD_EXTRA: <meta http-equiv="x-ua-compatible" content="IE=edge">
+# +HTML_HEAD_EXTRA: <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3&#43;Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"></link>
+# +HTML_HEAD_EXTRA: <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+# +HTML_HEAD_EXTRA: <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj&#43;rmkfsGYeKyZx3M4bG&#43;ZlFyA7Kns7E=" crossorigin="anonymous" defer></script>
+# +HTML_HEAD_EXTRA: <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous" defer></script>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="css/gongzhitaaorg.css" />
+# +HTML_HEAD_EXTRA: my-head-extra
+#+STARTUP: overview
+
+#+AUTHOR: Build Hello
+#+HTML: <br>
+#+HTML: <br>
+#+CAPTION:Build Hello Business Card No Icons Version 1
+#+NAME:   fig:SED-HR4049
+[[./media/build-hello-no-icons-1.svg]]
+
+
+#+HTML: <br>
+#+CAPTION:Build Hello Business Card Icons Version 1
+#+NAME:   fig:SED-HR4048
+[[./media/build-hello-icons-1.svg]]
+
+
+#+HTML: <br>
+#+CAPTION:Build Hello Business Card No Icons Version 2
+#+NAME:   fig:SED-HR4047
+[[./media/build-hello-card-1.svg]]
