@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: 404.html
-Disallow: index.jsonSitemap:https://buildhello.ca/sitemap.xml
-User-agent: Googlebot-Image
-Disallow: /

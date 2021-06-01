@@ -1,20 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>videos on Build Hello</title>
-    <link>https://buildhello.ca/tags/videos/</link>
-    <description>Recent content in videos on Build Hello</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://buildhello.ca/tags/videos/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Build Hello Orientation Videos</title>
-      <link>https://buildhello.ca/other/2020-08-18-hiring/</link>
-      <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://buildhello.ca/other/2020-08-18-hiring/</guid>
-      <description>Welcome to Build Hello OrientationThe following videos will guide you through the orientation sections. Videos one and two are open for anyone interestedin working with Build Hello. After viewing the first two videos viewers should have some idea if they are interested in joining Build Hello.At this point, contact us and let us know you are interested.</description>
-    </item>
-    
-  </channel>
-</rss>
