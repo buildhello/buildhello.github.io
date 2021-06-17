@@ -3,7 +3,6 @@ Disallow: 404.html
 Disallow: index.json
 Disallow:/categories/
 Disallow:/tags/
-Disallow:/categories/category/
-Disallow:/tags/tag/Sitemap:https://buildhello.ca/sitemap.xml
+Disallow:/tags/marketing/Sitemap:https://buildhello.ca/sitemap.xml
 User-agent: Googlebot-Image
 Disallow: /
