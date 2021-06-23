@@ -302,6 +302,12 @@
 <priority>0.5</priority>
 </url>
 <url>
+<loc>https://buildhello.ca/services/troubleshooting/</loc>
+<lastmod>2021-05-31T00:00:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
 <loc>https://buildhello.ca/tags/plugin-conflicts/</loc>
 <lastmod>2021-05-31T00:00:00+00:00</lastmod>
 <changefreq>daily</changefreq>
@@ -321,12 +327,6 @@
 </url>
 <url>
 <loc>https://buildhello.ca/tags/troubleshooting/</loc>
-<lastmod>2021-05-31T00:00:00+00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-<url>
-<loc>https://buildhello.ca/services/troubleshooting/</loc>
 <lastmod>2021-05-31T00:00:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
