@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "sassBundleParsedSeo.css",
+	"sourceRoot": "C:/Hugo/sites/buildhello-build-directory",
+	"sources": [
+		"stdin"
+	],
+	"sourcesContent": [
+		"$someothervariable: 1fr 1fr;\r\n"
+	],
+	"names": [],
+	"mappings": ""
+}
