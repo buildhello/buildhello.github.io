@@ -1,0 +1,19 @@
+@import "../assets/sass/includes/media_queries";
+@import "../assets/sass/includes/variables";
+
+.header > .heroText{
+grid-column: 2 / 25;
+grid-row: 1 / 6;
+
+@include responsive(galaxy-fold){
+grid-column: 2 / 25;
+}//1030px
+
+@include responsive(phone){
+}//1030px
+
+@include responsive(laptop){
+grid-column: 2 / 25;
+}//1030px
+
+}//end hero text

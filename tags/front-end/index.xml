@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Front End on </title>
+    <link>https://buildhello.ca/tags/front-end/</link>
+    <description>Recent content in Front End on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 03 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://buildhello.ca/tags/front-end/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web Development</title>
+      <link>https://buildhello.ca/services/web_development/</link>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/services/web_development/</guid>
+      <description>It&amp;rsquo;s great to have your business in a place where customers can find you with a quick glance at their phone. Give us a call to help you out with, oh any websites you&amp;rsquo;ve ever dreamed up in your wildest dreams</description>
+    </item>
+    
+  </channel>
+</rss>
