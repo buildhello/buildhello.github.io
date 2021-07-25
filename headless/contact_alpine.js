@@ -7,7 +7,7 @@ function contactForm() {
         },
         message: '',
         loading: false,
-        buttonLabel: 'Submit',
+        buttonLabel: 'SUBMIT',
 
         submitData() {
           this.buttonLabel = 'Submitting...'
