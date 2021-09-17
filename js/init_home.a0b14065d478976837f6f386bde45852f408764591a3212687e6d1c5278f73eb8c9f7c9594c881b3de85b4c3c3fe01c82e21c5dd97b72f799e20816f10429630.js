@@ -2,14 +2,15 @@
 
 window.onscroll = function() {stickyNavigation()};
 
-var upper = document.getElementById('nav_upper');
-var lower = document.getElementById('nav_lower');
+let upper = document.getElementById('nav_upper');
+let lower = document.getElementById('nav_lower');
+let offset_lower, offset_upper = "";
 
 if (lower !== null){
-var offset_lower = lower.offsetTop;
+offset_lower = lower.offsetTop;
 }//end conditional
 if (upper !== null){
-var offset_upper = upper.offsetTop;
+offset_upper = upper.offsetTop;
 }//end conditional
 
 function stickyNavigation() {
@@ -68,5 +69,20 @@ function isElementInViewport(el) {
       rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
   );
 }
+
+let sample_flip = document.querySelector(".sample-flip");
+let mock_up = document.querySelector(".mock-up");
+let mock_up_image = document.querySelector(".mock-up-image");
+
+sample_flip.addEventListener('click', function(e) {
+    e.preventDefault();
+    mock_up.classList.toggle('sample-visible'); 
+    mock_up_image.classList.toggle('is-visible'); 
+});
+
+mock_up_image.addEventListener('click', function(e) {
+    e.preventDefault();
+    mock_up.classList.toggle('is-visible'); 
+});
 
 }())//end on document
