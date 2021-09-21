@@ -85,4 +85,10 @@ mock_up_image.addEventListener('click', function(e) {
     mock_up.classList.toggle('is-visible'); 
 });
 
+mock_up.addEventListener('click', function(e) {
+    e.preventDefault();
+    mock_up.classList.toggle('sample-visible'); 
+//    mock_up_image.classList.toggle('is-visible'); 
+});
+
 }())//end on document
