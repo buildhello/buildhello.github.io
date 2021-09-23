@@ -216,7 +216,7 @@ function parse_results(results) {
 }//end parse_results function
 
 async function fetchData() {
-    let response = await fetch('/index.json');
+    let response = await fetch('/search.json');
     let results = await response.json();
 parse_results(results);
 }
