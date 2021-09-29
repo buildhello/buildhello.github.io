@@ -4,11 +4,33 @@
 @include font-face("safety", "/../../fonts/services/safety", normal, normal, woff2);
 
 .wrapper > .header > .heroText{
-margin: -5rem 0rem 0rem 0rem !important;
+
+@include responsive(small-phone){
+margin: -2rem 0rem 0rem 0rem !important;
+}
+
+@include responsive(laptop){
+//margin: -5rem 0rem 0rem 0rem !important;
+}
 
 & > h2{
 font-family:"safety";
+
+@include responsive(small-phone){
+font-size:$supersized;
+}
+
+@include responsive(galaxy){
+font-size:$med;
+}
+
+@include responsive(phone){
+font-size:$big;
+}
+
+@include responsive(tablet){
 font-size:$gargantuan;
+}
 
 }//end h2
 
