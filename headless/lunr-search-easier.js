@@ -12,16 +12,20 @@ let term = "";
 let new_info = [];
 
 const search_json = window.location.protocol + "//" + window.location.host + '/search.json';
-const tags_url = window.location.protocol + "//" + window.location.host + '/tags/';
-
-const form = document.getElementById("search");
-const input = document.getElementById("searchBox");
+const form = document.querySelector(".searchBox");//class = form
+const input = document.getElementById("searchBox");//id = input in form
 const template = document.getElementById('search-result');//scope?
 const display = document.querySelector('.results');
 const results_info = document.getElementById("results-info");
 const title = document.createElement("p");
 title.id = "results-message";
 title.className = "p-news";
+
+const result_tag = document.querySelector("#results");
+const res_s_title = document.getElementById('results-search-title');
+const res_b_title = document.getElementById('results-banner-title');
+const res_search = document.querySelector(".search-results");
+const res_info = document.getElementById('results-info');
 
 let initSearch = function () {
 
@@ -96,22 +100,19 @@ function initIndex() {
         xhttp.onload  = function() {  
         let documents = xhttp.response;
 lookup = {};
+//console.log(documents);
 //start lunr function
 index = lunr(function() {
         this.ref('permalink');
         this.field("permalink");
         this.field("title");
         this.field("date");
-        this.field("update");
         this.field("image");
-        this.field("author");
         this.field("summary");
         this.field("tint");
         this.field("color");
-        this.field("tags");
-        this.field("categories");
-
-for (let document of documents) {
+        this.field("summary");
+        for (let document of documents) {
                     this.add(document);
                     lookup[document.permalink] = document;
 }// end for let doc
@@ -128,7 +129,7 @@ return;
 
 xhttp.onreadystatechange = () => {
 if (xhttp.status === 404) {
-console.log('Returned a 404 page, so your data is either blocke or missing');
+console.log('Returned a 404 page, so your data is either blocked or missing');
 return;
 }
 }
@@ -158,15 +159,30 @@ function search(term, doNotAddState) {
                 if (!origContent) {
                 origContent = new_info;
                 }
-                
+                //no results
                 if (results.length == 0) {
                 title.textContent =  `No results found.`;
+                result_tag.classList.remove('resultsBox');
+                res_s_title.classList.remove('results-title');
+                res_b_title.classList.remove('results-title');
+                res_search.classList.remove('search-up');
+                result_tag.classList.add('resultsBox');
                 }
+                //one result
                 else if (results.length == 1) {
                 title.textContent = `1 result found.`;
+                result_tag.classList.add('resultsBox');  
+                res_s_title.classList.add('results-title');
+                res_b_title.classList.add('results-title');
+                res_search.classList.add('search-up');                
+                //more than one result
                 }
                 else {
                 title.textContent = `Found ${results.length} results for (${term}).`;
+                result_tag.classList.add('resultsBox');  
+                res_s_title.classList.add('results-title');
+                res_b_title.classList.add('results-title');
+                res_search.classList.add('search-up');     
                 }
                 results_info.appendChild(title);
                 
@@ -175,51 +191,20 @@ function search(term, doNotAddState) {
 //console.log(doc);
                 let element = template.content.cloneNode(true);
 //                let add_to = ;
-                element.querySelector(".post-search-image").href = doc.permalink;//end anchor link
+                element.querySelector(".side-preview-image").href = doc.permalink;//end anchor link
                 if (doc.color) {
                 let cstyle = 'linear-gradient(rgba(' + doc.color + ', 1), rgba(' + doc.color + ', 1)), url(\" \")'; 
-                element.querySelector(".post-search-image").style.background = cstyle;
+                 console.log("this is the coded styling" + cstyle);   
+                element.querySelector(".side-preview-image").style.background = cstyle;
+                console.log("this is the coded styling" + cstyle);
                 }//end image color
                 element.querySelector(".search-img").src = doc.image;
                 if (doc.tint) {
                 element.querySelector(".search-img").style.opacity = doc.tint;
                 }//end image opacity              
+                element.querySelector(".post-date").textContent = doc.date; //end date                
                 element.querySelector(".post-search-title").href = doc.permalink;//end article title link
                 element.querySelector(".search-title").textContent = doc.title;//end article title text
-                element.querySelector(".post-author").textContent = doc.author;//end author
-                element.querySelector(".post-date").textContent = doc.date; //end date
-                if (typeof doc.update == 'undefined' || doc.update == null) {
-                element.querySelector(".update").hidden = true;
-                } else {
-                element.querySelector(".update-date").textContent = doc.update;
-                }//end update
-                if (doc.tags) {    
-                let svgNode = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-                let svgPath = document.createElementNS('http://www.w3.org/2000/svg','path');
-                svgNode.setAttribute('fill', '#515151');
-                svgNode.setAttribute('viewBox', '0 0 640 512');
-                svgNode.setAttribute('stroke', 'none');
-                svgNode.classList.add('tags_svg');
-                svgPath.setAttribute('d','M497.941 225.941L286.059 14.059A48 48 0 0 0 252.118 0H48C21.49 0 0 21.49 0 48v204.118a48 48 0 0 0 14.059 33.941l211.882 211.882c18.744 18.745 49.136 18.746 67.882 0l204.118-204.118c18.745-18.745 18.745-49.137 0-67.882zM112 160c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm513.941 133.823L421.823 497.941c-18.745 18.745-49.137 18.745-67.882 0l-.36-.36L527.64 323.522c16.999-16.999 26.36-39.6 26.36-63.64s-9.362-46.641-26.36-63.64L331.397 0h48.721a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882z');
-                svgPath.setAttribute('stroke', 'none');
-                svgNode.appendChild(svgPath);
-                let partition = document.createElement("i");
-                partition.innerHTML = '&nbsp;|&nbsp;'; 
-                element.querySelector(".meta_hold").appendChild(partition);
-                element.querySelector(".meta_hold").appendChild(svgNode);
-                doc.tags.forEach(function (tag) {
-                let name = tag;                
-                let el = document.createElement("a");
-                el.href = tags_url + name + '/'; 
-                el.textContent = name + ',';
-                element.querySelector(".meta_hold").appendChild(el);
-                });//end each tag
-                }//end if doc.tags
-                else {
-                element.querySelector(".post-tags").hidden = true;
-                }//end tags -- remove comma at end of last term
-                element.querySelector(".post-search-summary").textContent = truncate(doc.summary, 30);//end summary
-                element.querySelector(".post-search-continue").href = doc.permalink;//end continue link
                 target.appendChild(element);
                 }//end <template> loop
                 if (!doNotAddState) {
