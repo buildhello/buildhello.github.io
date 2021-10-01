@@ -193,10 +193,8 @@ function search(term, doNotAddState) {
 //                let add_to = ;
                 element.querySelector(".side-preview-image").href = doc.permalink;//end anchor link
                 if (doc.color) {
-                let cstyle = 'linear-gradient(rgba(' + doc.color + ', 1), rgba(' + doc.color + ', 1)), url(\" \")'; 
-                 console.log("this is the coded styling" + cstyle);   
+                let cstyle = 'linear-gradient(rgba(' + doc.color + ', 1), rgba(' + doc.color + ', 1)), url(\" \")';//turns rgba into rgb (and adds an opacity?) 
                 element.querySelector(".side-preview-image").style.background = cstyle;
-                console.log("this is the coded styling" + cstyle);
                 }//end image color
                 element.querySelector(".search-img").src = doc.image;
                 if (doc.tint) {
