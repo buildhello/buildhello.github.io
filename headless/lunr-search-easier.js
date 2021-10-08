@@ -19,7 +19,7 @@ const display = document.querySelector('.results');
 const results_info = document.getElementById("results-info");
 const title = document.createElement("p");
 title.id = "results-message";
-title.className = "p-news";
+title.className = "b-news";
 
 const result_tag = document.querySelector("#results");
 const res_s_title = document.getElementById('results-search-title');
