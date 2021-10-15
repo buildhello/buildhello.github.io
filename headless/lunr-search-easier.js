@@ -36,7 +36,7 @@ if(event.shiftKey || event.keyCode == 32){
 event.preventDefault();
 }
 //only search if not entering a space or shift
-if(!event.shiftKey || !even.keycode == 32){
+if(!event.shiftKey || !event.keycode == 32){
 runSearch();
 event.preventDefault();
 }
@@ -46,12 +46,12 @@ event.preventDefault();
 };//end initSearch
 
 let minChars = 2;
+//create some stop words
 
 let runSearch = function () {
-
 term = input.value;
 
-if (term.length === "undefined" || term.length === null || !term || term.length < minChars ) {
+if (term.length === "undefined" || term.length === null || !term || term.length < minChars || term === null ) {
 
 title.textContent =  `No results found.`;
 results_info.appendChild(title);
@@ -68,7 +68,7 @@ display.classList.add('showResults');
 };//end runSearch
 
 function startSearch(term, doNotAddState) {
-        input.value = term;//trimming term after putting it back into the search box, so you can have spaces
+//        input.value = term;//trimming term after putting it back into the search box, so you can have spaces
          term = term.trim();
         form.setAttribute("data-running", "true");
 
@@ -112,6 +112,8 @@ index = lunr(function() {
         this.field("tint");
         this.field("color");
         this.field("summary");
+        this.field("tags");
+        this.field("categories");
         for (let document of documents) {
                     this.add(document);
                     lookup[document.permalink] = document;
