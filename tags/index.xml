@@ -6,7 +6,25 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 22 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://buildhello.ca/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://buildhello.ca/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>design</title>
+      <link>https://buildhello.ca/tags/design/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fonts</title>
+      <link>https://buildhello.ca/tags/fonts/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/tags/fonts/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>prices</title>
       <link>https://buildhello.ca/tags/prices/</link>
@@ -49,15 +67,6 @@
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://buildhello.ca/tags/start-ups/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>design</title>
-      <link>https://buildhello.ca/tags/design/</link>
-      <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://buildhello.ca/tags/design/</guid>
       <description></description>
     </item>
     
@@ -134,7 +143,7 @@
     </item>
     
     <item>
-      <title>javascript</title>
+      <title>Javascript</title>
       <link>https://buildhello.ca/tags/javascript/</link>
       <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
       
@@ -161,7 +170,7 @@
     </item>
     
     <item>
-      <title>seo</title>
+      <title>SEO</title>
       <link>https://buildhello.ca/tags/seo/</link>
       <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
       
@@ -188,7 +197,7 @@
     </item>
     
     <item>
-      <title>Wordpress</title>
+      <title>WordPress</title>
       <link>https://buildhello.ca/tags/wordpress/</link>
       <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
       
@@ -404,78 +413,6 @@
     </item>
     
     <item>
-      <title></title>
-      <link>https://buildhello.ca/tags/marketing/</link>
-      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://buildhello.ca/tags/marketing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Web in 2021</title>
-      <link>https://buildhello.ca/tags/the-web-in-2021/</link>
-      <pubDate>Fri, 30 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://buildhello.ca/tags/the-web-in-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Website Upgrade</title>
-      <link>https://buildhello.ca/tags/website-upgrade/</link>
-      <pubDate>Fri, 30 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://buildhello.ca/tags/website-upgrade/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Content Management</title>
-      <link>https://buildhello.ca/tags/content-management/</link>
-      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://buildhello.ca/tags/content-management/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Drupal</title>
-      <link>https://buildhello.ca/tags/drupal/</link>
-      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://buildhello.ca/tags/drupal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>code</title>
-      <link>https://buildhello.ca/tags/code/</link>
-      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://buildhello.ca/tags/code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pitches</title>
-      <link>https://buildhello.ca/tags/pitches/</link>
-      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://buildhello.ca/tags/pitches/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sales</title>
-      <link>https://buildhello.ca/tags/sales/</link>
-      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://buildhello.ca/tags/sales/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Learning Center</title>
       <link>https://buildhello.ca/tags/learning-center/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
@@ -503,20 +440,11 @@
     </item>
     
     <item>
-      <title>Not Marketing</title>
-      <link>https://buildhello.ca/tags/not-marketing/</link>
-      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+      <title></title>
+      <link>https://buildhello.ca/tags/marketing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://buildhello.ca/tags/not-marketing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Not Marketing at all</title>
-      <link>https://buildhello.ca/tags/not-marketing-at-all/</link>
-      <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://buildhello.ca/tags/not-marketing-at-all/</guid>
+      <guid>https://buildhello.ca/tags/marketing/</guid>
       <description></description>
     </item>
     
