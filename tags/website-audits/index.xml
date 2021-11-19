@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>website-audits on </title>
+    <link>https://buildhello.ca/tags/website-audits/</link>
+    <description>Recent content in website-audits on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://buildhello.ca/tags/website-audits/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is Lighthouse? | Build Hello | We design, code, and fix websites</title>
+      <link>https://buildhello.ca/blog/2021-11-19-what-is-lighthouse/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/blog/2021-11-19-what-is-lighthouse/</guid>
+      <description>What is Lighthouse? Chrome browser comes a website auditor included. You can use it to audit your website.
+You can read more about lighthouse here.
+Why Should I Audit My Website? Auditing your website will let you know what Chrome thinks about it in terms of &#34;performance,&#34; &#34;accessibility,&#34; &#34;best practices,&#34; and &#34;</description>
+    </item>
+    
+  </channel>
+</rss>
