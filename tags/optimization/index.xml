@@ -1,12 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Optimization on </title>
+    <title>optimization on </title>
     <link>https://buildhello.ca/tags/optimization/</link>
-    <description>Recent content in Optimization on </description>
+    <description>Recent content in optimization on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 03 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://buildhello.ca/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://buildhello.ca/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Is Above The Fold Content? | Build Hello | We design, code, and fix websites</title>
+      <link>https://buildhello.ca/blog/2021-11-19-what-is-above-the-fold/</link>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/blog/2021-11-19-what-is-above-the-fold/</guid>
+      <description>Above The Fold When you first navigate to a website the content you see on the screen is called above-the-fold content.
+On any device, loading above-the-fold content first, and the rest of the content later, will speed up the rendering of the website by the browser.
+To improve website audit scores, web developers &#39;inline&#39; above-the-fold code.</description>
+    </item>
+    
+    <item>
+      <title>Website Images | Build Hello | We design, code, and fix websites</title>
+      <link>https://buildhello.ca/blog/2021-11-19-website-images/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/blog/2021-11-19-website-images/</guid>
+      <description>The Importance of Website Images While videos drive more social media engagement than images, images remain one of the most important aspect of website design and optimization.
+Images play a key role in creating attraction and conveying brand identity.
+As a current or future website owner, it&#39;s important to carefully consider the images selected for your website.</description>
+    </item>
+    
     <item>
       <title>Web Development | Build Hello Business | Basically we build you a space ship, a space station, a space world...whatever you want.</title>
       <link>https://buildhello.ca/services/web_development/</link>

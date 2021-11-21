@@ -6,22 +6,49 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://buildhello.ca/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://buildhello.ca/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>above-the-fold</title>
+      <link>https://buildhello.ca/tags/above-the-fold/</link>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/tags/above-the-fold/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>browsers</title>
       <link>https://buildhello.ca/tags/browsers/</link>
-      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://buildhello.ca/tags/browsers/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>optimization</title>
+      <link>https://buildhello.ca/tags/optimization/</link>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/tags/optimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>tech-made-simple</title>
       <link>https://buildhello.ca/tags/tech-made-simple/</link>
-      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://buildhello.ca/tags/tech-made-simple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>images</title>
+      <link>https://buildhello.ca/tags/images/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/tags/images/</guid>
       <description></description>
     </item>
     
@@ -175,15 +202,6 @@
       <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://buildhello.ca/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Optimization</title>
-      <link>https://buildhello.ca/tags/optimization/</link>
-      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://buildhello.ca/tags/optimization/</guid>
       <description></description>
     </item>
     
