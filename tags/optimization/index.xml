@@ -13,12 +13,12 @@
       <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://buildhello.ca/blog/2021-11-19-what-is-above-the-fold/</guid>
-      <description>(function() {var scrollyt=window.requestAnimationFrame||function(callback){window.setTimeout(callback,1000/60)};var elementsToShowy=document.querySelectorAll(&#39;#a9hj0Hel4Nhc&#39;);function isElementInViewporty(el){if(typeof jQuery===&#34;function&#34;&amp;&amp;el instanceof jQuery){el=el[0]}var rect=el.getBoundingClientRect();return((rect.top=0)||(rect.bottom=(window.innerHeight||document.documentElement.clientHeight)&amp;&amp;rect.top=0&amp;&amp;rect.bottomAbove The Fold When you first navigate to a website the content you see on the screen is called above-the-fold content.
-On any device, loading above-the-fold content first, and the rest of the content later, will speed up the rendering of the website by the browser.</description>
+      <description>(function() {var scrollyt=window.requestAnimationFrame||function(callback){window.setTimeout(callback,1000/60)};var elementsToShowy=document.querySelectorAll(&#39;#a9hj0Hel4Nhc&#39;);function isElementInViewporty(el){if(typeof jQuery===&#34;function&#34;&amp;&amp;el instanceof jQuery){el=el[0]}var rect=el.getBoundingClientRect();return((rect.top=0)||(rect.bottom=(window.innerHeight||document.documentElement.clientHeight)&amp;&amp;rect.top=0&amp;&amp;rect.bottomAbove The Fold When you first navigate to a website the content you see on the screen is called above the fold content.
+On any device, loading above the fold content first, and the rest of the content later, will speed up the rendering of the website by the browser.</description>
     </item>
     
     <item>
-      <title>Website Images | Build Hello | We design, code, and fix websites</title>
+      <title>Website Images | Build Hello | We design, code, and fix websites, and minimize how much it costs to develop a website over the span of your five year business plan.</title>
       <link>https://buildhello.ca/blog/2021-11-19-website-images/</link>
       <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
       

@@ -6,7 +6,70 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 20 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://buildhello.ca/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://buildhello.ca/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CMS</title>
+      <link>https://buildhello.ca/tags/cms/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/tags/cms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>content-management-systems</title>
+      <link>https://buildhello.ca/tags/content-management-systems/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/tags/content-management-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shopify</title>
+      <link>https://buildhello.ca/tags/shopify/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/tags/shopify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Squarespace</title>
+      <link>https://buildhello.ca/tags/squarespace/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/tags/squarespace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech-made-simple</title>
+      <link>https://buildhello.ca/tags/tech-made-simple/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/tags/tech-made-simple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wix</title>
+      <link>https://buildhello.ca/tags/wix/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/tags/wix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wordpress</title>
+      <link>https://buildhello.ca/tags/wordpress/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>above-the-fold</title>
       <link>https://buildhello.ca/tags/above-the-fold/</link>
@@ -17,11 +80,11 @@
     </item>
     
     <item>
-      <title>browsers</title>
-      <link>https://buildhello.ca/tags/browsers/</link>
+      <title>lighthouse</title>
+      <link>https://buildhello.ca/tags/lighthouse/</link>
       <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://buildhello.ca/tags/browsers/</guid>
+      <guid>https://buildhello.ca/tags/lighthouse/</guid>
       <description></description>
     </item>
     
@@ -35,11 +98,29 @@
     </item>
     
     <item>
-      <title>tech-made-simple</title>
-      <link>https://buildhello.ca/tags/tech-made-simple/</link>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
+      <title>browsers</title>
+      <link>https://buildhello.ca/tags/browsers/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://buildhello.ca/tags/tech-made-simple/</guid>
+      <guid>https://buildhello.ca/tags/browsers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CDN</title>
+      <link>https://buildhello.ca/tags/cdn/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/tags/cdn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google-chrome</title>
+      <link>https://buildhello.ca/tags/google-chrome/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/tags/google-chrome/</guid>
       <description></description>
     </item>
     
@@ -49,6 +130,15 @@
       <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://buildhello.ca/tags/images/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>marketing-collateral</title>
+      <link>https://buildhello.ca/tags/marketing-collateral/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/tags/marketing-collateral/</guid>
       <description></description>
     </item>
     
@@ -238,15 +328,6 @@
       <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://buildhello.ca/tags/websites/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>WordPress</title>
-      <link>https://buildhello.ca/tags/wordpress/</link>
-      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://buildhello.ca/tags/wordpress/</guid>
       <description></description>
     </item>
     
