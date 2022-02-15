@@ -13,12 +13,7 @@
       <pubDate>Sun, 13 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://buildhello.ca/space_ex_light/2022-02-10-why-should-we-build-our-website-with-hugo/</guid>
-      <description>There isn&#39;t a reason not to build your website with HUGO, and every reason you should!
-What&amp;rsquo;s So Great About the Hugo CMS?   Blistering fast builds!
-  Low maintenance!
-  Minimal hosting requirements!
-  Low cost operations!
-  Websites Built With the Hugo CMS Anheuser BuschLink to Anheuser-Busch Website, illustrating use of Hugo CMS Basic Attention TokenLink to Basic Attention Token website, reasons to use Hugo CMS Discover ParisLink to english version of tourism Paris home page developed with Hugo website technlogy.</description>
+      <description>There&amp;rsquo;s every reason to build a website with Hugo. Starting with lightening fast builds, low maintenance, minimal hosting resource demands, easy application development life-cycle.</description>
     </item>
     
     <item>
@@ -27,11 +22,7 @@
       <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://buildhello.ca/blog/2021-11-27-what-are-the-top-four-most-popular-content-management-systems/</guid>
-      <description>(function() {var scrollyt=window.requestAnimationFrame||function(callback){window.setTimeout(callback,1000/60)};var elementsToShowy=document.querySelectorAll(&#39;#a_5DCiQw5bZc&#39;);function isElementInViewporty(el){if(typeof jQuery===&#34;function&#34;&amp;&amp;el instanceof jQuery){el=el[0]}var rect=el.getBoundingClientRect();return((rect.top=0)||(rect.bottom=(window.innerHeight||document.documentElement.clientHeight)&amp;&amp;rect.top=0&amp;&amp;rect.bottom
-Top Content Management Systems from 70,167,848 Detections across the entire internet, as at November 14, 2021.
-CMS USAGE Source:builtwith.comAn Image of a pie graph with CMS usage statistics
-CMS USAGE Source:builtwith.com
-Correction: Networth of Tobi Lutki, on November 22 2021 was $13.</description>
+      <description>Read this post to learn about the top four most popular content management systems used globally in 2021 &amp;hellip;</description>
     </item>
     
   </channel>
