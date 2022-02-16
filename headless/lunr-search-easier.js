@@ -108,7 +108,7 @@ index = lunr(function() {
         this.field("title");
         this.field("date");
         this.field("image");
-        this.field("summary");
+        this.field("description");
         this.field("tint");
         this.field("color");
         this.field("summary");
