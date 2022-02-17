@@ -22,24 +22,8 @@ var scroll = window.requestAnimationFrame ||
              // IE Fallback
              function(callback){ window.setTimeout(callback, 1000/60)};
 
-var elementsToShow = document.querySelectorAll('#graphcomment');
-
-var __semio__params = {
-    graphcommentId: "Build-Hello", // make sure the id is yours
-behaviour: {
-// HIGHLY RECOMMENDED
-//  uid: "...", // uniq identifer for the comments thread on your page (ex: your page id)
-},
-// configure your variables here
-}
-
-/* - - - DON'T EDIT BELOW THIS LINE - - - */
-function __semio__onload() {
-__semio__gc_graphlogin(__semio__params)
-}
-
-
-function loop() {
+let elementsToShow = document.querySelectorAll('#graphcomment');
+let elementsToInject = document.querySelectorAll('#mailchimp');
 
 Array.prototype.forEach.call(elementsToShow, function(element){
 
@@ -52,16 +36,22 @@ var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async
 gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
 gc.id = 'GraphCommentScript';
 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+}//end if graphcomment triggered
+} else {}//end if element is in viewport
+});//end for each array.protype elementsToShow
 
-}
+Array.prototype.forEach.call(elementsToInject, function(element){
+if (isElementInViewport(element)) {
+const existingMailChimp = document.getElementById('mcjs');
 
-}
-
-else {
-//element.classList.remove("is-visible");
-//element.classList.add("end-transitions");
-}
-});
+if (!existingMailChimp) {
+let mc = document.createElement('script'); mc.type = 'text/javascript'; mc.async = true;
+mc.id = 'mcjs'; 
+mc.onload = !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/fda01d9c9acc656463138add3/c6516438e7b80b21d70fef12e.js");
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(mc);
+}//end if mailchimp already triggered in
+}else{}//end element is not in view
+});//end for each array.protype elementsToShow
 
 scroll(loop);
 }
