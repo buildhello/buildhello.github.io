@@ -25,6 +25,26 @@ var scroll = window.requestAnimationFrame ||
 let elementsToShow = document.querySelectorAll('#graphcomment');
 let elementsToInject = document.querySelectorAll('#mailchimp');
 
+var __semio__params = {
+    graphcommentId: "Build-Hello", // make sure the id is yours
+behaviour: {
+// HIGHLY RECOMMENDED
+//  uid: "...", // uniq identifer for the comments thread on your page (ex: your page id)
+},
+// configure your variables here
+}
+
+/* - - - DON'T EDIT BELOW THIS LINE - - - */
+function __semio__onload() {
+__semio__gc_graphlogin(__semio__params)
+}//end __semio__onload
+
+function createMailChimp() {
+!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/fda01d9c9acc656463138add3/c6516438e7b80b21d70fef12e.js");
+}//end createMailChimp
+
+function loop() {
+
 Array.prototype.forEach.call(elementsToShow, function(element){
 
 if (isElementInViewport(element)) {
@@ -47,8 +67,9 @@ const existingMailChimp = document.getElementById('mcjs');
 if (!existingMailChimp) {
 let mc = document.createElement('script'); mc.type = 'text/javascript'; mc.async = true;
 mc.id = 'mcjs'; 
-mc.onload = !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/fda01d9c9acc656463138add3/c6516438e7b80b21d70fef12e.js");
-(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(mc);
+mc.onload = createMailChimp();
+let head = document.getElementsByTagName('head').item(0);
+head.appendChild(mc);
 }//end if mailchimp already triggered in
 }else{}//end element is not in view
 });//end for each array.protype elementsToShow
