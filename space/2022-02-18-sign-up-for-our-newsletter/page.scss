@@ -1,10 +1,26 @@
 @import "../assets/sass/includes/base/media_queries";
 @import "../assets/sass/includes/base/variables";
 
+body {
+background-size: cover; 
+}
 
-.wrapper{
+body > .wrapper{
 background:hsla(0,100%,0%,.75);
-min-height:900px;
+
+//reverse cascade
+@include responsive(small-phone){min-height:50rem;}//500px x 1.15 = 574px
+@include responsive(iphone-x){min-height:47rem;}//361px x 1.04 = 376px
+@include responsive(galaxy){min-height:45rem;}//321px x 1.12 = 361px
+ 
+//forward cascade
+@include responsive(phone){min-height:50rem;}//500px x 1.15 = 574px
+@include responsive(tablet){min-height:40rem;}//650px x 1.18 = 768px
+@include responsive(tablet-plus){min-height:50rem;}//768px x 1.08 = 830px
+@include responsive(big-tablet){min-height:45}//830px x 1.19 = 992px 
+@include responsive(laptop){min-height:45rem;}//992px x 1.038 = 1030px
+@include responsive(desktop){min-height:40rem;}//992px x 1.038 = 1030px
+@include responsive(big-tv){grid-column: 1/4;}//2250px x 1.111 2500px
 }
 
 .wrapper > .header{
@@ -75,11 +91,14 @@ grid-column: 5/22;
     grid-row: 3/6;
 }
 
-.masthead > .p-news-wrapped{
+.masthead {
+border-radius:6px;
+
+& > .p-news-wrapped{
 overflow:hidden;
 }
 
-
+}
 
 
 label {
@@ -471,7 +490,14 @@ html[dir="rtl"] .field-shift {
 			width:600px;
 			margin:0 auto 10px auto;
 			text-align:left;
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+
             }
+
+
+
 		input.formEmailButton{
 			border:none !important;
 		}
@@ -567,6 +593,7 @@ html[dir="rtl"] .field-shift {
 		#templateBody{
 			background-color:#ffffff;
         text-align:center;
+        width:100%;
 		}
 		.bodyContent{
 			line-height:150%;
@@ -617,8 +644,8 @@ html[dir="rtl"] .field-shift {
 		body{
 			width:100%;
 			-webkit-font-smoothing:antialiased;
-			padding:10px 0 0 0 !important;
-			min-width:300px !important;
+			padding:0 0 0 0 !important;
+			
 		}
 
 }	
@@ -636,6 +663,7 @@ html[dir="rtl"] .field-shift {
 			-moz-box-sizing:border-box;
 			-webkit-box-sizing:border-box;
 			box-sizing:border-box;
+
 		}
 
 }	@media (max-width: 620px){
