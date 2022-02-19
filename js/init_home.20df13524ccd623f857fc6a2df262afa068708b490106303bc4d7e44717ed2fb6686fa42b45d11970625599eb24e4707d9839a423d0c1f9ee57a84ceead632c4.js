@@ -31,7 +31,6 @@ var scroll = window.requestAnimationFrame ||
 
 let elementsToShow = document.querySelectorAll('.show-on-scroll');
 let scriptToInject = document.querySelectorAll('#mailchimp');
-
 function createMailChimp() {
 !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/fda01d9c9acc656463138add3/c6516438e7b80b21d70fef12e.js");
 }//end create mailchimp
