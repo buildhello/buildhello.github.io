@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: /404.html
-Disallow: /index.json
-Disallow: //categories/
-Disallow: //tags/
-Disallow: //tags/marketing/Sitemap:https://buildhello.ca/sitemap.xml

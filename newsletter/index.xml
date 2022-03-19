@@ -1,30 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title></title>
-    <link>https://buildhello.ca/newsletter/</link>
-    <description>Recent content on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Sat, 12 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://buildhello.ca/newsletter/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Whatever the title of your newsletter will be on march 12</title>
-      <link>https://buildhello.ca/newsletter/2022-03-12-build-hello-march/</link>
-      <pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://buildhello.ca/newsletter/2022-03-12-build-hello-march/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Whatever the title of your newsletter will be</title>
-      <link>https://buildhello.ca/newsletter/2022-03-05-build-hello-march/</link>
-      <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://buildhello.ca/newsletter/2022-03-05-build-hello-march/</guid>
-      <description>View this e-mail in your browserHello Website Owners!Read on to hear what we&#39;ve been up to since our last newsletter!
-Subscribe to get news for website owners in your inbox!Who&#39;s using Hugo?</description>
-    </item>
-    
-  </channel>
-</rss>
