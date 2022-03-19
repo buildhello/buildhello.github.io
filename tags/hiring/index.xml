@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hiring on </title>
+    <link>https://buildhello.ca/tags/hiring/</link>
+    <description>Recent content in Hiring on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 05 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://buildhello.ca/tags/hiring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Starter Package | Build Hello Business | Many fine tasks quickly combined and mixed like pancake batter into one incredibly complete looking website, for just $899?</title>
+      <link>https://buildhello.ca/services/starter_package/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/services/starter_package/</guid>
+      <description>Starting a business means launching a new website, but building it yourself takes forever. Our quickstart starter package delivers the bare minimum. It&amp;rsquo;s an easy way to get something good looking up you can work on later.</description>
+    </item>
+    
+    <item>
+      <title>Design | Build Hello Business | Sketches. Scribbles on the back of napkins. Wireframes. Mockups. Prototypes.</title>
+      <link>https://buildhello.ca/services/design/</link>
+      <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/services/design/</guid>
+      <description>Because it feels good to know your website design is original you. We help out with sexy ideas, and even put together prototypes and mockups you can view and share with your team online.</description>
+    </item>
+    
+    <item>
+      <title>Web Development | Build Hello Business | Basically we build you a space ship, a space station, a space world...whatever you want.</title>
+      <link>https://buildhello.ca/services/web_development/</link>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/services/web_development/</guid>
+      <description>It&amp;rsquo;s great to have your business online, then customers can look at their phones and find you. Give us a call to help out with, oh any websites you&amp;rsquo;ve ever dreamed of!</description>
+    </item>
+    
+    <item>
+      <title>Content Writing | Build Hello Business | Carefully crafted words arranged in clever, campy and carefree, or confident and credible, crisp, non-cursive character strings (assuming you don&#39;t want cursive.)</title>
+      <link>https://buildhello.ca/services/content/</link>
+      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/services/content/</guid>
+      <description>Text, text, and more text. We write it. We edit it. We make it yours. Content writing for the web is a technical art-form. It&amp;rsquo;s a blend of research, style, and optimization. It&amp;rsquo;s something we do for you.</description>
+    </item>
+    
+    <item>
+      <title>Refactoring | Build Hello Business | That&#39;s &#39;refactoring of code,&#39; which is to say modernizing and simplifying any...how can we say this politely...&#39;cryptography&#39; you&#39;ve been saddled with into a modern top tier code base.</title>
+      <link>https://buildhello.ca/services/refactoring/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/services/refactoring/</guid>
+      <description>Refactoring your code base is more than proactive troubleshooting, it&amp;rsquo;s SEO, security, and better functionality all in one. Stay ahead of the crowd, refactor that code base!</description>
+    </item>
+    
+    <item>
+      <title>Maintenance | Build Hello Business | Tracking down that stray semi-colon. Pest Control. Very unpleasant virus removal. Updates!</title>
+      <link>https://buildhello.ca/services/troubleshooting/</link>
+      <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/services/troubleshooting/</guid>
+      <description>When you have a website problem, you have a business problem. At Build Hello we put website problems to rest, so your business can rise and shine!</description>
+    </item>
+    
+  </channel>
+</rss>

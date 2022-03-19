@@ -1,0 +1,78 @@
+@import "../assets/sass/includes/base/media_queries";
+@import "../assets/sass/includes/base/variables";
+
+.wrapper > .header{
+background-position:top center;
+background-size:contain;
+transform:none;
+grid-column:1/26;
+width:100%;
+
+@include responsive(small-phone){
+width:95%;
+height:25rem;
+}//end small-phone
+
+
+@include responsive(phone-500){
+height:24rem;
+}//411px
+
+@include responsive(iphone-x){
+height:22rem;
+}//376px
+
+
+@include responsive(galaxy){
+height:18rem;
+}//361px
+
+@include responsive(galaxy-fold){
+height:16rem;
+}//280px
+
+}//end header
+
+.wrapper > .banner-1{
+transform:none;
+grid-column:1/26;
+width:100%;
+
+@include responsive(small-phone){
+width:95%;
+height:25rem;
+}//end small-phone
+
+
+@include responsive(phone-500){
+height:24rem;
+}//411px
+
+
+@include responsive(iphone-x){
+height:22rem;
+}//376px
+
+
+@include responsive(galaxy){
+height:18rem;
+}//361px
+
+@include responsive(galaxy-fold){
+height:16rem;
+}//280px
+
+}//end banner-1
+
+
+.wrapper > .main{
+@include responsive(laptop){
+grid-column:7/20;
+}//end laptop
+}//end main
+
+.wrapper > .main > .posts > .post-summary-grid > .post-summary-image > .list-img > .img {
+object-fit:contain !important;
+background-color:#fff;
+
+}//end summary image
