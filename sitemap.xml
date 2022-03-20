@@ -26,12 +26,6 @@
 <priority>0.5</priority>
 </url>
 <url>
-<loc>https://buildhello.ca/newsletter/terms_and_privacy/</loc>
-<lastmod>2022-03-19T00:00:00+00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-<url>
 <loc>https://buildhello.ca/newsletter/terms_and_privacy/privacy/</loc>
 <lastmod>2022-03-19T00:00:00+00:00</lastmod>
 <changefreq>daily</changefreq>
@@ -39,6 +33,12 @@
 </url>
 <url>
 <loc>https://buildhello.ca/newsletter/terms_and_privacy/terms/</loc>
+<lastmod>2022-03-19T00:00:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://buildhello.ca/newsletter/terms_and_privacy/</loc>
 <lastmod>2022-03-19T00:00:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
