@@ -13,10 +13,10 @@
       <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://buildhello.ca/newsletter/author_profiles/yuri_tricys/</guid>
-      <description>HomeNewsletterAuthor profilesYuri tricysBuild Hello
- With Build Hello since day one!
-  Hello, Dear Readers!My name is Yuri. I&#39;m a freelance web developer, and the current maintainer writer/web developer for this newsletter.
-Web development is a fast growing field.</description>
+      <description>HomeNewsletterAuthor profilesYuri tricysBuild Hello
+With Build Hello since day one!
+Hello, Dear Readers!My name is Yuri. I&#39;m a freelance web developer, and the current maintainer writer/web developer for this newsletter.
+Web development is a fast growing field. There is just a lot of information to absorb.</description>
     </item>
     
     <item>
@@ -25,7 +25,7 @@ Web development is a fast growing field.</description>
       <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://buildhello.ca/newsletter/terms_and_privacy/privacy/</guid>
-      <description>HomeNewsletterTerms and privacyPrivacyPrivacy Policy, Last updated: August 11, 2016This Privacy Policy relates to information collected by any websites, applications and/or other online services that Build Hello may make available from time to time (collectively, &#34;Build Hello&#34; or &#34;we&#34; or &#34;us&#34; or &#34;our&#34; or the &#34;</description>
+      <description>HomeNewsletterTerms and privacyPrivacyPrivacy Policy, Last updated: August 11, 2016This Privacy Policy relates to information collected by any websites, applications and/or other online services that Build Hello may make available from time to time (collectively, &#34;Build Hello&#34; or &#34;we&#34; or &#34;us&#34; or &#34;our&#34; or the &#34;</description>
     </item>
     
     <item>
@@ -34,7 +34,7 @@ Web development is a fast growing field.</description>
       <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://buildhello.ca/newsletter/terms_and_privacy/terms/</guid>
-      <description>HomeNewsletterTerms and privacyTermsTerms and Conditions of Use Last updated: August 11, 2016These Terms and conditions of use (these &#34;Terms&#34;) constitute a legally binding agreement that governs your use of websites, applications and/or other online services that Build Hello may make available from time to time (collectively, and together with associated and successor websites, applications and services, the &#34;</description>
+      <description>HomeNewsletterTerms and privacyTermsTerms and Conditions of Use Last updated: August 11, 2016These Terms and conditions of use (these &#34;Terms&#34;) constitute a legally binding agreement that governs your use of websites, applications and/or other online services that Build Hello may make available from time to time (collectively, and together with associated and successor websites, applications and services, the &#34;</description>
     </item>
     
     <item>
@@ -43,8 +43,9 @@ Web development is a fast growing field.</description>
       <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://buildhello.ca/newsletter/2022-03-05-build-hello-march/</guid>
-      <description>View this e-mail in your browserHello Website Owners!Read on to hear what we&#39;ve been up to since our last newsletter!
-Subscribe to get news for website owners in your inbox!Who&#39;s using Hugo?</description>
+      <description>View this e-mail in your browserHello Website Owners!Read on to hear what we&#39;ve been up to since our last newsletter!
+Subscribe to get news for website owners in your inbox!Who&#39;s using Hugo?Hugo is the latest thing going for static website builders!
+Check out who&#39;s building out their web asset with Hugo!</description>
     </item>
     
     <item>
@@ -53,10 +54,8 @@ Web development is a fast growing field.</description>
       <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://buildhello.ca/space/2022-02-18-sign-up-for-our-newsletter/</guid>
-      <description>
-* indicates required
-Name: Email:  Comment: 
-Email Address *First Name</description>
+      <description>* indicates required
+Name: Email: Comment: Email Address *First Name</description>
     </item>
     
     <item>
@@ -83,7 +82,7 @@ Web development is a fast growing field.</description>
       <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://buildhello.ca/blog/2021-11-19-what-is-above-the-fold/</guid>
-      <description>(function() {var scrollyt=window.requestAnimationFrame||function(callback){window.setTimeout(callback,1000/60)};var elementsToShowy=document.querySelectorAll(&#39;#a9hj0Hel4Nhc&#39;);function isElementInViewporty(el){if(typeof jQuery===&#34;function&#34;&amp;&amp;el instanceof jQuery){el=el[0]}var rect=el.getBoundingClientRect();return((rect.top=0)||(rect.bottom=(window.innerHeight||document.documentElement.clientHeight)&amp;&amp;rect.top=0&amp;&amp;rect.bottomAbove The Fold When you first navigate to a website the content you see on the screen is called above the fold content.
+      <description>Above The Fold When you first navigate to a website the content you see on the screen is called above the fold content.
 On any device, loading above the fold content first, and the rest of the content later, will speed up the rendering of the website by the browser.</description>
     </item>
     
