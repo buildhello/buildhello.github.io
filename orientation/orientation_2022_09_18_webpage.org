@@ -1,0 +1,141 @@
+#+OPTIONS: toc:nil H:6  num:nil todo:nil <:nil author:nil ^:{}
+#+OPTIONS: \n:t LaTeX:t stat:nil tasks:nil @:t
+#+OPTIONS: html-preamble:nil html-postamble:nil html-link-use-abs-url:nil html-scripts:nil
+#+HTML_DOCTYPE: html5
+#+OPTIONS: html5-fancy:t
+#+TITLE:    Build Hello | Orientation 1 | 2022-09-18 
+#+HTML_CONTAINER: section
+#+DESCRIPTION: 
+# +HTML_LINK_HOME:"/"
+#+HTML_HEAD_EXTRA: <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0,minimum-scale=1.0,shrink-to-fit=no">
+#+HTML_HEAD_EXTRA: <meta http-equiv="content-type" content="text/html; charset=utf-8">
+#+HTML_HEAD_EXTRA: <meta http-equiv="x-ua-compatible" content="IE=edge">
+# +HTML_HEAD: <link rel="stylesheet" type="text/css" href="" />
+#+HTML_HEAD_EXTRA: <style type="text/css"></style>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="https://buildhello.ca/downloads/css/gongzhitaaorg.css" />
+#+HTML_HEAD_EXTRA: <style type="text/css">.title{color:#1560b8 !important;text-align:left;}.content>section>h2{color:#1560b8;}.content>section>div>h3{color:#358405;}}</style>
+
+** 1. Run a memory test on Taro
+- Score was 73 turns to clear the board, just a little more accuracy than the average of people I've tested (but my sample set is not an average of society)
+- Taro was slower than everybody I've tested 
+- There is no indication that going slower is less effective in the long-run, in fact chess players take as much time as possible
+- However, in programming there are deadlines, programmers follow software production methodologies called 'Agile'
+- Agile says do it in teams to make the release date, then iterate through to get feedback from users and make it again with an update or new release
+- The main reason is if you take a lot of time to build something really well, then find people don't use it the way you designed it, you will die a slow death (or fast)
+- So you need to be comfortable making mistakes
+- Facebook says, "Move fast and break things!"
+
+** 2. Introduce simultaneous typing and speaking exercise
+- while typing into a computerized typing lesson program (in the browser) listen to a speaker speak with media player or vlc and repeat what they say
+- This teaches the brain to multi-task, it also ensures you are typing with the least amount of brain power, which forces you to learn more quickly
+- It also builds your listening skills, and your vocal chords, and your English skills
+- And it makes your brain more precise
+- The ultimate exercise, is to give a lecture while doing exercise, because then your brain is remembering, arranging context (thinking of what to say), and saying it, while you are reading and typing simultaneously [that is a very difficult exercise]
+[[https://www.speedtypingonline.com/typing-test][https://www.speedtypingonline.com/typing-test]]
+
+** 3. Install Chocolately 
+*** Chocolately installation powershell
+- open powershell with right click administrator privileges
+- navigate to [[https://chocolatey.org/install][https://chocolatey.org/install]] 
+- read website instructions
+- set execution policy
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+- downloads and installs Chocolately with a script
+*** Chocolately Graphical User Interface [GUI]
+- after setting execution policy above [if not set]
+- open powershell in administration mode and run 
+- choco install ChocolateyGUI
+
+** 4. Why use Chocolately
+1. can export programs installed, and you should be able to import them to install on a new installation 
+2. Chocolately adds programs automatically to your windows path, which allows other programs to find them and allows you to run them from a command line in any directory
+3. extends path limit
+4. can easily update, remove, and view packages installed
+5. you need to find where Chocolately installs programs on your computer, and note the location in a file
+
+** 5. Install Brave Browser
+- Select chocolatey selection to search programs available on chocolaty
+- The 'programs on your computer' selection in chocolaty enables search and managing packages installed on your computer by chocolatey
+- Remember, a package is a program.
+- Search for Brave
+- Select install package
+- Brave use less working memory [RAM], and includes functionality you need to install plugins to get on chrome
+- Remember brave uses the 'Chromium' engine, which is the foundation of Chrome that Google made open source
+- (Many other browser use Chromium as well)
+** 6. Discuss some differences between Linux and Windows 
+*** Linux Programs   
+- Programs installed on Linux install only the libraries that don't already exist on Linux
+- Libraries that are installed, go into directories in the Linux file architecture, where they can be shared
+- The programmer who creates the program, chooses where the files will be installed
+- We can talk about Linux architecture later
+*** Windows Programs
+- Install the entire program and its dependencies in one or more 'program specific directories'
+
+** 7. What is program or package?
+- Imagine cards from a deck of cards unarranged
+- Let each card represent a library of code, which is code that works together to achieve a specific purpose in a specific language
+- Now many cards (libraries) arranged in a vertical line and stapled together
+- This is a program (on windows an .exe file)
+- Only a windows program will have dependencies, which are programs libraries need to function, included in the .exe 
+- We can envision dependencies, as cards (libraries) arranged perpendicular to the vertical line of cards we stapled together
+- On Linux (or Unix based computer systems), dependencies need to be installed
+** 8. What is Bash?
+- Bash is a shell scripting language used to operate the 'bash' shell, which is unix/Linux shell
+** 9. What is the difference between WSL, Linux, Cygwin, and MSYS2?
+*** operating systems and hardware
+- On a windows computer the operating system uses machine code to run the computer hardware
+- There's a lot of functionality the operating system brings to the computer, including 'threading,' 'multitasking,' 'memory management' and more, but we won't talk about that here
+*** shells
+- The shell is an installed or included program that enables communication between the operating system and the programs on the computer, as well as even the hardware. 
+- [though it is not the same as the 'bios', which is a program that is specific to the hardware]
+- Every shell has programs it can use
+- Windows Shells, CMD, and Powershell are not the same as Unix shells, like Bash, ZSH, oh-my-zsh, and many more
+*** WSL
+- WSL is a subsystem, a containerized unix virtual machine that takes 'Linux' operating systems
+- WSL allows the Windows system to run one or more Linux systems, which have lower level communication with the hardware [the operating systems can communicate with each other, without using a server]
+- WSL is the closest you can get on Windows to have a pure Linux system, it is sort of like running a Linux system in a docker container 
+*** Cygwin
+- Cygwin is the next closest thing to a Linux system on Windows
+- It installs as a file directory on your windows system that contains Linux programs designed to work with Windows [I believe without emulating a Linux kernal, but check me on that.] 
+- It is much more strict in terms of maintaining acting like a Linux system
+*** MSYS2
+- MSYS2 is less strict than Cygwin, in terms of acting like a Linux system, but it operates essentially the same as Cygwin and uses a lot of Cygwin functionality
+- It's cheaper in terms of resources
+*** Why do want to use WSL, Cygwin, or MSYS2 on WIndows?
+- There are programs for Linux that are unique, and sometimes we want to use them
+- For example, the build chain programs and compilers like GCC enable programmers to 'make' software on windows [turn selected libraries and dependencies into windows executable ]
+- This is done often for programs that aren't made for Windows
+- Actually, the Chocolately package manager has a lot of Linux  programs made just for windows
+** 10. Why did we want to build Emacs 29 on Windows
+- This is the best way to do it
+- You can specify the number of cores, which allows emacs to run operations in parallel across the cores of your computer
+- Any emacs libraries or subsystem libraries (cygwin, wsl, msys2) made especially for your computer architecture can also be installed
+- In emacs, you can choose as a build option, 'native-compilation' which compresses your entire emacs installation into machine code
+- That means your computer can read the files without needing your operating system to translate, that's faster
+- Emacs will also compile your files into machine code files when you install them, including the packages you install to emacs
+** 11. How did we attempt to build emacs on windows
+*** 1. We installed MSYS2 onto windows using Chocolatey
+- actually we installed into c:/tools/
+- then we followed the directions I wrote on the blog post on my magazine, www.readingworldmagazine.com
+[[https://readingworldmagazine.com/emacs/2022-02-24-compiling-emacs-29-from-source-on-windows/][https://readingworldmagazine.com/emacs/2022-02-24-compiling-emacs-29-from-source-on-windows/]]
+- these directions worked exactly as is for a machine I worked on
+- however, when I followed the same directions on another machine I work on, I needed to find and install some other libraries
+- We tried to build emacs this way on Taro's computer, but we were missing a library, some settings, or some specific programs we need in the MSYS2 system 
+- So we couldn't install
+** 12. We installed emacs
+- We installed a version of emacs (28) on Taro's computer, using Chocolately 
+- It's not running super fast functionality, but it should do
+** 13. View the history of emacs
+- you can watch the video on my magazine, it's pretty cool
+[[https://readingworldmagazine.com/emacs/2021-11-30-emacs-conference-comments/][https://readingworldmagazine.com/emacs/2021-11-30-emacs-conference-comments/]]
+** 14. Reprogram the control key on Taro's computer 
+- We installed a program called 'sharpkeys' by randyrants.com
+- It allows us to change keys on windows
+- We changed the CAPSLOCK KEY for the CONTROL KEY
+- This is the way to use emacs
+** 15. Introduce some movements
+C-n, next
+C-p, previous
+C-b, back
+C-f, forward
+M-x, run a program that opens the emacs mini-buffer and allows user to select and run interactive emacs functions
