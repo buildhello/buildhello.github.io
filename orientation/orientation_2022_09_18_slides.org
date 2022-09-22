@@ -2,8 +2,8 @@
 #+OPTIONS: toc:nil num:nil
 #+REVEAL_TITLE_SLIDE: <h3 style="color:blue;"> Build Hello Orientation 1 - 2022-09-18</h3>
 #+ATTR_REVEAL: :frag (appear)
-#+HTML_HEAD_EXTRA: <style type="text/css">#sec-title-slide>h3{color:green !important; margin:-50px 0px !important;.present{margin:-50px 0px !important;}</style>}
-
+#+HTML_HEAD_EXTRA: <style type="text/css">#sec-title-slide>h3{color:#00f500 !important; margin:-50px 0px !important;.present{margin:-50px 0px !important;}.reveal .controls{color:#00f500 !important;} .reveal a:hover .r-frame {color:#00f500 !important;} .reveal a {color:#00f500 !important;} .reveal a:hover{color:#00f500 !important;} .reveal .roll span:after{background:#007e00 !important;} .reveal .progress {color:#00f500 !important;} </style>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="https://buildhello.ca/orientation/blood.css" />
 * 1. Run a memory test on Taro
 ** ^
 - Score was 73 turns to clear the board, just a little more accuracy than the average of people I've tested (but my sample set is not an average of society)
@@ -169,3 +169,4 @@ C-b, back
 ** ^
 C-f, forward
 M-x, run a program that opens the emacs mini-buffer and allows user to select and run interactive emacs functions
+
