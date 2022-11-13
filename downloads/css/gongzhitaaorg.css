@@ -78,6 +78,8 @@ code, kbd, pre, samp {
 figure {
 text-align: center;
 margin: 0em auto 1em auto;
+margin-inline-start:0px;
+margin-inline-end:0px;
 }
 hr {
     box-sizing: content-box;

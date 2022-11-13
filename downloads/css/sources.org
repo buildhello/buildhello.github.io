@@ -2,3 +2,11 @@
 https://thomasf.github.io/solarized-css/solarized-dark.min.css
 https://thomasf.github.io/solarized-css/org-info.min.js
 https://thomasf.github.io
+
+https://thomasf.github.io/solarized-css/solarized-dark.css
+
+* readtheorg 
+https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css
+
+* bigblow
+https://fniessen.github.io/org-html-themes/src/bigblow_theme/css/htmlize.css
