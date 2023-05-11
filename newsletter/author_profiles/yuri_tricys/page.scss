@@ -1,48 +1,23 @@
 @import "../assets/sass/includes/base/media_queries";
 @import "../assets/sass/includes/base/variables";
 
-.stretch_it{
-//min-height: 1000px;
-}
-
-ul > li {
-font-size:1rem;
-color:#ffffff;
-} 
-
-
-h2{
-font-family:'SF Compact Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
-font-size:1.2rem;
-color:#ffffff;
-width:100%;
-margin:.4rem 0rem .4rem 0rem;
-}
-
-
-.author_profile_text{
-font-family:'SF Compact Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
-font-size:1rem;
-color:#767676;
-width:100%;
-margin:.4rem 0rem .4rem 0rem;
-
-}
 
 .breadcrumb {
-  list-style: none;
-
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
+font-size:1em;
+color:#ffffff;
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+align-items: baseline;
 }
 
+
 .breadcrumb li {
-  display: inline;
-  white-space: nowrap;
+display: inline;
+white-space: nowrap;
 }
 
 .breadcrumb li + li:before {
   content: ">";
-  padding: 0.3rem;
+  padding: 0.3em;
 }
