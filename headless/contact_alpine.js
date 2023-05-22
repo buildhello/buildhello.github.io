@@ -8,12 +8,10 @@ function contactForm() {
         message: '',
         loading: false,
         buttonLabel: 'SUBMIT',
-
         submitData() {
-          this.buttonLabel = 'Submitting...'
+          this.buttonLabel = 'Submitting...';
           this.loading = true;
-          this.message = ''
-
+          this.message = '';
           fetch('https://hooks.zapier.com/hooks/catch/4705006/7ydo0k/', {
             mode: 'no-cors',     
             method: 'POST',
@@ -24,8 +22,9 @@ function contactForm() {
           })
             .then(() => {
               this.message = 'Nice form submission ;)';
-              this.reset();
-//			  window.location = "https://buildhello.ca";
+              this.formData._name = '';
+              this.formData._replyto = '';
+              this.formData.message = '';  
             })
             .catch(() => {
               this.message = 'Ooops! Something went wrong!';
