@@ -23,11 +23,12 @@ function contactForm() {
             body: JSON.stringify(this.formData)
           })
             .then(() => {
-              this.message = 'Nice form submission ;)'
+              this.message = 'Nice form submission ;)';
+              this.reset();
 //			  window.location = "https://buildhello.ca";
             })
             .catch(() => {
-              this.message = 'Ooops! Something went wrong!'
+              this.message = 'Ooops! Something went wrong!';
             })
             .finally(() => {
               this.loading = false;
