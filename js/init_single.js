@@ -23,7 +23,7 @@ var scroll = window.requestAnimationFrame ||
              function(callback){ window.setTimeout(callback, 1000/60)};
 
 let elementsToShow = document.querySelectorAll('#graphcomment');
-let elementsToInject = document.querySelectorAll('#mailchimp');
+const brevoForm = document.querySelectorAll('#brevoSignup');
 
 var __semio__params = {
     graphcommentId: "Build-Hello", // make sure the id is yours
@@ -60,19 +60,35 @@ gc.id = 'GraphCommentScript';
 } else {}//end if element is in viewport
 });//end for each array.protype elementsToShow
 
-Array.prototype.forEach.call(elementsToInject, function(element){
+Array.prototype.forEach.call(brevoForm, function(element){
 if (isElementInViewport(element)) {
-const existingMailChimp = document.getElementById('mcjs');
+const existingScript = document.getElementById('sibforms-main');
 
-if (!existingMailChimp) {
-let mc = document.createElement('script'); mc.type = 'text/javascript'; mc.async = true;
-mc.id = 'mcjs'; 
-mc.onload = createMailChimp();
-let head = document.getElementsByTagName('head').item(0);
-head.appendChild(mc);
-}//end if mailchimp already triggered in
-}else{}//end element is not in view
-});//end for each array.protype elementsToShow
+if (!existingScript) {
+
+setTimeout(() => {
+const brevo = document.getElementById("brevoSignup");
+brevo.style.visibility = "visible";
+
+document.getElementById("brevoClose")?.addEventListener("click", () => {
+brevo.style.visibility = "hidden";
+}); //end on click
+
+}, "500");
+
+let script = document.createElement('script');
+script.id ="sibforms-main";
+script.src="https://sibforms.com/forms/end-form/build/main.js";
+script.setAttribute("defer", "defer");
+document.body.appendChild(script);
+
+
+} else{
+}//end if script already written in
+}
+else {
+}//end if element is in viewport
+});
 
 scroll(loop);
 }

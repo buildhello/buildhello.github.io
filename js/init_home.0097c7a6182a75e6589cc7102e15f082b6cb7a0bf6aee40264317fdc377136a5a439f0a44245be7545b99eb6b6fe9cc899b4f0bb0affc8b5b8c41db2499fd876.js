@@ -30,10 +30,8 @@ var scroll = window.requestAnimationFrame ||
              function(callback){ window.setTimeout(callback, 1000/60)};
 
 let elementsToShow = document.querySelectorAll('.show-on-scroll');
-let scriptToInject = document.querySelectorAll('#mailchimp');
-function createMailChimp() {
-!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/fda01d9c9acc656463138add3/c6516438e7b80b21d70fef12e.js");
-}//end create mailchimp
+
+const brevoForm = document.querySelectorAll('#brevoSignup');
 
 function loop() {
 
@@ -50,13 +48,29 @@ element.classList.add("end-transitions");
 }
 });
 
-Array.prototype.forEach.call(scriptToInject, function(element){
+Array.prototype.forEach.call(brevoForm, function(element){
 if (isElementInViewport(element)) {
-const existingScript = document.getElementById('mcjs');
+const existingScript = document.getElementById('sibforms-main');
+
 if (!existingScript) {
-let mc = document.createElement('script'); mc.type = 'text/javascript'; mc.id = 'mcjs'; mc.async = true;
-mc.onload = createMailChimp();
-let head = document.getElementsByTagName('head').item(0);head.appendChild(mc);
+
+setTimeout(() => {
+const brevo = document.getElementById("brevoSignup");
+brevo.style.visibility = "visible";
+
+document.getElementById("brevoClose")?.addEventListener("click", () => {
+brevo.style.visibility = "hidden";
+}); //end on click
+
+}, "500");
+
+let script = document.createElement('script');
+script.id ="sibforms-main";
+script.src="https://sibforms.com/forms/end-form/build/main.js";
+script.setAttribute("defer", "defer");
+document.body.appendChild(script);
+
+
 } else{
 }//end if script already written in
 }
