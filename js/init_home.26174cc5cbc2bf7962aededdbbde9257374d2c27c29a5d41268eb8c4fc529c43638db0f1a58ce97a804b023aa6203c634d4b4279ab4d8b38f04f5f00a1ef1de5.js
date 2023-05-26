@@ -67,7 +67,7 @@ brevo.style.visibility = "hidden";
 let script = document.createElement('script');
 script.id ="sibforms-main";
 script.src="https://sibforms.com/forms/end-form/build/main.js";
-script.setAttribute("defer", "defer");
+script.setAttribute("defer", "");
 document.body.appendChild(script);
 
 
