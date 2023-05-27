@@ -82,7 +82,7 @@ grid-column: 5/22;
 
 @media only screen and (min-width: 574px){
 .wrapper>.main {
-    grid-column: 2/25;
+grid-column: 2/25;
 }
 }
 
@@ -92,7 +92,16 @@ grid-row: 3/6;
 }
 
 .wrapper > .main > .main-content{
-display:grid !important;
-grid-template-rows:1fr;
+display:grid;
 grid-template-columns:1fr;
+grid-template-rows: 1fr minmax(4em, auto);
+min-height:60vh;
+}
+
+#survey-iframe-container #ownership-survey {
+margin:3em auto;
+}
+
+#survey-iframe-container #ownership-survey body {
+overflow:hidden;
 }
