@@ -1,0 +1,129 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title></title><meta name="author" content=""><meta name="description" content=""><meta name="keywords" content=""><style type="text/css">.underline { text-decoration: underline; }</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/blood.css" id="theme"><!-- If the query includes 'print-pdf', include the PDF print sheet --><script>if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }</script><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport"><style>html{
+touch-action:manipulation;
+-webkit-text-size-adjust:100%
+}
+body{
+padding:0;
+margin:0;
+background:#f2f6fa;
+color:#3c495a;
+font-weight:normal;
+font-size:15px;
+font-family:'San Francisco','Roboto','Arial',sans-serif
+}
+h2,h3,h4,h5,h6{
+font-family:'Trebuchet MS',Verdana,sans-serif;
+color:#586b82;
+padding:0;
+margin:20px 0 10px 0;
+font-size:1.1em}
+h2{
+margin:30px 0 10px 0;
+font-size:1.2em}
+a{
+color:#3fa7ba;
+text-decoration:none}
+p{
+margin:20px 0;
+text-align:left}
+ul,ol{
+margin:0;
+text-align:left}
+ul>li>code{
+color:#586b82
+}
+pre{
+white-space:pre-wrap}
+#content{
+width:96%;
+max-width:1000px;
+margin:2% auto 6% auto;
+background:white;
+border-radius:2px;
+border-right:1px solid #e2e9f0;
+border-bottom:2px solid #e2e9f0;
+padding:0 115px 150px 115px;
+box-sizing:border-box}
+#postamble{display:none}
+h1.title{
+background-color:#343C44;
+color:#fff;
+margin:0 -115px;
+padding:60px 0;
+font-weight:normal;
+font-size:2em;
+border-top-left-radius:2px;
+border-top-right-radius:2px;
+text-align:center;}
+@media (max-width:1050px){
+#content{
+padding:0 70px 100px 70px;}
+h1.title{margin:0 -70px;}
+}
+img{
+max-width:100%;}
+@media (max-width:800px){
+#content{
+width:100%;
+margin-top:0;
+margin-bottom:0;
+padding:0 4% 60px 4%}
+h1.title{
+margin:0 -5%;
+padding:40px 5%}}
+pre,.verse{
+box-shadow:none;
+background-color:#f9fbfd;
+border:1px solid #e2e9f0;
+color:#586b82;
+padding:10px;
+font-family:monospace;
+overflow:auto;margin:6px 0}
+#table-of-contents{
+margin-bottom:50px;
+margin-top:50px}
+#table-of-contents h2{
+margin-bottom:5px}
+#text-table-of-contents ul{
+padding-left:15px}
+#text-table-of-contents>ul{padding-left:0}
+#text-table-of-contents li{list-style-type:none}
+#text-table-of-contents a{color:#7c8ca1;font-size:0.95em;text-decoration:none}
+table{border-color:#586b82;font-size:0.95em}
+table thead{color:#586b82}
+table tbody tr:nth-child(even){background:#f9f9f9}
+table tbody tr:hover{background:#586b82!important;color:white}
+table .left{text-align:left}
+table .right{text-align:right}
+.todo{font-family:inherit;color:inherit}
+.done{color:inherit}
+.tag{background:initial}
+.tag>span{
+background-color:#eee;
+font-family:monospace;
+padding-left:7px;
+padding-right:7px;
+border-radius:2px;
+float:right;
+margin-left:5px}
+#text-table-of-contents .tag>span{float:none;margin-left:0}
+.timestamp{color:#7c8ca1}
+@media print{@page{margin-bottom:3cm;margin-top:3cm;margin-left:2cm;margin-right:2cm;font-size:10px}
+#content{border:none}}</style><style type="text/css">#sec-title-slide>h3{color:#00f500 !important; margin:-50px 0px !important;.present{margin:-50px 0px !important;}.reveal .controls{color:#00f500 !important;} .reveal a:hover .r-frame {color:#00f500 !important;} .reveal a {color:#00f500 !important;} .reveal a:hover{color:#00f500 !important;} .reveal .roll span:after{background:#007e00 !important;} .reveal .progress {color:#00f500 !important;}</style><link rel="stylesheet" type="text/css" href="https://buildhello.ca/orientation/blood.css"></head><body><div class="reveal"><div class="slides"><section id="sec-title-slide"><h3 style="color:blue;">Build Hello Hugo Discussion - 2023-06-04</h3></section><section><section id="slide-orgc83203f"><h2 id="orgc83203f">What is Hugo?</h2><div class="outline-text-2" id="text-orgc83203f"></div></section><section id="slide-org53cc9bb"><h3 id="org53cc9bb">^</h3><ul><li>Command line program</li><li>Frontmatter CMS, and other CMS, so you can work with it with less complexity</li><li>Typically free hosting, for brochures and blog sites</li></ul></section></section><section><section id="slide-org5783cfe"><h2 id="org5783cfe">What is a brochure site?</h2><div class="outline-text-2" id="text-org5783cfe"></div></section><section id="slide-org1f1eafc"><h3 id="org1f1eafc">^</h3><ul><li>Brochure sites:</li><li>Don’t change often (updated once every few months?)</li><li>Little interactivity</li><li>1 - 100 pages</li><li>Most businesses with location or community driven business have brochure sites</li><li>Example: law firm, hair salon, accountancy, grocery store</li></ul></section></section><section><section id="slide-org0b360c5"><h2 id="org0b360c5">What are blog sites?</h2><div class="outline-text-2" id="text-org0b360c5"></div></section><section id="slide-org9402611"><h3 id="org9402611">^</h3><ul><li>Any site that changes often</li><li>Typically as often as possible</li><li>SEO campaign (you want Google traffic)</li><li>Can be posted to Facebook or Linkedin</li></ul></section></section><section><section id="slide-org6ec600a"><h2 id="org6ec600a">What are Membership Sites?</h2><div class="outline-text-2" id="text-org6ec600a"></div></section><section id="slide-orgc62e266"><h3 id="orgc62e266">^</h3><ul><li>any site with greater complexity</li><li>sign-in</li><li>store</li><li>downloads, etc</li></ul></section></section><section><section id="slide-org47ae85c"><h2 id="org47ae85c">Who uses Hugo?</h2><ul><li>Surprisingly wide variety of users</li><li>Academia</li><li>Sciences</li><li>Tech</li><li>Knowledge work, accounting firms, architects,</li><li>Artist, incidentally</li></ul><p><a href="https://buildhello.ca/space_ex_light/2022-02-10-why-should-we-build-our-website-with-hugo/">https://buildhello.ca/space_ex_light/2022-02-10-why-should-we-build-our-website-with-hugo/</a></p></section></section><section><section id="slide-orgb8d51f2"><h2 id="orgb8d51f2">Why is Hugo popular?</h2><ul><li>Modern brand</li><li>Produces lightweight free to host sites</li><li>structure is (arguably )easier to comprehend</li></ul></section></section><section><section id="slide-orgf5a3fbe"><h2 id="orgf5a3fbe">2. Hugo compared to Wordpress</h2><div class="outline-text-2" id="text-orgf5a3fbe"></div></section><section id="slide-orgd3e8b3d"><h3 id="orgd3e8b3d">^</h3><ul><li>Hosting Hugo usually free for blog and brochure</li><li>Hosting Wordpress usually costs for large brochure, and blog</li><li>Hosting Wordpress brochure can be free, if you’re careful</li></ul></section><section id="slide-org05aa60f"><h3 id="org05aa60f">^</h3><ul><li>Hugo, offers a great developer experience, once you know what you’re doing, but not consistent</li><li>Wordpress offers a consistent developer experience</li><li>Under the hood, Hugo is often conceptually easier to grasp for many non-techies</li><li>Hugo content is created in markdown files</li></ul></section><section id="slide-orga5099f2"><h3 id="orga5099f2">^</h3><ul><li>Wordpress originated when it had fewer competitors</li><li>A lot of effort went into developing the UI and plugin and play functionality</li><li>In that sense, Hugo is still developing and behind wordpress</li></ul></section><section id="slide-org1ced3a5"><h3 id="org1ced3a5">^</h3><ul><li>For example, as a non-techie user, you can install/uninstall plugins in Wordpress with relative ease</li><li>The same functionality, is typically hard coded into a theme in Hugo</li><li>That’s something to be aware of. It means, hey, use this but if you want to make a gazillion changes, hire developer</li></ul></section><section id="slide-org59cf6ef"><h3 id="org59cf6ef">^</h3><ul><li>In Wordpress, while some people enjoy learning it, and have the time, if you specialize elsewhere, you should also hire developer</li></ul></section></section><section><section id="slide-orgf4a134a"><h2 id="orgf4a134a">3. Hugo Structure</h2><div class="outline-text-2" id="text-orgf4a134a"></div></section><section id="slide-org94311be"><h3 id="org94311be">^</h3><ul><li>Is a file system</li><li>When websites were first a thing, they were all in folder structures</li><li>That was a problem - there wasn’t a lot of memory and processor speed</li><li>When database and server-side programming languages were adapted to handle websites</li></ul></section><section id="slide-org4a7b13d"><h3 id="org4a7b13d">^</h3><ul><li>Developers were happy and the web grew faster (Wordpress got started)</li><li>These days, file systems can handle millions of folders</li><li>And computer search programs, like find.exe and grep are more efficient</li></ul></section><section id="slide-org2738f4d"><h3 id="org2738f4d">^</h3><ul><li>Static generators are back again and popular</li><li>Hugo sits on top of GO Lang, which is an efficient language, for various reasons</li><li>So large websites can be generated from files in the directory on even basic laptops</li></ul></section></section><section><section id="slide-org6789348"><h2 id="org6789348">4. Hugo themes</h2><ul><li>There are a lot of Hugo themes available</li><li>Let’s install one</li><li><a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></li></ul></section></section></div></div><script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script><script>// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});</script></body></html>
