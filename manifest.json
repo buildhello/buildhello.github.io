@@ -1,0 +1,49 @@
+{
+    "short_name": "Build Hello",
+    "name": "Build Hello web.manifest example",
+    "display": "standalone", 
+    "start_url": "/index.html",
+    "background_color": "#201f1f",    
+    "theme_color": "#201f1f",
+    "scope": "/",
+    "description": "An example progressive web application manifest",
+    "icons": [
+    {
+      "src": "/images/favicon-196x196.png",
+      "type": "image/png",
+      "sizes": "196x196",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/apple-touch-icon-152x152.png",
+      "type": "image/png",
+      "sizes": "152x152",
+      "purpose" : "maskable"
+    }, 
+    {
+    "src": "/images/logos/bh-green-3-badge.svg",
+    "sizes": "48x48 72x72 96x96 128x128 256x256 512x512",
+    "type": "image/svg+xml",
+    "purpose": "any"
+    },
+    {
+    "src": "/images/android-chrome-512x512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+    }
+],
+"screenshots": [
+    {
+      "src": "/images/screenshot_1.jpg",
+      "type": "image/jpg",
+      "sizes": "468x240",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/images/screenshot_2.jpg",
+      "type": "image/jpg",
+      "sizes": "468x240",
+      "form_factor": "narrow"
+    }
+  ]
+}
