@@ -689,7 +689,8 @@
 </url>
 <url>
 <loc>https://buildhello.ca/post/</loc>
-<priority>0</priority>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
 </url>
 <url>
 <loc>https://buildhello.ca/samples/</loc>
