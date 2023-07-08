@@ -6,22 +6,40 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://buildhello.ca/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://buildhello.ca/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>June 2023</title>
-      <link>https://buildhello.ca/categories/june-2023/</link>
-      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+      <title>July 2023</title>
+      <link>https://buildhello.ca/categories/july-2023/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://buildhello.ca/categories/june-2023/</guid>
+      <guid>https://buildhello.ca/categories/july-2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Website Reviews</title>
       <link>https://buildhello.ca/categories/website-reviews/</link>
-      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://buildhello.ca/categories/website-reviews/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Build Hello Tech Talks</title>
+      <link>https://buildhello.ca/categories/build-hello-tech-talks/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/categories/build-hello-tech-talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>June 2023</title>
+      <link>https://buildhello.ca/categories/june-2023/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildhello.ca/categories/june-2023/</guid>
       <description></description>
     </item>
     
