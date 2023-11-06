@@ -1,0 +1,129 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title></title><meta name="author" content=""><meta name="description" content=""><meta name="keywords" content=""><style type="text/css">.underline { text-decoration: underline; }</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/blood.css" id="theme"><!-- If the query includes 'print-pdf', include the PDF print sheet --><script>if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }</script><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport"><style>html{
+touch-action:manipulation;
+-webkit-text-size-adjust:100%
+}
+body{
+padding:0;
+margin:0;
+background:#f2f6fa;
+color:#3c495a;
+font-weight:normal;
+font-size:15px;
+font-family:'San Francisco','Roboto','Arial',sans-serif
+}
+h2,h3,h4,h5,h6{
+font-family:'Trebuchet MS',Verdana,sans-serif;
+color:#586b82;
+padding:0;
+margin:20px 0 10px 0;
+font-size:1.1em}
+h2{
+margin:30px 0 10px 0;
+font-size:1.2em}
+a{
+color:#3fa7ba;
+text-decoration:none}
+p{
+margin:20px 0;
+text-align:left}
+ul,ol{
+margin:0;
+text-align:left}
+ul>li>code{
+color:#586b82
+}
+pre{
+white-space:pre-wrap}
+#content{
+width:96%;
+max-width:1000px;
+margin:2% auto 6% auto;
+background:white;
+border-radius:2px;
+border-right:1px solid #e2e9f0;
+border-bottom:2px solid #e2e9f0;
+padding:0 115px 150px 115px;
+box-sizing:border-box}
+#postamble{display:none}
+h1.title{
+background-color:#343C44;
+color:#fff;
+margin:0 -115px;
+padding:60px 0;
+font-weight:normal;
+font-size:2em;
+border-top-left-radius:2px;
+border-top-right-radius:2px;
+text-align:center;}
+@media (max-width:1050px){
+#content{
+padding:0 70px 100px 70px;}
+h1.title{margin:0 -70px;}
+}
+img{
+max-width:100%;}
+@media (max-width:800px){
+#content{
+width:100%;
+margin-top:0;
+margin-bottom:0;
+padding:0 4% 60px 4%}
+h1.title{
+margin:0 -5%;
+padding:40px 5%}}
+pre,.verse{
+box-shadow:none;
+background-color:#f9fbfd;
+border:1px solid #e2e9f0;
+color:#586b82;
+padding:10px;
+font-family:monospace;
+overflow:auto;margin:6px 0}
+#table-of-contents{
+margin-bottom:50px;
+margin-top:50px}
+#table-of-contents h2{
+margin-bottom:5px}
+#text-table-of-contents ul{
+padding-left:15px}
+#text-table-of-contents>ul{padding-left:0}
+#text-table-of-contents li{list-style-type:none}
+#text-table-of-contents a{color:#7c8ca1;font-size:0.95em;text-decoration:none}
+table{border-color:#586b82;font-size:0.95em}
+table thead{color:#586b82}
+table tbody tr:nth-child(even){background:#f9f9f9}
+table tbody tr:hover{background:#586b82!important;color:white}
+table .left{text-align:left}
+table .right{text-align:right}
+.todo{font-family:inherit;color:inherit}
+.done{color:inherit}
+.tag{background:initial}
+.tag>span{
+background-color:#eee;
+font-family:monospace;
+padding-left:7px;
+padding-right:7px;
+border-radius:2px;
+float:right;
+margin-left:5px}
+#text-table-of-contents .tag>span{float:none;margin-left:0}
+.timestamp{color:#7c8ca1}
+@media print{@page{margin-bottom:3cm;margin-top:3cm;margin-left:2cm;margin-right:2cm;font-size:10px}
+#content{border:none}}</style><style type="text/css">#sec-title-slide>h3{color:#00f500 !important; margin:-50px 0px !important;.present{margin:-50px 0px !important;}.reveal .controls{color:#00f500 !important;} .reveal a:hover .r-frame {color:#00f500 !important;} .reveal a {color:#00f500 !important;} .reveal a:hover{color:#00f500 !important;} .reveal .roll span:after{background:#007e00 !important;} .reveal .progress {color:#00f500 !important;}</style><link rel="stylesheet" type="text/css" href="https://buildhello.ca/orientation/blood.css"></head><body><div class="reveal"><div class="slides"><section id="sec-title-slide"><h3 style="color:blue;">Modules</h3></section><section><section id="slide-org264bdfa"><h2 id="org264bdfa">What are the advantages of using modules?</h2><div class="outline-text-2" id="text-org264bdfa"></div></section><section id="slide-orgae13449"><h3 id="orgae13449">^</h3><p>Modules allow units of code to be reused on specific pages. They are useful for sharing code across departments, organizations, and people.</p></section><section id="slide-org1d12f6c"><h3 id="org1d12f6c">^</h3><p>They also make it possible to control public/private code access, which is import for keeping the global namespace clean</p></section></section><section><section id="slide-orgac1d3ba"><h2 id="orgac1d3ba">What is the relationship between the IIFE pattern and ES6 modules?</h2><div class="outline-text-2" id="text-orgac1d3ba"></div></section><section id="slide-orgf61021b"><h3 id="orgf61021b">^</h3><p>IIFEs, or ’immediately invoked functions’, behave like modules in that they create a namespace for code within a function. In fact, ES6 modules compile into IIFE statements</p></section></section><section><section id="slide-org96258ef"><h2 id="org96258ef">Name some other module systems?</h2><div class="outline-text-2" id="text-org96258ef"></div></section><section id="slide-org0554ddd"><h3 id="org0554ddd">^</h3><p>Common JS is the most commonly used, since it’s the default module system in the NODE JS framework</p></section></section><section><section id="slide-orgf2a97b9"><h2 id="orgf2a97b9">When using Node modules can your code end in .js?</h2><div class="outline-text-2" id="text-orgf2a97b9"></div></section><section id="slide-orgdc6d793"><h3 id="orgdc6d793">^</h3><p>In Node JavaScript files need to end in .mjs which lets Node know you are using the ES6 module system.</p></section><section id="slide-orgaa37f7e"><h3 id="orgaa37f7e">^</h3><p>You can also use typescript and end files in .ts, which automatically adds ES6 module compatibility.</p></section></section><section><section id="slide-org6658658"><h2 id="org6658658">What are the two ways of writing the IIFE pattern?</h2><div class="outline-text-2" id="text-org6658658"></div></section><section id="slide-orge92fb68"><h3 id="orge92fb68">^</h3><p>`(function({}))()`<br>`(function({})())`<br></p></section><section id="slide-orgbb803e3"><h3 id="orgbb803e3">^</h3><p>They both close over a function creating a function space that is executed immediately</p></section></section><section><section id="slide-org5142d87"><h2 id="org5142d87">How can export functions from an IIFE?</h2><div class="outline-text-2" id="text-org5142d87"></div></section><section id="slide-org98e53fd"><h3 id="org98e53fd">^</h3><p>You can create a global object, outside of the IIFE closure, and attach the functions, methods, and arrays you want to export to it.</p></section><section id="slide-org6429daf"><h3 id="org6429daf">^</h3><p>They will then be accessible in the object at the global level</p></section></section><section><section id="slide-org113a42f"><h2 id="org113a42f">Do you need to load every JavaScript file to the page when you do an import from a module?</h2><div class="outline-text-2" id="text-org113a42f"></div></section><section id="slide-org153e2ff"><h3 id="org153e2ff">^</h3><p>No. When you do an import from a JavaScript global level module, you only need to load one file into your HTML script.</p></section><section id="slide-org726dfcd"><h3 id="org726dfcd">^</h3><p>You import the other files, or modules into that file.</p></section></section><section><section id="slide-org049e5b1"><h2 id="org049e5b1">Do modules need to be loaded in order?</h2><div class="outline-text-2" id="text-org049e5b1"></div></section><section id="slide-org639b494"><h3 id="org639b494">^</h3><p>No. Modules do not need to be loaded in order. Live bindings are parsed at compilation time, not runtime.</p></section></section><section><section id="slide-orgc80112f"><h2 id="orgc80112f">Do modules need to be deferred?</h2><div class="outline-text-2" id="text-orgc80112f"></div></section><section id="slide-org85d1f95"><h3 id="org85d1f95">^</h3><p>No. Modules do not need to be deferred. As long as type=“module” is specified on the file, modules are automatically deferred.</p></section></section><section><section id="slide-org06b72ec"><h2 id="org06b72ec">Are modules in strict mode?</h2><div class="outline-text-2" id="text-org06b72ec"></div></section><section id="slide-org0c36255"><h3 id="org0c36255">^</h3><p>Yes, modules are in strict mode automatically.</p></section></section><section><section id="slide-org4705be9"><h2 id="org4705be9">What does `import` do in a JavaScript module?</h2><div class="outline-text-2" id="text-org4705be9"></div></section><section id="slide-orgf724a07"><h3 id="orgf724a07">^</h3><p>`import` loads `bindings,` which are declared, assigned or updated functions, classes, objects, data structures, instances, and so on.</p></section><section id="slide-orgc182dee"><h3 id="orgc182dee">^</h3><p>Once ’bindings’ are imported, they cannot be updated, but they can be used in the importing runtime, wherein they are called ’live’ bindings</p></section></section><section><section id="slide-orgf13340f"><h2 id="orgf13340f">What is `named import module syntax`?</h2><div class="outline-text-2" id="text-orgf13340f"></div></section><section id="slide-org37a2623"><h3 id="org37a2623">^</h3><p>bindings exported from a module can be imported to another module by name. The named bindings are destructured from the module exports</p></section><section id="slide-org44f20d4"><h3 id="org44f20d4">^</h3><p>import {button1, clear, aPublicObject} from ’./modules/module1.js’</p></section><section id="slide-org12d8d08"><h3 id="org12d8d08">^</h3><p>export {button1, clear, aPublicObject};</p></section></section><section><section id="slide-org52296fc"><h2 id="org52296fc">What is export list syntax in ES6 modules</h2><div class="outline-text-2" id="text-org52296fc"></div></section><section id="slide-org1836e1c"><h3 id="org1836e1c">^</h3><p>Export list syntax lists export items in a object and exports at the foot of a module</p></section><section id="slide-org354fe3a"><h3 id="org354fe3a">^</h3><p>export {button1, clear, aPublicObject};</p></section></section><section><section id="slide-orgc49d0ef"><h2 id="orgc49d0ef">How do default exports work?</h2><div class="outline-text-2" id="text-orgc49d0ef"></div></section><section id="slide-org2596bd1"><h3 id="org2596bd1">^</h3><p>Any module can have one default export, which can be viewed as having its own ’invisible’ object.</p></section><section id="slide-orge32bc42"><h3 id="orge32bc42">^</h3><p>It doesn’t matter what name it takes on the import side, but it cannot take the same name as a variable from a destructured module object.<br>\\\ It can be used alone, or in addition to the named module export pattern.</p></section></section><section><section id="slide-org26cb49f"><h2 id="org26cb49f">What is the point of a module?</h2><div class="outline-text-2" id="text-org26cb49f"></div></section><section id="slide-org83c1f8c"><h3 id="org83c1f8c">^</h3><p>Minimize name collisions<br>Keep the global namespace clear<br>Enable better organization of code<br></p></section></section><section><section id="slide-org2878e18"><h2 id="org2878e18">Is a default export a named export?</h2><div class="outline-text-2" id="text-org2878e18"></div></section><section id="slide-org0a7d8dd"><h3 id="org0a7d8dd">^</h3><p>The default export can be named:<br><br>export {name1 as default, object1, function1};<br><br>It can be another piece of code, but there can only be one default</p></section><section id="slide-org362477c"><h3 id="org362477c">^</h3><p>`export default expression;`<br>`export default function functionName`<br>`export default class className{}`<br>`export default Objectname`;<br></p></section></section><section><section id="slide-org3b882c6"><h2 id="org3b882c6">Can you export a live event listener from a module?</h2><div class="outline-text-2" id="text-org3b882c6"></div></section><section id="slide-org07c1e41"><h3 id="org07c1e41">^</h3><p>I think you cannot. I have read that you can, but I tried it and it didn’t work that well.<br></p></section><section id="slide-org00fab19"><h3 id="org00fab19">^</h3><p>You should export the function or element, then and the event listener on it in your global module</p></section></section><section><section id="slide-org481a77a"><h2 id="org481a77a">Give some examples of import syntax</h2><div class="outline-text-2" id="text-org481a77a"></div></section><section id="slide-org0358a96"><h3 id="org0358a96">^</h3><p>import defaultExport from “module name”;<br>import * as name from “module-name”;<br>import {export1} from “module-name”;<br>import {export` as alias1 } from “module-name;<br>import {default as alias} from ”module-name“;<br></p></section><section id="slide-org64bd4fb"><h3 id="org64bd4fb">^</h3><p>import {export1, export2} from “module-name”;<br>import {export1, export1 as alias2} from “module-name”;<br>import “string name” as alias } from “module-name”;<br></p></section><section id="slide-org959b991"><h3 id="org959b991">^</h3><p>import defaultExport, {export1} from “module-name”;<br>import defaultExport * as name from “module-name”;<br>import “module-name”;<br></p></section></section><section><section id="slide-org179656e"><h2 id="org179656e">Can you rename objects when you import them?</h2><div class="outline-text-2" id="text-org179656e"></div></section><section id="slide-org3eaaeeb"><h3 id="org3eaaeeb">^</h3><p>Yes. The `as` keyword enables renaming, if you do not like the name of an export in a module.</p></section><section id="slide-orga12e2ee"><h3 id="orga12e2ee">^</h3><p>`import {button1, aPublicObject as button2} from ’./modules/module.js’</p></section></section><section><section id="slide-org6d5b86f"><h2 id="org6d5b86f">How can you import everything that was exported from a module?</h2><div class="outline-text-2" id="text-org6d5b86f"></div></section><section id="slide-org7872f0f"><h3 id="org7872f0f">^</h3><p>The `*` symbol stands for ’all’, you can use it in a `namespace` import by importing everything that was exported from a module</p></section><section id="slide-org86954d1"><h3 id="org86954d1">^</h3><p>`import * from ’./utilities.js’;</p></section></section><section><section id="slide-orgbcbcd6a"><h2 id="orgbcbcd6a">Are module exports evaluated more than once if they are imported more than once in the same module?</h2><div class="outline-text-2" id="text-orgbcbcd6a"></div></section><section id="slide-org6f88101"><h3 id="org6f88101">^</h3><p>No. Module exports are only evaluated one time when they are imported. If you want to reuse code, import a function and call it more than once.</p></section></section><section><section id="slide-orga46b006"><h2 id="orga46b006">Can you import then configure an object into a module?</h2><div class="outline-text-2" id="text-orga46b006"></div></section><section id="slide-orge2a1500"><h3 id="orge2a1500">^</h3><p>Yes. The one-time evaluation feature can be used to import an object from a module, then change the properties (configure it).</p></section></section><section><section id="slide-orge167c9d"><h2 id="orge167c9d">Are module imports evaluated when they are imported?</h2><div class="outline-text-2" id="text-orge167c9d"></div></section><section id="slide-org7378c7f"><h3 id="org7378c7f">^</h3><p>Yes. Module imports are evaluated only once when they are imported. You can use this feature to update the properties and methods of a module.</p></section></section><section><section id="slide-org13a070a"><h2 id="org13a070a">Can import module scripts be used to import code that needs to be run as soon as it is imported?</h2><div class="outline-text-2" id="text-org13a070a"></div></section><section id="slide-orgd181a96"><h3 id="orgd181a96">^</h3><p>Yes. Async inline module scripts can be used to import any functionality that needs to run as soon as it is imported.</p></section><section id="slide-org68a7d8e"><h3 id="org68a7d8e">^</h3><p>`&lt;script async type=“module”><br>import {aboveTheFold} from ’./dropdown.js’;<br>aboveTheFold.renderMenu();<br>&lt;script>`<br></p></section></section><section><section id="slide-orga64558d"><h2 id="orga64558d">How can you write code for browsers that don’t support modules?</h2><div class="outline-text-2" id="text-orga64558d"></div></section><section id="slide-orgf2dd1db"><h3 id="orgf2dd1db">^</h3><p>The ’nomodule’ attribute can be added to module script tags to provide backups for browsers that don’t support &lt;script> tags with type=“module” (though that should not be an issue any longer)</p></section></section><section><section id="slide-org6daeea7"><h2 id="org6daeea7">What are dynamic module imports?</h2><div class="outline-text-2" id="text-org6daeea7"></div></section><section id="slide-orgd5f55e3"><h3 id="orgd5f55e3">^</h3><p>Dynamic module imports can be import anywhere in a script.</p></section></section></div></div><script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script><script>// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});</script></body></html>

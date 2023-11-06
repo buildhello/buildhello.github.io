@@ -1,0 +1,129 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title></title><meta name="author" content=""><meta name="description" content=""><meta name="keywords" content=""><style type="text/css">.underline { text-decoration: underline; }</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/blood.css" id="theme"><!-- If the query includes 'print-pdf', include the PDF print sheet --><script>if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }</script><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport"><style>html{
+touch-action:manipulation;
+-webkit-text-size-adjust:100%
+}
+body{
+padding:0;
+margin:0;
+background:#f2f6fa;
+color:#3c495a;
+font-weight:normal;
+font-size:15px;
+font-family:'San Francisco','Roboto','Arial',sans-serif
+}
+h2,h3,h4,h5,h6{
+font-family:'Trebuchet MS',Verdana,sans-serif;
+color:#586b82;
+padding:0;
+margin:20px 0 10px 0;
+font-size:1.1em}
+h2{
+margin:30px 0 10px 0;
+font-size:1.2em}
+a{
+color:#3fa7ba;
+text-decoration:none}
+p{
+margin:20px 0;
+text-align:left}
+ul,ol{
+margin:0;
+text-align:left}
+ul>li>code{
+color:#586b82
+}
+pre{
+white-space:pre-wrap}
+#content{
+width:96%;
+max-width:1000px;
+margin:2% auto 6% auto;
+background:white;
+border-radius:2px;
+border-right:1px solid #e2e9f0;
+border-bottom:2px solid #e2e9f0;
+padding:0 115px 150px 115px;
+box-sizing:border-box}
+#postamble{display:none}
+h1.title{
+background-color:#343C44;
+color:#fff;
+margin:0 -115px;
+padding:60px 0;
+font-weight:normal;
+font-size:2em;
+border-top-left-radius:2px;
+border-top-right-radius:2px;
+text-align:center;}
+@media (max-width:1050px){
+#content{
+padding:0 70px 100px 70px;}
+h1.title{margin:0 -70px;}
+}
+img{
+max-width:100%;}
+@media (max-width:800px){
+#content{
+width:100%;
+margin-top:0;
+margin-bottom:0;
+padding:0 4% 60px 4%}
+h1.title{
+margin:0 -5%;
+padding:40px 5%}}
+pre,.verse{
+box-shadow:none;
+background-color:#f9fbfd;
+border:1px solid #e2e9f0;
+color:#586b82;
+padding:10px;
+font-family:monospace;
+overflow:auto;margin:6px 0}
+#table-of-contents{
+margin-bottom:50px;
+margin-top:50px}
+#table-of-contents h2{
+margin-bottom:5px}
+#text-table-of-contents ul{
+padding-left:15px}
+#text-table-of-contents>ul{padding-left:0}
+#text-table-of-contents li{list-style-type:none}
+#text-table-of-contents a{color:#7c8ca1;font-size:0.95em;text-decoration:none}
+table{border-color:#586b82;font-size:0.95em}
+table thead{color:#586b82}
+table tbody tr:nth-child(even){background:#f9f9f9}
+table tbody tr:hover{background:#586b82!important;color:white}
+table .left{text-align:left}
+table .right{text-align:right}
+.todo{font-family:inherit;color:inherit}
+.done{color:inherit}
+.tag{background:initial}
+.tag>span{
+background-color:#eee;
+font-family:monospace;
+padding-left:7px;
+padding-right:7px;
+border-radius:2px;
+float:right;
+margin-left:5px}
+#text-table-of-contents .tag>span{float:none;margin-left:0}
+.timestamp{color:#7c8ca1}
+@media print{@page{margin-bottom:3cm;margin-top:3cm;margin-left:2cm;margin-right:2cm;font-size:10px}
+#content{border:none}}</style><style type="text/css">#sec-title-slide>h3{color:#00f500 !important; margin:-50px 0px !important;.present{margin:-50px 0px !important;}.reveal .controls{color:#00f500 !important;} .reveal a:hover .r-frame {color:#00f500 !important;} .reveal a {color:#00f500 !important;} .reveal a:hover{color:#00f500 !important;} .reveal .roll span:after{background:#007e00 !important;} .reveal .progress {color:#00f500 !important;}</style><link rel="stylesheet" type="text/css" href="https://buildhello.ca/orientation/blood.css"></head><body><div class="reveal"><div class="slides"><section id="sec-title-slide"><h3 style="color:blue;">Dates</h3></section><section><section id="slide-org8010fc7"><h2 id="org8010fc7">What can dates be used for in JavaScript?</h2><div class="outline-text-2" id="text-org8010fc7"></div></section><section id="slide-org50f9b15"><h3 id="org50f9b15">^</h3><p>Dates and times are used in web development for applications that need to display, measure, store, and/or modify time. Example: reminder application, scheduling application, clock, or current date.</p></section></section><section><section id="slide-orged7655d"><h2 id="orged7655d">List some time formats</h2><div class="outline-text-2" id="text-orged7655d"></div></section><section id="slide-org103045b"><h3 id="org103045b">^</h3><p>human readible formats, that include long or short descriptions of months, years, and days<br>ISO 8601 Unix Epoch time format: ’1970-01-01T00:00:00Z’<br>Other date time formats<br></p></section></section><section><section id="slide-org60c9188"><h2 id="org60c9188">What is Unix Epoch time?</h2><div class="outline-text-2" id="text-org60c9188"></div></section><section id="slide-orgb151a8a"><h3 id="orgb151a8a">^</h3><p>Unix Epoch time format is the number of milliseconds passed since the beginning of January 1st, 1970. Remember that date.</p></section></section><section><section id="slide-org6dc44de"><h2 id="org6dc44de">What is interational standard time format (ISO 8601)?</h2><div class="outline-text-2" id="text-org6dc44de"></div></section><section id="slide-org68fd98a"><h3 id="org68fd98a">^</h3><p>ISO 8601 is a year, month, day syntax, delimited with hyphens, followed by hours, minutes, seconds delimited by colons.</p></section><section id="slide-org5fdbc97"><h3 id="org5fdbc97">^</h3><p>Example: “YYYY-MM-DD HH:MM:SS”</p></section><section id="slide-orgafb0197"><h3 id="orgafb0197">^</h3><p>Sometimes ISO will include a ’T’ between the date and time blocks and/or a coordinated universal time (UTC) offset following the time block</p></section></section><section><section id="slide-org901a152"><h2 id="org901a152">Give an example of ISO time format?</h2><div class="outline-text-2" id="text-org901a152"></div></section><section id="slide-org460e428"><h3 id="org460e428">^</h3><p>“2019-02-07T23:28:34+00”, where the ’+00:00’ represents UTC offset of 0, or greenwhich median time.</p></section><section id="slide-org0877ef9"><h3 id="org0877ef9">^</h3><p>Notice the use of the T, which makes it possible to write the time string in one string with no spaces. It’s not necessary to use the ’T’ in many cases</p></section></section><section><section id="slide-org6eb2f7f"><h2 id="org6eb2f7f">What is Unix Epoch time expressed in as a default?</h2><div class="outline-text-2" id="text-org6eb2f7f"></div></section><section id="slide-orgf583573"><h3 id="orgf583573">^</h3><p>Unix Epoch time is expressed in UTC (Coordinated Universal Time) timezones as a default</p></section></section><section><section id="slide-org1b1ec4f"><h2 id="org1b1ec4f">What is the standard built-in ’Date’ object in JavaScript?</h2><div class="outline-text-2" id="text-org1b1ec4f"></div></section><section id="slide-org5b44fb7"><h3 id="org5b44fb7">^</h3><p>The standard built-in ’Date’ object can be used to create new instances of a Date object.</p></section><section id="slide-orga390a4f"><h3 id="orga390a4f">^</h3><p>It comes with methods and properties that can be used through prototypal inheritance to work with dates and times in JavaScript</p></section></section><section><section id="slide-orgff30686"><h2 id="orgff30686">How to create a new Date object instance?</h2><div class="outline-text-2" id="text-orgff30686"></div></section><section id="slide-org375ab2f"><h3 id="org375ab2f">^</h3><p>To create a new Date object instance, use the new keyword with Date() and assign it to a variable.</p></section><section id="slide-org9dbe8eb"><h3 id="org9dbe8eb">^</h3><p>Example:<br>let showTime = new Date();<br></p><p>The date object instance will represent the current time relative to January 1st 1970</p></section></section><section><section id="slide-org8c8e844"><h2 id="org8c8e844">What does a new Date Object instance represent?</h2><div class="outline-text-2" id="text-org8c8e844"></div></section><section id="slide-org8cfeca6"><h3 id="org8cfeca6">^</h3><p>A new Date object instance represents the current time since January 1st 1970. If Date() is called as a function, it will return a string representation of the current time.</p></section><section id="slide-org931fafe"><h3 id="org931fafe">^</h3><p>However, browser or device may represent UTC time string returned with UTC offset.</p></section></section><section><section id="slide-orgde0247b"><h2 id="orgde0247b">What is the difference between creating a new date object instance and calling Date() as a function?</h2><div class="outline-text-2" id="text-orgde0247b"></div></section><section id="slide-org04f9661"><h3 id="org04f9661">^</h3><p>A new date object instance is an object that printed will show the current date and time is ISO format.</p></section><section id="slide-org8214846"><h3 id="org8214846">^</h3><p>Calling Date() as a function, returns a string (not an object) with the current time as a string.</p></section></section><section><section id="slide-orge0c1bc7"><h2 id="orge0c1bc7">What kind of arguments does a new Date() object instance take?</h2><div class="outline-text-2" id="text-orge0c1bc7"></div></section><section id="slide-org16b1b8f"><h3 id="org16b1b8f">^</h3><p>A new Date() object instance takes all kinds of date arguments in strings, components, or milliseconds and coerces them into dates relative Epoch time (January 1st, 1970).</p></section><section id="slide-orgbb65c9c"><h3 id="orgbb65c9c">^</h3><p>Dates are returned in ISO UTC, unless otherwise specified, with the offset appropriate to device</p></section></section><section><section id="slide-org43d6b8a"><h2 id="org43d6b8a">What happens if you pass 0 into a new Date object instance?</h2><div class="outline-text-2" id="text-org43d6b8a"></div></section><section id="slide-org8333705"><h3 id="org8333705">^</h3><p>The new Date() object will return ’1970-01-01T00:00:00.000Z’, since Unix Epoch time in milliseconds is 0</p></section></section><section><section id="slide-org7791a43"><h2 id="org7791a43">String, Year, Month, Day</h2><div class="outline-text-2" id="text-org7791a43"></div></section><section id="slide-org9d9d0ad"><h3 id="org9d9d0ad">^</h3><p>new Date(“January 1 1970”); returns 1970-01-01T08:00:00.000Z. 1st, 2nd, 3rd are not parsed by JavaScript Date objects</p></section></section><section><section id="slide-org4a2bfc3"><h2 id="org4a2bfc3">String, Day, Month, Year, Short Form</h2><div class="outline-text-2" id="text-org4a2bfc3"></div></section><section id="slide-orgc376eab"><h3 id="orgc376eab">^</h3><p>You can also pass months as abbreviations<br>new Date(“1 Jan 1970”);</p></section></section><section><section id="slide-org13c9f87"><h2 id="org13c9f87">Component 1970, 0, 1</h2><div class="outline-text-2" id="text-org13c9f87"></div></section><section id="slide-org359b29b"><h3 id="org359b29b">^</h3><p>You can also pass components into Date object instances<br>new Date(1970, 0, 1);<br></p><p>You can pass components delimited with hyphens “-” and components delimited with \\ commas ’,’</p></section></section><section><section id="slide-org302d29c"><h2 id="org302d29c">Are string components always parsed by a Date object instance?</h2><div class="outline-text-2" id="text-org302d29c"></div></section><section id="slide-org300d3dc"><h3 id="org300d3dc">^</h3><p>new Date(’1970,0,1’) will not be parsed by a Date object, components separated by commas as a single string are not parsed.</p></section><section id="slide-org694e52b"><h3 id="org694e52b">^</h3><p>new Date(’1970’, ’0’, ’1’); will be parsed by a date object.<br></p><p>String components delimited with commas are parsed by a date object.</p></section></section><section><section id="slide-org15a2b30"><h2 id="org15a2b30">Enter the time Neil Armstrong stepped on the moon into a date object as components (July 21st, 1969, 2:56 am, GMT)</h2><div class="outline-text-2" id="text-org15a2b30"></div></section><section id="slide-org497b355"><h3 id="org497b355">^</h3><p>new Date(1969, 6, 21, 2, 56); //returns 1969-07-20T09:56:00.000Z<br></p></section><section id="slide-org1a00109"><h3 id="org1a00109">^</h3><p>Notice the 7th month, July, must be entered as the component 6, because JavaScript numbers start at 0.<br></p><p>Also notice, the time returned includes the UTC offset for your local computer.</p></section></section><section><section id="slide-org73fc3e6"><h2 id="org73fc3e6">What does Date.UTC() do?</h2><div class="outline-text-2" id="text-org73fc3e6"></div></section><section id="slide-orgd601b3d"><h3 id="orgd601b3d">^</h3><p>Specifies the date components passed in, are in UTC with 0 offset (Greenwhich Meridian Time)<br></p></section><section id="slide-org4f66b0a"><h3 id="org4f66b0a">^</h3><p>const tTime = new Date(Date.UTC(2023,10,10,15,41,30));</p></section><section id="slide-org0f15a81"><h3 id="org0f15a81">^</h3><p>To get pacific standard add 7 hours to the time,<br>month argument comes second and starts with 0,<br>date argument comes third, and starts with 0.</p></section></section><section><section id="slide-orgf678dda"><h2 id="orgf678dda">What are a few static methods available on the date object? (static methods can be called as functions from the Date object)</h2><div class="outline-text-2" id="text-orgf678dda"></div></section><section id="slide-org53c1cb2"><h3 id="org53c1cb2">^</h3><p>Date.now() [returns milliseconds passed since Unix Epoch time]<br>Date.parse() [<br>Date.UTC()<br>[when new Date(Date.UTC(comp,comp,comp)), returns in Greenwhich, not local]</p></section></section><section><section id="slide-org79b1394"><h2 id="org79b1394">List some methods available through prototypal inheritance on a given Date object instance</h2><div class="outline-text-2" id="text-org79b1394"></div></section><section id="slide-org928ce3c"><h3 id="org928ce3c">^</h3><p>Date.prototype.getFullYear() //returns the year from a date object<br>Date.prototype.getMonth()//returns the month from a date object<br>Date.prototype.getDate()//returns the day from a given Date() object \\ Date.prototype.getHours()//returns the hour from a given Date() object<br></p></section><section id="slide-org8db356d"><h3 id="org8db356d">^</h3><p>Date.prototype.getMinutes()//returns the minute after the hour given from a given Date object instance<br>Date.prototype.getSeconds()//returns the seconds after the hour and minutes of a given date object instance<br></p></section><section id="slide-org1c0af63"><h3 id="org1c0af63">^</h3><p>Date.prototype.getMilliseconds()//returns the given milliseconds after the hours, minutes, and seconds of a given date object instance<br>Date.prototype.getTime()//returns the number of milliseconds from Epoch time.</p></section><section id="slide-orgdd1c1c3"><h3 id="orgdd1c1c3">^</h3><p>Dates before Epoch are returned in negative numbers</p></section></section><section><section id="slide-org62e803c"><h2 id="org62e803c">How to return a human readable (web ready) date/time from a Date Object instance</h2><div class="outline-text-2" id="text-org62e803c"></div></section><section id="slide-org57fab95"><h3 id="org57fab95">^</h3><p>To return a web ready date and time, use the Date.prototype.toLocaleDateString() method.</p></section><section id="slide-org7568312"><h3 id="org7568312">^</h3><p>It takes a local argument as the first argument, and an options argument as the second argument</p></section></section><section><section id="slide-orga43b64f"><h2 id="orga43b64f">Return the time Neil Armstrong stepped on the moon, without the UTC offset</h2><div class="outline-text-2" id="text-orga43b64f"></div></section><section id="slide-orgb9c405a"><h3 id="orgb9c405a">^</h3><p>const date = new Date(Date.UTC(1969,6,19,22,56));</p></section></section><section><section id="slide-orgf6eaed2"><h2 id="orgf6eaed2">What does the options argument for Date.prototype.toLocaleDateString() look like?</h2><div class="outline-text-2" id="text-orgf6eaed2"></div></section><section id="slide-org1eeb786"><h3 id="org1eeb786">^</h3><p>const options = {<br>weekday: “long”,//or short<br>year: “numeric”,//or ’2-digit’<br>month: “long”,// or short<br>day: “numeric”,// or ’2-digit’<br>hour: “numeric”,//or ’2-digit’<br>minute: “2-digit”,// or ’numeric’<br>timeZone: “UTC”,// something else<br>timeZoneName: “short”//or ’long’<br>};<br></p></section><section id="slide-org4708154"><h3 id="org4708154">^</h3><p>Pick your options then create your date time</p></section></section><section><section id="slide-orgc02acfc"><h2 id="orgc02acfc">Return the time in New York</h2><div class="outline-text-2" id="text-orgc02acfc"></div></section><section id="slide-org6f78e7d"><h3 id="org6f78e7d">^</h3><p>let americaNewYork = new Date().toLocalString(“en-us”, {timezone: “America/New<sub>York</sub>”});<br></p></section><section id="slide-orgce06708"><h3 id="orgce06708">^</h3><p>console.log(americaNewYork);</p></section></section><section><section id="slide-orgf38f80b"><h2 id="orgf38f80b">What is the first argument of Date.prototype.toLocalString()?</h2><div class="outline-text-2" id="text-orgf38f80b"></div></section><section id="slide-orgf033fa3"><h3 id="orgf033fa3">^</h3><p>The first argument is a language argument Examples are:<br>“es-AR” - spanish argentina<br>“en-GB” - english great britain<br>“en-CA” - english canada<br>“en-US” - english US<br></p></section><section id="slide-orgc36f068"><h3 id="orgc36f068">^</h3><p>“zh-CN” - chinese<br>“he-IL” - hebrew Israel<br>“ja-JP” - japanese Japan<br>“en-AU” - english australia<br></p></section><section id="slide-org6fc5ed7"><h3 id="org6fc5ed7">^</h3><p>“de-DE” - german<br>“fr-FR” - french</p></section></section><section><section id="slide-org4b5a01c"><h2 id="org4b5a01c">What are some time zones from the tz datebase?</h2><div class="outline-text-2" id="text-org4b5a01c"></div></section><section id="slide-org72f4b56"><h3 id="org72f4b56">^</h3><p>’Africa/Accra’<br>“America/New<sub>York</sub>”<br>’Asia/Shanghai“<br>’Asia/Tel<sub>Aviv</sub>’<br>”Asia/Tokyo“<br></p></section><section id="slide-org37ca627"><h3 id="org37ca627">^</h3><p>“Australia/Melbourne”<br>“Europe/Brussels”<br>“Europe/London”<br>“Europe/Brussels”<br>“Europe/Paris”<br></p></section></section></div></div><script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script><script>// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});</script></body></html>

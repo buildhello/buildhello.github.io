@@ -1,0 +1,129 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title></title><meta name="author" content=""><meta name="description" content=""><meta name="keywords" content=""><style type="text/css">.underline { text-decoration: underline; }</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/blood.css" id="theme"><!-- If the query includes 'print-pdf', include the PDF print sheet --><script>if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }</script><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport"><style>html{
+touch-action:manipulation;
+-webkit-text-size-adjust:100%
+}
+body{
+padding:0;
+margin:0;
+background:#f2f6fa;
+color:#3c495a;
+font-weight:normal;
+font-size:15px;
+font-family:'San Francisco','Roboto','Arial',sans-serif
+}
+h2,h3,h4,h5,h6{
+font-family:'Trebuchet MS',Verdana,sans-serif;
+color:#586b82;
+padding:0;
+margin:20px 0 10px 0;
+font-size:1.1em}
+h2{
+margin:30px 0 10px 0;
+font-size:1.2em}
+a{
+color:#3fa7ba;
+text-decoration:none}
+p{
+margin:20px 0;
+text-align:left}
+ul,ol{
+margin:0;
+text-align:left}
+ul>li>code{
+color:#586b82
+}
+pre{
+white-space:pre-wrap}
+#content{
+width:96%;
+max-width:1000px;
+margin:2% auto 6% auto;
+background:white;
+border-radius:2px;
+border-right:1px solid #e2e9f0;
+border-bottom:2px solid #e2e9f0;
+padding:0 115px 150px 115px;
+box-sizing:border-box}
+#postamble{display:none}
+h1.title{
+background-color:#343C44;
+color:#fff;
+margin:0 -115px;
+padding:60px 0;
+font-weight:normal;
+font-size:2em;
+border-top-left-radius:2px;
+border-top-right-radius:2px;
+text-align:center;}
+@media (max-width:1050px){
+#content{
+padding:0 70px 100px 70px;}
+h1.title{margin:0 -70px;}
+}
+img{
+max-width:100%;}
+@media (max-width:800px){
+#content{
+width:100%;
+margin-top:0;
+margin-bottom:0;
+padding:0 4% 60px 4%}
+h1.title{
+margin:0 -5%;
+padding:40px 5%}}
+pre,.verse{
+box-shadow:none;
+background-color:#f9fbfd;
+border:1px solid #e2e9f0;
+color:#586b82;
+padding:10px;
+font-family:monospace;
+overflow:auto;margin:6px 0}
+#table-of-contents{
+margin-bottom:50px;
+margin-top:50px}
+#table-of-contents h2{
+margin-bottom:5px}
+#text-table-of-contents ul{
+padding-left:15px}
+#text-table-of-contents>ul{padding-left:0}
+#text-table-of-contents li{list-style-type:none}
+#text-table-of-contents a{color:#7c8ca1;font-size:0.95em;text-decoration:none}
+table{border-color:#586b82;font-size:0.95em}
+table thead{color:#586b82}
+table tbody tr:nth-child(even){background:#f9f9f9}
+table tbody tr:hover{background:#586b82!important;color:white}
+table .left{text-align:left}
+table .right{text-align:right}
+.todo{font-family:inherit;color:inherit}
+.done{color:inherit}
+.tag{background:initial}
+.tag>span{
+background-color:#eee;
+font-family:monospace;
+padding-left:7px;
+padding-right:7px;
+border-radius:2px;
+float:right;
+margin-left:5px}
+#text-table-of-contents .tag>span{float:none;margin-left:0}
+.timestamp{color:#7c8ca1}
+@media print{@page{margin-bottom:3cm;margin-top:3cm;margin-left:2cm;margin-right:2cm;font-size:10px}
+#content{border:none}}</style><style type="text/css">#sec-title-slide>h3{color:#00f500 !important; margin:-50px 0px !important;.present{margin:-50px 0px !important;}.reveal .controls{color:#00f500 !important;} .reveal a:hover .r-frame {color:#00f500 !important;} .reveal a {color:#00f500 !important;} .reveal a:hover{color:#00f500 !important;} .reveal .roll span:after{background:#007e00 !important;} .reveal .progress {color:#00f500 !important;}</style><link rel="stylesheet" type="text/css" href="https://buildhello.ca/orientation/blood.css"></head><body><div class="reveal"><div class="slides"><section id="sec-title-slide"><h3 style="color:blue;">JavaScript Syntax, Naming Conventions, Literals</h3></section><section><section id="slide-org4188cd7"><h2 id="org4188cd7">How is JavaScript spelled?</h2><div class="outline-text-2" id="text-org4188cd7"></div></section><section id="slide-org5eee75d"><h3 id="org5eee75d">^</h3><p>JavaScript is a trademark of the Oracle Corporation. It is spelled in Pascal Case, like this: ’JavaScript’. Only JavaScript classnames should be spelled in Pascal Case</p></section></section><section><section id="slide-orgb310605"><h2 id="orgb310605">How to name JavaScript variables?</h2><div class="outline-text-2" id="text-orgb310605"></div></section><section id="slide-orgab40a08"><h3 id="orgab40a08">^</h3><p>Using Camel Case. Variables and function definitions should not be named with ’snake’ case, ’kebab case,’ or reserved words.</p></section></section><section><section id="slide-org586c5dc"><h2 id="org586c5dc">What characters are legal in JavaScript?</h2><div class="outline-text-2" id="text-org586c5dc"></div></section><section id="slide-org9983f25"><h3 id="org9983f25">^</h3><p>digits(0-9), letters (A-Z) and (a-z), underscore (_), dollar sign ($), and most ISO 8859-1 and unicode letters.</p></section></section><section><section id="slide-orgfc9d209"><h2 id="orgfc9d209">What are identifiers?</h2><div class="outline-text-2" id="text-orgfc9d209"></div></section><section id="slide-orge40c855"><h3 id="orge40c855">^</h3><p>JavaScript identifiers are names for variables, functions, and classes. They can’t contain spaces, or start with numbers or special characters, other than $ or _</p></section></section><section><section id="slide-org9eeea29"><h2 id="org9eeea29">How long can JavaScript identifiers be?</h2><div class="outline-text-2" id="text-org9eeea29"></div></section><section id="slide-org60d1213"><h3 id="org60d1213">^</h3><p>A code reviewer should understand from the identifer what the variable, function, or object does. 64 characters is too long.</p></section></section><section><section id="slide-org51e4d0f"><h2 id="org51e4d0f">What are reserved words?</h2><div class="outline-text-2" id="text-org51e4d0f"></div></section><section id="slide-org31647b1"><h3 id="org31647b1">^</h3><p>Reserved words cannot be used as identifiers. You should read the list of reserved words. In the console, ’window’ and ’document’ are reserved words.</p></section></section><section><section id="slide-org2bf9fb9"><h2 id="org2bf9fb9">How are semi-colons used in JavaScript?</h2><div class="outline-text-2" id="text-org2bf9fb9"></div></section><section id="slide-org64d9dcc"><h3 id="org64d9dcc">^</h3><p>Semi-colons instruct the compiler to send statements. The interpreter attemps to add them, but is unreliable. You should include them.</p></section></section><section><section id="slide-orgc24488d"><h2 id="orgc24488d">Where to include semi-colons?</h2><div class="outline-text-2" id="text-orgc24488d"></div></section><section id="slide-org0645509"><h3 id="org0645509">^</h3><p>Everytime there is a new command or an end of statement, end with semi-colon.</p></section></section><section><section id="slide-org4f396a0"><h2 id="org4f396a0">How to declare a function?</h2><div class="outline-text-2" id="text-org4f396a0"></div></section><section id="slide-org8a916b5"><h3 id="org8a916b5">^</h3><p>Function declarations start with the ’function’ reserved word, followed by an identifier, parens() for arguments, and square brackets for body{}</p></section></section><section><section id="slide-orgae4cc56"><h2 id="orgae4cc56">Do conditional statements need semi-colons?</h2><div class="outline-text-2" id="text-orgae4cc56"></div></section><section id="slide-org74c5ef4"><h3 id="org74c5ef4">^</h3><p>’if else’, ’for loops,’ ’while loops,’ and ’switch’ statements do not need semi-colons after them.</p></section></section><section><section id="slide-orgcc13dcf"><h2 id="orgcc13dcf">How to write comments in JavaScript?</h2><div class="outline-text-2" id="text-orgcc13dcf"></div></section><section id="slide-orge8f6c75"><h3 id="orge8f6c75">^</h3><p>Single line comment starts with <i>/ multi-line comments start with /* and end with *</i></p></section></section><section><section id="slide-org238a07d"><h2 id="org238a07d">How are white spaces and line breaks interpreted?</h2><div class="outline-text-2" id="text-org238a07d"></div></section><section id="slide-org3e9bf22"><h3 id="org3e9bf22">^</h3><p>JavaScript is interpreted from top to bottom. White spaces and line breaks don’t matter (use as many as you like)</p></section></section><section><section id="slide-org12d535e"><h2 id="org12d535e">What is a JavaScript literal?</h2><div class="outline-text-2" id="text-org12d535e"></div></section><section id="slide-org49874a5"><h3 id="org49874a5">^</h3><p>If a variable is assigned a value, the value is called the ’literal’. It’s the ’literal’ expression of the value x=5; 5 is an integer literal.</p></section></section><section><section id="slide-org2380952"><h2 id="org2380952">How many types of literals are there?</h2><div class="outline-text-2" id="text-org2380952"></div></section><section id="slide-orgc7dc891"><h3 id="orgc7dc891">^</h3><p>There are many JavaScript literals. Example:</p><ul><li>string literals (text wrapped in “)</li><li>boolean literals (true or false)</li><li>floating point literals (numbers with decimals)</li><li>integer literals (negative/positive whole nubmers)</li><li>array literals (lists in [] with commas)</li><li>object literals (see later)</li></ul></section></section><section><section id="slide-orgfd0ec01"><h2 id="orgfd0ec01">What is an array?</h2><div class="outline-text-2" id="text-orgfd0ec01"></div></section><section id="slide-org1e9e3be"><h3 id="org1e9e3be">^</h3><p>An array is a comma seperated list enclosed in square brackets. There are special functions and properties available to arrays.</p></section></section><section><section id="slide-orgb58911c"><h2 id="orgb58911c">What are object literals?</h2><div class="outline-text-2" id="text-orgb58911c"></div></section><section id="slide-org605f190"><h3 id="org605f190">^</h3><p>Object literals are lists of pairs of keys and values enclosed in curly braces. Note: key and value are seperated from next pair with comma, and from each other with semi-colon</p></section></section><section><section id="slide-org019a28e"><h2 id="org019a28e">What are differences between JavaScript objects and JSON</h2></section><section id="slide-org7bd5889"><h3 id="org7bd5889">^</h3><p>One difference is that keys in JavaScript objects are not enclosed in “”, but in JSON data format they are.</p></section></section></div></div><script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script><script>// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});</script></body></html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title></title><meta name="author" content=""><meta name="description" content=""><meta name="keywords" content=""><style type="text/css">.underline { text-decoration: underline; }</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/blood.css" id="theme"><!-- If the query includes 'print-pdf', include the PDF print sheet --><script>if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }</script><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport"><style>html{
+touch-action:manipulation;
+-webkit-text-size-adjust:100%
+}
+body{
+padding:0;
+margin:0;
+background:#f2f6fa;
+color:#3c495a;
+font-weight:normal;
+font-size:15px;
+font-family:'San Francisco','Roboto','Arial',sans-serif
+}
+h2,h3,h4,h5,h6{
+font-family:'Trebuchet MS',Verdana,sans-serif;
+color:#586b82;
+padding:0;
+margin:20px 0 10px 0;
+font-size:1.1em}
+h2{
+margin:30px 0 10px 0;
+font-size:1.2em}
+a{
+color:#3fa7ba;
+text-decoration:none}
+p{
+margin:20px 0;
+text-align:left}
+ul,ol{
+margin:0;
+text-align:left}
+ul>li>code{
+color:#586b82
+}
+pre{
+white-space:pre-wrap}
+#content{
+width:96%;
+max-width:1000px;
+margin:2% auto 6% auto;
+background:white;
+border-radius:2px;
+border-right:1px solid #e2e9f0;
+border-bottom:2px solid #e2e9f0;
+padding:0 115px 150px 115px;
+box-sizing:border-box}
+#postamble{display:none}
+h1.title{
+background-color:#343C44;
+color:#fff;
+margin:0 -115px;
+padding:60px 0;
+font-weight:normal;
+font-size:2em;
+border-top-left-radius:2px;
+border-top-right-radius:2px;
+text-align:center;}
+@media (max-width:1050px){
+#content{
+padding:0 70px 100px 70px;}
+h1.title{margin:0 -70px;}
+}
+img{
+max-width:100%;}
+@media (max-width:800px){
+#content{
+width:100%;
+margin-top:0;
+margin-bottom:0;
+padding:0 4% 60px 4%}
+h1.title{
+margin:0 -5%;
+padding:40px 5%}}
+pre,.verse{
+box-shadow:none;
+background-color:#f9fbfd;
+border:1px solid #e2e9f0;
+color:#586b82;
+padding:10px;
+font-family:monospace;
+overflow:auto;margin:6px 0}
+#table-of-contents{
+margin-bottom:50px;
+margin-top:50px}
+#table-of-contents h2{
+margin-bottom:5px}
+#text-table-of-contents ul{
+padding-left:15px}
+#text-table-of-contents>ul{padding-left:0}
+#text-table-of-contents li{list-style-type:none}
+#text-table-of-contents a{color:#7c8ca1;font-size:0.95em;text-decoration:none}
+table{border-color:#586b82;font-size:0.95em}
+table thead{color:#586b82}
+table tbody tr:nth-child(even){background:#f9f9f9}
+table tbody tr:hover{background:#586b82!important;color:white}
+table .left{text-align:left}
+table .right{text-align:right}
+.todo{font-family:inherit;color:inherit}
+.done{color:inherit}
+.tag{background:initial}
+.tag>span{
+background-color:#eee;
+font-family:monospace;
+padding-left:7px;
+padding-right:7px;
+border-radius:2px;
+float:right;
+margin-left:5px}
+#text-table-of-contents .tag>span{float:none;margin-left:0}
+.timestamp{color:#7c8ca1}
+@media print{@page{margin-bottom:3cm;margin-top:3cm;margin-left:2cm;margin-right:2cm;font-size:10px}
+#content{border:none}}</style><style type="text/css">#sec-title-slide>h3{color:#00f500 !important; margin:-50px 0px !important;.present{margin:-50px 0px !important;}.reveal .controls{color:#00f500 !important;} .reveal a:hover .r-frame {color:#00f500 !important;} .reveal a {color:#00f500 !important;} .reveal a:hover{color:#00f500 !important;} .reveal .roll span:after{background:#007e00 !important;} .reveal .progress {color:#00f500 !important;}</style><link rel="stylesheet" type="text/css" href="https://buildhello.ca/orientation/blood.css"></head><body><div class="reveal"><div class="slides"><section id="sec-title-slide"><h3 style="color:blue;">Arrays</h3></section><section><section id="slide-orgf81bd66"><h2 id="orgf81bd66">Describe an array</h2><div class="outline-text-2" id="text-orgf81bd66"></div></section><section id="slide-org4dc076b"><h3 id="org4dc076b">^</h3><p>An array is a special object used to hold data arranged in a list. Elements of the array (data items) are separated with commas, except for the last item in the list.</p></section></section><section><section id="slide-org6543af7"><h2 id="org6543af7">What are the positions of an array called?</h2><div class="outline-text-2" id="text-org6543af7"></div></section><section id="slide-org8455528"><h3 id="org8455528">^</h3><p>The positions of an array are called ’indexes’, they are used to reference elements of the array. The leftmost position is always referenced using 0.</p></section><section id="slide-orga288888"><h3 id="orga288888">^</h3><p>Each position rightward from the leftmost position increases sequentially by 1. You can think of array indexes as key value pairs, where the keys are hidden and fixed to numbers that match positions.</p></section></section><section><section id="slide-orge657dad"><h2 id="orge657dad">How to access an element of an array?</h2><div class="outline-text-2" id="text-orge657dad"></div></section><section id="slide-orgc9bf931"><h3 id="orgc9bf931">^</h3><p>To access an element in an array, write the name of the array followed by square brackets containing the index referenced, or an expression resulting in the index referenced.</p></section></section><section><section id="slide-org7801625"><h2 id="org7801625">What does typeof() return when the argument is an array?</h2><div class="outline-text-2" id="text-org7801625"></div></section><section id="slide-org4dcb36c"><h3 id="org4dcb36c">^</h3><p>“const letters = [”a“, ”b“, ”c“];”<br>“console.log(typeof(letters)); //returns object”<br>An array is a special case of object.<br></p></section></section><section><section id="slide-org01e1539"><h2 id="org01e1539">How to change the value of a position in an array?</h2><div class="outline-text-2" id="text-org01e1539"></div></section><section id="slide-orga1f3ae1"><h3 id="orga1f3ae1">^</h3><p>write an expression with the array identifier on the left-hand side followed by square brackets with the position number, then the = operator, then the value you want to assign to the array position on the right-hand side.</p></section><section id="slide-orge747693"><h3 id="orge747693">^</h3><p>Close the statement with a semi-colon ’;’</p></section></section><section><section id="slide-org59aec5e"><h2 id="org59aec5e">How to return the last element of an array?</h2><div class="outline-text-2" id="text-org59aec5e"></div></section><section id="slide-orgcd83972"><h3 id="orgcd83972">^</h3><p>You an access the ’length’ property of an array through prototypal inheritance (we will talk about that later). Type the name of the array, then the period operator, the the word ’length’ with closing ’;’.</p></section><section id="slide-org33c7b3b"><h3 id="org33c7b3b">^</h3><p>Subtract 1 to get the index for the last element in the array. You can return the last element, using the ’index’</p></section></section><section><section id="slide-org6b85dae"><h2 id="org6b85dae">Are arrays iterable?</h2><div class="outline-text-2" id="text-org6b85dae"></div></section><section id="slide-org71aa82f"><h3 id="org71aa82f">^</h3><p>Yes, arrays are iterable. You can iterate through them using methods that work with iterables, for example the ’for loop’</p></section></section><section><section id="slide-org99d321c"><h2 id="org99d321c">type an example of iterating through an array</h2><div class="outline-text-2" id="text-org99d321c"></div></section><section id="slide-org0bcae03"><h3 id="org0bcae03">^</h3><p>for(let i = 0, i &lt; array.length; i++){<br>console.log(array[i]);<br>}</p></section><section id="slide-orga38c1ed"><h3 id="orga38c1ed">^</h3><p>The above will print all the elements of the array to the console</p></section></section><section><section id="slide-orgd29d704"><h2 id="orgd29d704">How to create an array in JavaScript?</h2><div class="outline-text-2" id="text-orgd29d704"></div></section><section id="slide-org3fd9efc"><h3 id="org3fd9efc">^</h3><p>In JavaScript you can create an array with direct assignment or by calling the Array constructor.</p></section><section id="slide-org846b6b3"><h3 id="org846b6b3">^</h3><p>You can also create arrays as side-effects.</p></section></section><section><section id="slide-orga6a2a81"><h2 id="orga6a2a81">Create an array using direct assignment, and then with the Array constructor</h2><div class="outline-text-2" id="text-orga6a2a81"></div></section><section id="slide-org0909dca"><h3 id="org0909dca">^</h3><p>To create an array with assignment, declare and assign or assign to a variable a square bracket with listed contents (or empty);<br></p><p>let aNewArray = [’1’];</p></section></section><section><section id="slide-org86d1c12"><h2 id="org86d1c12">Create an array with the array constructor</h2><div class="outline-text-2" id="text-org86d1c12"></div></section><section id="slide-orgb37268c"><h3 id="orgb37268c">^</h3><p>let newArray2 = new Array;</p></section></section><section><section id="slide-orgafd6e69"><h2 id="orgafd6e69">What is the difference between array creation with the array constructor and assignment</h2><div class="outline-text-2" id="text-orgafd6e69"></div></section><section id="slide-orgb388991"><h3 id="orgb388991">^</h3><p>Both ’direct assignment’ and call the constructor create a new instance of the Array class, but the constructor can take a numerical argument that results in empty positions (test with length property)</p></section></section><section><section id="slide-org5f8afb9"><h2 id="org5f8afb9">Where do arrays get the methods and properties that can be used on them?</h2><div class="outline-text-2" id="text-org5f8afb9"></div></section><section id="slide-orgd46193e"><h3 id="orgd46193e">^</h3><p>Arrays inherit methods and properties through prototypal inheritance from the global Array.prototype</p></section></section><section><section id="slide-org34fc701"><h2 id="org34fc701">List some methods and properties that can be used on arrays</h2><div class="outline-text-2" id="text-org34fc701"></div></section><section id="slide-orgfe8061a"><h3 id="orgfe8061a">^</h3><p>Array.prototype.length; Array.prototype.push(); Array.prototype.slice(); Array.prototype.concat();</p></section><section id="slide-org5521c45"><h3 id="org5521c45">^</h3><p>Array.prototype.join(); Array.prototype.forEach(); Array.prototype.toUpperCase();</p></section><section id="slide-orgdee40bb"><h3 id="orgdee40bb">^</h3><p>Array.prototype.Map(); Array.prototype.filter(); Array.prototype.indexOf();</p></section></section><section><section id="slide-org8ed7e85"><h2 id="org8ed7e85">What does Array.prototype.push() do?</h2><div class="outline-text-2" id="text-org8ed7e85"></div></section><section id="slide-orgce85b96"><h3 id="orgce85b96">^</h3><p>Array.prototype.push(), adds a value to a new list item in the last position of the array.</p></section><section id="slide-org29e80d7"><h3 id="org29e80d7">^</h3><p>Remember if you push an array onto another array, it adds the entire array into the last position, creating a nested array</p></section></section><section><section id="slide-org698283e"><h2 id="org698283e">What does Array.prototype.slice() do?</h2><div class="outline-text-2" id="text-org698283e"></div></section><section id="slide-org1b48c40"><h3 id="org1b48c40">^</h3><p>Array.prototype.slice() can be used to copy sections from an array. It takes two arguments. The first is the position to start slicing, the second is the position to stop slicing.</p></section><section id="slide-orgae99c0f"><h3 id="orgae99c0f">^</h3><p>Negative arguments count from the right, and positive arguments count from the left. Array.prototype.slice() will return individual list items, if you want them in an array you must assign them to an array.</p></section></section><section><section id="slide-orgd754504"><h2 id="orgd754504">What does Array.prototype.concat() do?</h2><div class="outline-text-2" id="text-orgd754504"></div></section><section id="slide-org59aebd5"><h3 id="org59aebd5">^</h3><p>Array.prototype.concat() joins two arrays together into the same array. Add the items in an array to another array by creating a new array and assigning the two arrays with concat:</p></section><section id="slide-org2b9e822"><h3 id="org2b9e822">^</h3><p>let aNewArray = originalArray.concat(addedArray);</p></section></section><section><section id="slide-org624946b"><h2 id="org624946b">Can you use the concatenate operator ’+’ to merge arrays?</h2><div class="outline-text-2" id="text-org624946b"></div></section><section id="slide-org12dad33"><h3 id="org12dad33">^</h3><p>You can use the concatenate operator ’+’ to merge two arrays; however, it coerces their list items into strings before it merges them</p></section><section id="slide-org0581415"><h3 id="org0581415">^</h3><p>(so if they are already strings, go ahead).</p></section></section><section><section id="slide-org9e08664"><h2 id="org9e08664">What does String() do?</h2><div class="outline-text-2" id="text-org9e08664"></div></section><section id="slide-org2ff5464"><h3 id="org2ff5464">^</h3><p>String() turns the argument passed to it into a string. If you pass it an array, it will return every element of the array coerced to a string</p></section></section><section><section id="slide-org42c523c"><h2 id="org42c523c">What happens if you join two arrays with the concatenate operator ’+’?</h2><div class="outline-text-2" id="text-org42c523c"></div></section><section id="slide-org444ac0c"><h3 id="org444ac0c">^</h3><p>If you join two arrays with the concatenate operator ’+’, it returns a string of all the items in the arrays separator by commas,</p></section><section id="slide-org8e59c4c"><h3 id="org8e59c4c">^</h3><p>but it doesn’t insert a comma between the two arrays, it just smushes them together</p></section></section><section><section id="slide-orgd70960d"><h2 id="orgd70960d">Note about Array.prototype.flatMap() and Array.prototype.flat();</h2><div class="outline-text-2" id="text-orgd70960d"></div></section><section id="slide-orgfa8c9cc"><h3 id="orgfa8c9cc">^</h3><p>Array.prototype.flatMap() and Array.prototype.flat() were introduced in ECMAScript 2018 to simplify structures like nested calls to Array.prototype.concat();</p></section></section><section><section id="slide-org2df3518"><h2 id="org2df3518">What does Array.prototype.join() do?</h2><div class="outline-text-2" id="text-org2df3518"></div></section><section id="slide-org9ba8de2"><h3 id="org9ba8de2">^</h3><p>Array.prototype.join() concatenates the elements of an array into a string, separated by the argument passed to the join method.</p></section><section id="slide-org4e9f32f"><h3 id="org4e9f32f">^</h3><p>If you have an array of letters,<br>let letters = [’a’, ’b’, ’c’];<br>you can join it like this:<br>let newLetters = letters.join(’-’);</p></section><section id="slide-org2117f68"><h3 id="org2117f68">^</h3><p>console.log(newLetters); will return the string, ’a-b-c’</p></section></section><section><section id="slide-org1fb96d7"><h2 id="org1fb96d7">What does Array.prototype.forEach() do?</h2><div class="outline-text-2" id="text-org1fb96d7"></div></section><section id="slide-orga82d09b"><h3 id="orga82d09b">^</h3><p>Array.prototype.forEach() iterates through an array and applies a callback function to each element. It does not mutate the array it iterates through, the callback function mutates it.</p></section><section id="slide-org9ea119d"><h3 id="org9ea119d">^</h3><p>Use an anonymous argument as the callback function and use another method, like Array.prototype.push() to assign the mutated results.</p></section></section><section><section id="slide-orgff2da0a"><h2 id="orgff2da0a">Give an example of using Array.prototype.push()</h2><div class="outline-text-2" id="text-orgff2da0a"></div></section><section id="slide-orgf14d81e"><h3 id="orgf14d81e">^</h3><p>let letters = [’a’, ’b’, ’c’, ’d’];<br>let capLetters = [];<br>letters.forEach(function(letter){<br>capLetters.push(letter.toUpperCase());<br>}</p></section><section id="slide-orgdf94e36"><h3 id="orgdf94e36">^</h3><p>console.log(capLetters);//returns [’A’,’B’,’C’,’D’]</p></section></section><section><section id="slide-org34492cf"><h2 id="org34492cf">What does Array.prototype.Map() do?</h2><div class="outline-text-2" id="text-org34492cf"></div></section><section id="slide-org8854d51"><h3 id="org8854d51">^</h3><p>Array.prototype.Map() iterates through an array and applies a callback function to each element.</p></section><section id="slide-orge21f04f"><h3 id="orge21f04f">^</h3><p>However, unlike Array.prototype.forEach(), it returns a new Array containing the mutated elements.</p></section></section><section><section id="slide-orgfc6c181"><h2 id="orgfc6c181">Use Array.prototype.Map() to mutate lowercase letters to uppercase and add to new array</h2><div class="outline-text-2" id="text-orgfc6c181"></div></section><section id="slide-org31c5b0f"><h3 id="org31c5b0f">^</h3><p>let letters = [’a’,’b’,’c’];<br>const upperCase = letters.map(function(letter){<br>return letter.toUppercase();<br>)}<br></p></section><section id="slide-org1cef8a3"><h3 id="org1cef8a3">^</h3><p>console.log(upperCase);//returns [’A’,’B’,’C’];</p></section></section><section><section id="slide-orgad3cbc0"><h2 id="orgad3cbc0">What does Array.prototype.filter() do?</h2><div class="outline-text-2" id="text-orgad3cbc0"></div></section><section id="slide-org6247630"><h3 id="org6247630">^</h3><p>Array.prototype.filter() iterates through an array and tests each element against some criteria.<br></p></section><section id="slide-orgcca779b"><h3 id="orgcca779b">^</h3><p>If true, it returns the value into an array, if not it does not return the value (just moves to the next element and repeats the test)</p></section></section><section><section id="slide-org841743d"><h2 id="org841743d">Use Array.prototype.filter() move numbers from mixed array into a new array.</h2><div class="outline-text-2" id="text-org841743d"></div></section><section id="slide-org3ef0f7a"><h3 id="org3ef0f7a">^</h3><p>let mixedArray = [1, ’a’, 2, ’b’, 3, ’c’];<br>const numbers = mixedArray.filter(function(element){<br>if(Number.isInteger(element))<br>return true;<br>}<br></p></section><section id="slide-orgf7d5ef2"><h3 id="orgf7d5ef2">^</h3><p>console.log(numbers);//returns [1,2,3]</p></section></section><section><section id="slide-orgb98211a"><h2 id="orgb98211a">filter falsy values out of an array with Array.prototype.filter()</h2><div class="outline-text-2" id="text-orgb98211a"></div></section><section id="slide-orgb80c1b5"><h3 id="orgb80c1b5">^</h3><p>const mixed = [’’,undefined, false, NaN, mull, ’all’, ’good’, ’here’];<br>const trueValues = mixed.filter(function(item){<br>if(item)<br>return true;<br>}<br></p></section><section id="slide-orgdbd62a1"><h3 id="orgdbd62a1">^</h3><p>console.log(trueValues);//returns [’all’, ’good’, ’here’]</p></section></section><section><section id="slide-orgd7d1125"><h2 id="orgd7d1125">What does Array.prototype.indexOf() do?</h2><div class="outline-text-2" id="text-orgd7d1125"></div></section><section id="slide-org302a2d5"><h3 id="org302a2d5">^</h3><p>Array.prototype.indexOf() iterates through an array and returns the index of the first element matching criteria specified in the first argument.</p></section><section id="slide-org3de81e4"><h3 id="org3de81e4">^</h3><p>The second argument takes an index to start iterating from<br>(a - number in the second argument counts from the right)</p></section></section><section><section id="slide-orgeafd4ea"><h2 id="orgeafd4ea">Give an example of finding the index of the first NaN value in an array</h2><div class="outline-text-2" id="text-orgeafd4ea"></div></section><section id="slide-orgad85136"><h3 id="orgad85136">^</h3><p>const lotsOfData = [’a’, 1, undefined, ’b’,NaN, 2]<br>console.log(lotsOfData.indexOf(NaN));//returns 4,<br>console.log(lotsOfData.indexOf(NaN, 1);//returns 3, because it starts iterating at \\ the 1st position, not the 0 position</p></section></section></div></div><script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script><script>// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});</script></body></html>

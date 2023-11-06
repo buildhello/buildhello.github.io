@@ -1,0 +1,129 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title></title><meta name="author" content=""><meta name="description" content=""><meta name="keywords" content=""><style type="text/css">.underline { text-decoration: underline; }</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/blood.css" id="theme"><!-- If the query includes 'print-pdf', include the PDF print sheet --><script>if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }</script><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport"><style>html{
+touch-action:manipulation;
+-webkit-text-size-adjust:100%
+}
+body{
+padding:0;
+margin:0;
+background:#f2f6fa;
+color:#3c495a;
+font-weight:normal;
+font-size:15px;
+font-family:'San Francisco','Roboto','Arial',sans-serif
+}
+h2,h3,h4,h5,h6{
+font-family:'Trebuchet MS',Verdana,sans-serif;
+color:#586b82;
+padding:0;
+margin:20px 0 10px 0;
+font-size:1.1em}
+h2{
+margin:30px 0 10px 0;
+font-size:1.2em}
+a{
+color:#3fa7ba;
+text-decoration:none}
+p{
+margin:20px 0;
+text-align:left}
+ul,ol{
+margin:0;
+text-align:left}
+ul>li>code{
+color:#586b82
+}
+pre{
+white-space:pre-wrap}
+#content{
+width:96%;
+max-width:1000px;
+margin:2% auto 6% auto;
+background:white;
+border-radius:2px;
+border-right:1px solid #e2e9f0;
+border-bottom:2px solid #e2e9f0;
+padding:0 115px 150px 115px;
+box-sizing:border-box}
+#postamble{display:none}
+h1.title{
+background-color:#343C44;
+color:#fff;
+margin:0 -115px;
+padding:60px 0;
+font-weight:normal;
+font-size:2em;
+border-top-left-radius:2px;
+border-top-right-radius:2px;
+text-align:center;}
+@media (max-width:1050px){
+#content{
+padding:0 70px 100px 70px;}
+h1.title{margin:0 -70px;}
+}
+img{
+max-width:100%;}
+@media (max-width:800px){
+#content{
+width:100%;
+margin-top:0;
+margin-bottom:0;
+padding:0 4% 60px 4%}
+h1.title{
+margin:0 -5%;
+padding:40px 5%}}
+pre,.verse{
+box-shadow:none;
+background-color:#f9fbfd;
+border:1px solid #e2e9f0;
+color:#586b82;
+padding:10px;
+font-family:monospace;
+overflow:auto;margin:6px 0}
+#table-of-contents{
+margin-bottom:50px;
+margin-top:50px}
+#table-of-contents h2{
+margin-bottom:5px}
+#text-table-of-contents ul{
+padding-left:15px}
+#text-table-of-contents>ul{padding-left:0}
+#text-table-of-contents li{list-style-type:none}
+#text-table-of-contents a{color:#7c8ca1;font-size:0.95em;text-decoration:none}
+table{border-color:#586b82;font-size:0.95em}
+table thead{color:#586b82}
+table tbody tr:nth-child(even){background:#f9f9f9}
+table tbody tr:hover{background:#586b82!important;color:white}
+table .left{text-align:left}
+table .right{text-align:right}
+.todo{font-family:inherit;color:inherit}
+.done{color:inherit}
+.tag{background:initial}
+.tag>span{
+background-color:#eee;
+font-family:monospace;
+padding-left:7px;
+padding-right:7px;
+border-radius:2px;
+float:right;
+margin-left:5px}
+#text-table-of-contents .tag>span{float:none;margin-left:0}
+.timestamp{color:#7c8ca1}
+@media print{@page{margin-bottom:3cm;margin-top:3cm;margin-left:2cm;margin-right:2cm;font-size:10px}
+#content{border:none}}</style><style type="text/css">#sec-title-slide>h3{color:#00f500 !important; margin:-50px 0px !important;.present{margin:-50px 0px !important;}.reveal .controls{color:#00f500 !important;} .reveal a:hover .r-frame {color:#00f500 !important;} .reveal a {color:#00f500 !important;} .reveal a:hover{color:#00f500 !important;} .reveal .roll span:after{background:#007e00 !important;} .reveal .progress {color:#00f500 !important;}</style><link rel="stylesheet" type="text/css" href="https://buildhello.ca/orientation/blood.css"></head><body><div class="reveal"><div class="slides"><section id="sec-title-slide"><h3 style="color:blue;">Loops</h3></section><section><section id="slide-org7a88579"><h2 id="org7a88579">What are loops used for?</h2><div class="outline-text-2" id="text-org7a88579"></div></section><section id="slide-orgd619ea9"><h3 id="orgd619ea9">^</h3><p>Loops help progammers create programs that follow instructions repeatedly. A self-driving car could decide it’s too close to the right edge of the road and use a loop to determine how long it should turn to the left.</p></section></section><section><section id="slide-org5007b2c"><h2 id="org5007b2c">What are some characteristics of loops?</h2><div class="outline-text-2" id="text-org5007b2c"></div></section><section id="slide-orga39828d"><h3 id="orga39828d">^</h3><p>If car needs to turn right for 1 second, it might use a loop to turn right every few milliseconds until it has turned right for 1 second.</p></section><section id="slide-org0e2c29b"><h3 id="org0e2c29b">^</h3><p>The loop needs to know when it started, so it can know when to stop. That means it needs to keep track of how far it has come.</p></section></section><section><section id="slide-org33355df"><h2 id="org33355df">What is one mistake you want to avoid when writing a loop?</h2><div class="outline-text-2" id="text-org33355df"></div></section><section id="slide-org3a72610"><h3 id="org3a72610">^</h3><p>If you’ve written a JavaScript loop that doesn’t know when to stop, your program won’t work and neither will your browser!</p></section><section id="slide-org351948a"><h3 id="org351948a">^</h3><p>Select logic that ensures conditions will reach an end. Otherwise the JavaScript engine will require more and more RAM every iteration, until the runtime crashes.</p></section></section><section><section id="slide-orga88f98c"><h2 id="orga88f98c">Name 5 types of JavaScript loops</h2><div class="outline-text-2" id="text-orga88f98c"></div></section><section id="slide-org06cc5dc"><h3 id="org06cc5dc">^</h3><ol><li>while loop</li><li>do while loop</li><li>for in loop</li><li>for of loop</li><li>for loop</li></ol></section></section><section><section id="slide-org12a6524"><h2 id="org12a6524">What does the while loop do?</h2><div class="outline-text-2" id="text-org12a6524"></div></section><section id="slide-org5e4fa49"><h3 id="org5e4fa49">^</h3><p>The ’while loop’ loops through code while a condition remains true. Once the condition no longer remains true the loop stops and the interpreter continues reading the rest of the script</p></section></section><section><section id="slide-org3808b18"><h2 id="org3808b18">What does the ’do while loop’ do?</h2><div class="outline-text-2" id="text-org3808b18"></div></section><section id="slide-orgea75cf5"><h3 id="orgea75cf5">^</h3><p>The ’do while loop’ is much like the ’while loop’ with a more readable syntax</p></section></section><section><section id="slide-org64dde81"><h2 id="org64dde81">What does the ’for in loop’ do?</h2><div class="outline-text-2" id="text-org64dde81"></div></section><section id="slide-org455f1d3"><h3 id="org455f1d3">^</h3><p>The ’for in loop’ loops through non-iterable objects, which in JavaScript are just called objects.</p></section></section><section><section id="slide-org5b90a72"><h2 id="org5b90a72">What does the ’for of loop’ do?</h2><div class="outline-text-2" id="text-org5b90a72"></div></section><section id="slide-orgf4e7051"><h3 id="orgf4e7051">^</h3><p>The ’for of loop’ loops through iterable objects, which include the special case of object in JavaScript called ’arrays’</p></section></section><section><section id="slide-org778a9fc"><h2 id="org778a9fc">What is the ’for loop’</h2><div class="outline-text-2" id="text-org778a9fc"></div></section><section id="slide-org52c35a8"><h3 id="org52c35a8">^</h3><p>Both the ’for of loop’ and the ’for in loop’ are special cases of the ’for loop’. for (declaration; relational expression; increment) { //code runs here }</p></section></section><section><section id="slide-org153a4ae"><h2 id="org153a4ae">Give an example of a for loop from 0 to 10</h2><div class="outline-text-2" id="text-org153a4ae"></div></section><section id="slide-orgd657973"><h3 id="orgd657973">^</h3><p>for (let i = 0; i &lt; 10; i++){ console.log(i); }</p></section></section><section><section id="slide-orgc864a33"><h2 id="orgc864a33">How should the components of a ’for loop’ be selected</h2><div class="outline-text-2" id="text-orgc864a33"></div></section><section id="slide-orgcbe0a33"><h3 id="orgcbe0a33">^</h3><p>The first part of the ’for loop’ is the declaration statement. You should with a block scoped variable using ’let’, that way the variable name is not restricted outside the loop.</p></section><section id="slide-org8750707"><h3 id="org8750707">^</h3><p>Do not use const as it can’t be updated. The relational operator should be valid and specify accurately the conditions required in the program.</p></section><section id="slide-org41aee78"><h3 id="org41aee78">^</h3><p>The unary operator `i++` should be selected to ensure the increments are added appropriately. `i++` increments the declaration variable (i) by 1 every iteration.</p></section><section id="slide-orgdc0418d"><h3 id="orgdc0418d">^</h3><p>`i++2` increments the declaration variable (i) by 2 every iteration.</p></section></section><section><section id="slide-org8548364"><h2 id="org8548364">What can you put inside of a loop?</h2><div class="outline-text-2" id="text-org8548364"></div></section><section id="slide-org1aa4707"><h3 id="org1aa4707">^</h3><p>Loops can be complex. You can put conditional structures like ’if else’ statements, ’guards’, ’switches’, ’declarations’, even more loops.</p></section></section><section><section id="slide-orge5f1571"><h2 id="orge5f1571">What is a ’break’ statement in a loop?</h2><div class="outline-text-2" id="text-orge5f1571"></div></section><section id="slide-org14a5612"><h3 id="org14a5612">^</h3><p>’A break statement’ is used to ’break’ out of a loop if a particular condition exists. You could use a ’break’ statement ’break;’ in a while loop as a guard, or if you had say a random number function to exit the loop if specify numbers are matched.</p></section></section><section><section id="slide-orgdb59056"><h2 id="orgdb59056">What is a ’continue’ statement in a loop?</h2><div class="outline-text-2" id="text-orgdb59056"></div></section><section id="slide-org6ee72a3"><h3 id="org6ee72a3">^</h3><p>The ’continue’ statement statement breaks out of only loops that match a condition. But finishes the rest of the iterations of the loop.</p></section></section><section><section id="slide-orgfa217c4"><h2 id="orgfa217c4">What is the difference between ’continue’ and ’break’ again in a loop?</h2><div class="outline-text-2" id="text-orgfa217c4"></div></section><section id="slide-org105b175"><h3 id="org105b175">^</h3><p>’continue’ breaks out of only those loops that match the condition, but finished the other iterations (until the ’loop condition’ is satisfied), the ’break’ condition breaks out of all the loops once the ’break’ condition is matched.</p></section></section><section><section id="slide-orgd252e01"><h2 id="orgd252e01">Give an example of a ’while loop’ with a ’break’</h2><div class="outline-text-2" id="text-orgd252e01"></div></section><section id="slide-org319898c"><h3 id="org319898c">^</h3><p>let i = 0;<br>while (i &lt; 6){<br>if (i <code>=</code> 3) {<br>break;<br>}<br>i++;<br>}</p></section><section id="slide-orgcb24223"><h3 id="orgcb24223">^</h3><p>The index variable (iteration variable) is never incremented beyond 3</p></section></section><section><section id="slide-org27da600"><h2 id="org27da600">Why do infinite loops break browsers?</h2><div class="outline-text-2" id="text-org27da600"></div></section><section id="slide-org9a73608"><h3 id="org9a73608">^</h3><p>Infinite loops require more and more resources to run! If you set a condition that is never met, the browser will crash</p></section></section><section><section id="slide-org3dd0660"><h2 id="org3dd0660">Write a 50 iteration loop that prints Fizz when iteration divisible by 7 and ’Buzz’ when divisible by 15</h2><div class="outline-text-2" id="text-org3dd0660"></div></section><section id="slide-org3cd9467"><h3 id="org3cd9467">^</h3><p>for (let i=1; i &lt;= 50; i++){<br>if (i % 7 == 0){<br>console.log(`Fizz! The number ${i} is divisible by 7!`;<br>}else if (i % 15 == 0){<br>console.log(`Buzz! The number ${i} is divisible by 15`);<br>} else{<br>continue;<br>}</p></section></section></div></div><script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script><script>// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});</script></body></html>

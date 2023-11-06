@@ -1,0 +1,129 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title></title><meta name="author" content=""><meta name="description" content=""><meta name="keywords" content=""><style type="text/css">.underline { text-decoration: underline; }</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/blood.css" id="theme"><!-- If the query includes 'print-pdf', include the PDF print sheet --><script>if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }</script><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport"><style>html{
+touch-action:manipulation;
+-webkit-text-size-adjust:100%
+}
+body{
+padding:0;
+margin:0;
+background:#f2f6fa;
+color:#3c495a;
+font-weight:normal;
+font-size:15px;
+font-family:'San Francisco','Roboto','Arial',sans-serif
+}
+h2,h3,h4,h5,h6{
+font-family:'Trebuchet MS',Verdana,sans-serif;
+color:#586b82;
+padding:0;
+margin:20px 0 10px 0;
+font-size:1.1em}
+h2{
+margin:30px 0 10px 0;
+font-size:1.2em}
+a{
+color:#3fa7ba;
+text-decoration:none}
+p{
+margin:20px 0;
+text-align:left}
+ul,ol{
+margin:0;
+text-align:left}
+ul>li>code{
+color:#586b82
+}
+pre{
+white-space:pre-wrap}
+#content{
+width:96%;
+max-width:1000px;
+margin:2% auto 6% auto;
+background:white;
+border-radius:2px;
+border-right:1px solid #e2e9f0;
+border-bottom:2px solid #e2e9f0;
+padding:0 115px 150px 115px;
+box-sizing:border-box}
+#postamble{display:none}
+h1.title{
+background-color:#343C44;
+color:#fff;
+margin:0 -115px;
+padding:60px 0;
+font-weight:normal;
+font-size:2em;
+border-top-left-radius:2px;
+border-top-right-radius:2px;
+text-align:center;}
+@media (max-width:1050px){
+#content{
+padding:0 70px 100px 70px;}
+h1.title{margin:0 -70px;}
+}
+img{
+max-width:100%;}
+@media (max-width:800px){
+#content{
+width:100%;
+margin-top:0;
+margin-bottom:0;
+padding:0 4% 60px 4%}
+h1.title{
+margin:0 -5%;
+padding:40px 5%}}
+pre,.verse{
+box-shadow:none;
+background-color:#f9fbfd;
+border:1px solid #e2e9f0;
+color:#586b82;
+padding:10px;
+font-family:monospace;
+overflow:auto;margin:6px 0}
+#table-of-contents{
+margin-bottom:50px;
+margin-top:50px}
+#table-of-contents h2{
+margin-bottom:5px}
+#text-table-of-contents ul{
+padding-left:15px}
+#text-table-of-contents>ul{padding-left:0}
+#text-table-of-contents li{list-style-type:none}
+#text-table-of-contents a{color:#7c8ca1;font-size:0.95em;text-decoration:none}
+table{border-color:#586b82;font-size:0.95em}
+table thead{color:#586b82}
+table tbody tr:nth-child(even){background:#f9f9f9}
+table tbody tr:hover{background:#586b82!important;color:white}
+table .left{text-align:left}
+table .right{text-align:right}
+.todo{font-family:inherit;color:inherit}
+.done{color:inherit}
+.tag{background:initial}
+.tag>span{
+background-color:#eee;
+font-family:monospace;
+padding-left:7px;
+padding-right:7px;
+border-radius:2px;
+float:right;
+margin-left:5px}
+#text-table-of-contents .tag>span{float:none;margin-left:0}
+.timestamp{color:#7c8ca1}
+@media print{@page{margin-bottom:3cm;margin-top:3cm;margin-left:2cm;margin-right:2cm;font-size:10px}
+#content{border:none}}</style><style type="text/css">#sec-title-slide>h3{color:#00f500 !important; margin:-50px 0px !important;.present{margin:-50px 0px !important;}.reveal .controls{color:#00f500 !important;} .reveal a:hover .r-frame {color:#00f500 !important;} .reveal a {color:#00f500 !important;} .reveal a:hover{color:#00f500 !important;} .reveal .roll span:after{background:#007e00 !important;} .reveal .progress {color:#00f500 !important;}</style><link rel="stylesheet" type="text/css" href="https://buildhello.ca/orientation/blood.css"></head><body><div class="reveal"><div class="slides"><section id="sec-title-slide"><h3 style="color:blue;">Functions</h3></section><section><section id="slide-orgbf3bcbc"><h2 id="orgbf3bcbc">What syntax is used to write a function statement?</h2><div class="outline-text-2" id="text-orgbf3bcbc"></div></section><section id="slide-org8986fda"><h3 id="org8986fda">^</h3><p>First write the function reserved word ’function’ (lower case), follow it with a space and the function identifier (name of the function). Follow the identifier with a space and parenthesis containing any function parameters.</p></section><section id="slide-org90ea0ab"><h3 id="org90ea0ab">^</h3><p>Write an opening curly brace on the same line, then a new line for the function body, followed by a closing curly brace on the next line.</p></section></section><section><section id="slide-org3916039"><h2 id="org3916039">Is a function statement called when it is declared?</h2><div class="outline-text-2" id="text-org3916039"></div></section><section id="slide-org96600e0"><h3 id="org96600e0">^</h3><p>No. A function statement must be called seperately from its declaration. However, function statements are hoisted and can be called in the script before they are declared.</p></section></section><section><section id="slide-orge4d28f8"><h2 id="orge4d28f8">What is the difference between a function argument and parameter?</h2><div class="outline-text-2" id="text-orge4d28f8"></div></section><section id="slide-org4dc3979"><h3 id="org4dc3979">^</h3><p>The function parameter is a placeholder for variables that are passed into the function. The function arguments are the actual variables passed into the function when it is called.</p></section></section><section><section id="slide-org1373bbc"><h2 id="org1373bbc">How to examine the Math object in the console?</h2><div class="outline-text-2" id="text-org1373bbc"></div></section><section id="slide-orgf551479"><h3 id="orgf551479">^</h3><p>console.dir(Math);</p></section></section><section><section id="slide-orga217d99"><h2 id="orga217d99">What is the Math.random / Math.round combination?</h2><div class="outline-text-2" id="text-orga217d99"></div></section><section id="slide-orgfead34f"><h3 id="orgfead34f">^</h3><p>Math.random() selects any number between 0 - 1,<br>Math.round() rounds its argument down to the next round integer.</p></section></section><section><section id="slide-org84b6ca7"><h2 id="org84b6ca7">How to pick any number between 1 and 100?</h2><div class="outline-text-2" id="text-org84b6ca7"></div></section><section id="slide-orgafe3014"><h3 id="orgafe3014">^</h3><p>Math.floor(Math.random() * 100);</p></section></section><section><section id="slide-org22d8fd5"><h2 id="org22d8fd5">How to pick any number between 50 and 25?</h2><div class="outline-text-2" id="text-org22d8fd5"></div></section><section id="slide-org49f2723"><h3 id="org49f2723">^</h3><p>Math.floor(Math.random() * (50 - 25 + 1)) + 25;</p></section></section><section><section id="slide-org766743d"><h2 id="org766743d">Write a function to pick a number between any two numbers</h2><div class="outline-text-2" id="text-org766743d"></div></section><section id="slide-orgc74fce0"><h3 id="orgc74fce0">^</h3><p>`function pickNumberBetween (min, max){<br>return Math.floor(Math.random() * (max - min + 1)) + min;<br>}`</p></section></section><section><section id="slide-org7772c62"><h2 id="org7772c62">What is a function expression?</h2><div class="outline-text-2" id="text-org7772c62"></div></section><section id="slide-org4bfadea"><h3 id="org4bfadea">^</h3><p>function expressions are declared and assigned to a variable. The variable reserved words ’let’, ’const’, or ’var’ come first, then the ’=’ assignment operator, then the ’function’ reserved word.</p></section><section id="slide-org94a6d68"><h3 id="org94a6d68">^</h3><p>Following this is the usual parameter parens and body block. The body block is closed out with a ’;’. Function expressions is not hoisted.</p></section></section><section><section id="slide-orgcb9a833"><h2 id="orgcb9a833">Is a function expression called when it is assigned?</h2><div class="outline-text-2" id="text-orgcb9a833"></div></section><section id="slide-org095c108"><h3 id="org095c108">^</h3><p>Yes.</p></section></section><section><section id="slide-org499dc38"><h2 id="org499dc38">What is function scope?</h2><div class="outline-text-2" id="text-org499dc38"></div></section><section id="slide-orgb6a437c"><h3 id="orgb6a437c">^</h3><p>Function scoped variable is valid anywhere in the scope of the function, even if it is declared in a block within in a function.</p></section><section id="slide-org2301826"><h3 id="org2301826">^</h3><p>Use ’var’ to created function scoped variables. Later you will learn about the concept of ’closure’.</p></section></section><section><section id="slide-orgc4abf12"><h2 id="orgc4abf12">What is a method?</h2><div class="outline-text-2" id="text-orgc4abf12"></div></section><section id="slide-orgaceca52"><h3 id="orgaceca52">^</h3><p>A method is a function declaration within an object. The function identifier is the key and the function declaration is the value (of key value pair in object).</p></section><section id="slide-orgc2b5a57"><h3 id="orgc2b5a57">^</h3><p>To call the method, list the object followed by ’.’ syntax followed by key with (). example: object.method();</p></section></section><section><section id="slide-org320823e"><h2 id="org320823e">What is an anonymous function?</h2><div class="outline-text-2" id="text-org320823e"></div></section><section id="slide-org4192831"><h3 id="org4192831">^</h3><p>A function declared without an identifier</p></section><section id="slide-org41b2b6b"><h3 id="org41b2b6b">^</h3><p>they can be:</p><ul><li>passed in to other functions as arguments</li><li>used to protect scope</li><li>used as a callback argument</li><li>used in objects to declare methods</li></ul></section><section id="slide-orgda6f797"><h3 id="orgda6f797">^</h3><p>`(function (){console.log(“this is an anonymous function!”)})`</p></section></section><section><section id="slide-orgaa23825"><h2 id="orgaa23825">What is a callback function?</h2><div class="outline-text-2" id="text-orgaa23825"></div></section><section id="slide-org07d600f"><h3 id="org07d600f">^</h3><p>A callback function is passed as an argument into other JavaScript functions. Example the ’setTimeout()’ method (part of DOM api) takes a millisecond argument and a callback function argument.</p></section><section id="slide-orgeefe625"><h3 id="orgeefe625">^</h3><p>When the timer expires, the function is called.</p></section></section></div></div><script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script><script>// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});</script></body></html>

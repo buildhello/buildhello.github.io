@@ -1,0 +1,129 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title></title><meta name="author" content=""><meta name="description" content=""><meta name="keywords" content=""><style type="text/css">.underline { text-decoration: underline; }</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/blood.css" id="theme"><!-- If the query includes 'print-pdf', include the PDF print sheet --><script>if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }</script><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport"><style>html{
+touch-action:manipulation;
+-webkit-text-size-adjust:100%
+}
+body{
+padding:0;
+margin:0;
+background:#f2f6fa;
+color:#3c495a;
+font-weight:normal;
+font-size:15px;
+font-family:'San Francisco','Roboto','Arial',sans-serif
+}
+h2,h3,h4,h5,h6{
+font-family:'Trebuchet MS',Verdana,sans-serif;
+color:#586b82;
+padding:0;
+margin:20px 0 10px 0;
+font-size:1.1em}
+h2{
+margin:30px 0 10px 0;
+font-size:1.2em}
+a{
+color:#3fa7ba;
+text-decoration:none}
+p{
+margin:20px 0;
+text-align:left}
+ul,ol{
+margin:0;
+text-align:left}
+ul>li>code{
+color:#586b82
+}
+pre{
+white-space:pre-wrap}
+#content{
+width:96%;
+max-width:1000px;
+margin:2% auto 6% auto;
+background:white;
+border-radius:2px;
+border-right:1px solid #e2e9f0;
+border-bottom:2px solid #e2e9f0;
+padding:0 115px 150px 115px;
+box-sizing:border-box}
+#postamble{display:none}
+h1.title{
+background-color:#343C44;
+color:#fff;
+margin:0 -115px;
+padding:60px 0;
+font-weight:normal;
+font-size:2em;
+border-top-left-radius:2px;
+border-top-right-radius:2px;
+text-align:center;}
+@media (max-width:1050px){
+#content{
+padding:0 70px 100px 70px;}
+h1.title{margin:0 -70px;}
+}
+img{
+max-width:100%;}
+@media (max-width:800px){
+#content{
+width:100%;
+margin-top:0;
+margin-bottom:0;
+padding:0 4% 60px 4%}
+h1.title{
+margin:0 -5%;
+padding:40px 5%}}
+pre,.verse{
+box-shadow:none;
+background-color:#f9fbfd;
+border:1px solid #e2e9f0;
+color:#586b82;
+padding:10px;
+font-family:monospace;
+overflow:auto;margin:6px 0}
+#table-of-contents{
+margin-bottom:50px;
+margin-top:50px}
+#table-of-contents h2{
+margin-bottom:5px}
+#text-table-of-contents ul{
+padding-left:15px}
+#text-table-of-contents>ul{padding-left:0}
+#text-table-of-contents li{list-style-type:none}
+#text-table-of-contents a{color:#7c8ca1;font-size:0.95em;text-decoration:none}
+table{border-color:#586b82;font-size:0.95em}
+table thead{color:#586b82}
+table tbody tr:nth-child(even){background:#f9f9f9}
+table tbody tr:hover{background:#586b82!important;color:white}
+table .left{text-align:left}
+table .right{text-align:right}
+.todo{font-family:inherit;color:inherit}
+.done{color:inherit}
+.tag{background:initial}
+.tag>span{
+background-color:#eee;
+font-family:monospace;
+padding-left:7px;
+padding-right:7px;
+border-radius:2px;
+float:right;
+margin-left:5px}
+#text-table-of-contents .tag>span{float:none;margin-left:0}
+.timestamp{color:#7c8ca1}
+@media print{@page{margin-bottom:3cm;margin-top:3cm;margin-left:2cm;margin-right:2cm;font-size:10px}
+#content{border:none}}</style><style type="text/css">#sec-title-slide>h3{color:#00f500 !important; margin:-50px 0px !important;.present{margin:-50px 0px !important;}.reveal .controls{color:#00f500 !important;} .reveal a:hover .r-frame {color:#00f500 !important;} .reveal a {color:#00f500 !important;} .reveal a:hover{color:#00f500 !important;} .reveal .roll span:after{background:#007e00 !important;} .reveal .progress {color:#00f500 !important;}</style><link rel="stylesheet" type="text/css" href="https://buildhello.ca/orientation/blood.css"></head><body><div class="reveal"><div class="slides"><section id="sec-title-slide"><h3 style="color:blue;">Classes</h3></section><section><section id="slide-orgf406c15"><h2 id="orgf406c15">What are JavaScript classes?</h2><div class="outline-text-2" id="text-orgf406c15"></div></section><section id="slide-org905a40e"><h3 id="org905a40e">^</h3><p>Classes are special kind of JavaScript object introduced in ES6 that can be used with the ’class’ reserved word to create subordinate objects.<br></p><p>The first letter of a class is always capitalized.</p></section></section><section><section id="slide-org472f763"><h2 id="org472f763">Create an empty class</h2><div class="outline-text-2" id="text-org472f763"></div></section><section id="slide-org62a31e0"><h3 id="org62a31e0">^</h3><p>Declaration:<br>class Manager {};<br><br>Expression:<br>const Manager = class {};<br></p></section><section id="slide-org655d8e1"><h3 id="org655d8e1">^</h3><p>Named Expression:<br>const Manager = class ManagerClass{};<br></p></section><section id="slide-orga5663fd"><h3 id="orga5663fd">^</h3><p>With classes, neither declarations or expressions are hoisted, all three ways of declaring classes are the same.</p></section></section><section><section id="slide-org71c200a"><h2 id="org71c200a">What is prototypal inheritance?</h2><div class="outline-text-2" id="text-org71c200a"></div></section><section id="slide-orgc7f28f5"><h3 id="orgc7f28f5">^</h3><p>Objects that have a subordinate object instance have access to methods and properties on the class object through what is called a ’prototypal chain’</p></section></section><section><section id="slide-orgf227f65"><h2 id="orgf227f65">How does an object on the bottom of the prototypal chain inherit access to methods and properties?</h2><div class="outline-text-2" id="text-orgf227f65"></div></section><section id="slide-org0c33a27"><h3 id="org0c33a27">^</h3><p>If an object references a method or property it doesn’t have, it will look for it on the next object upward from it in the prototypal scope chain.</p></section><section id="slide-org7bd1acf"><h3 id="org7bd1acf">^</h3><p>If it finds it, it will be called with the ’this’ keyword set to the callsite, if not, it will look upward to the next object in the prototypal scope chain.</p></section><section id="slide-orgd8076b6"><h3 id="orgd8076b6">^</h3><p>If not found, the method or property will throw an error.</p></section></section><section><section id="slide-org3db5024"><h2 id="org3db5024">What does the ’new’ keyword do in JavaScript?</h2><div class="outline-text-2" id="text-org3db5024"></div></section><section id="slide-org6ac36ce"><h3 id="org6ac36ce">^</h3><ol><li>The ’new’ keyword creates an empty object<br></li><li>it runs ’Object.create() on the new Object new object referencing the parent class object.<br></li><li>It initializes the new object by running the parent object’s constructor function, which gives the new object the methods and properties specified in the constructor.<br></li><li>It swaps the ’this’ reserved word in the classes constructor function with the newly created object<br></li></ol></section></section><section><section id="slide-org2fc367d"><h2 id="org2fc367d">What does the `extends` reserved word do in JavaScript?</h2><div class="outline-text-2" id="text-org2fc367d"></div></section><section id="slide-org7cfbe26"><h3 id="org7cfbe26">^</h3><p>The `extends` reserved word is used to create a class that inherits from a parent class.</p></section><section id="slide-orgabb4fbd"><h3 id="orgabb4fbd">^</h3><p>With `extends` you can create a chain of classes that inherit properties from each other.<br><br>The top level class might pass some properties to the class below it, and the class below might pass some properties onward to the class below it.</p></section></section><section><section id="slide-orgf551903"><h2 id="orgf551903">What is the `super` reserved word used for?</h2><div class="outline-text-2" id="text-orgf551903"></div></section><section id="slide-orgdd404d0"><h3 id="orgdd404d0">^</h3><p>The `super` reserved word is used to pass properties and methods between constructors.</p></section></section><section><section id="slide-org0054ada"><h2 id="org0054ada">What are `constructors`?</h2><div class="outline-text-2" id="text-org0054ada"></div></section><section id="slide-org2f4e265"><h3 id="org2f4e265">^</h3><p>Constructors are functions inside classes containing methods and properties that can be attached to newly created subordinate instances or classes</p></section></section><section><section id="slide-orgbd5237e"><h2 id="orgbd5237e">Give an example of a constructor</h2><div class="outline-text-2" id="text-orgbd5237e"></div></section><section id="slide-orge7b5b2f"><h3 id="orge7b5b2f">^</h3><p>class Manager{<br>constructor(){<br>this.name = ’Jurgen Klopp’;<br>this.team = ’Liverpool F.C.;<br>this.ourTeam = function(){console.log(`Our team is ${this.team}`)}<br>}//end constructor<br>}//end manager<br></p></section></section><section><section id="slide-org418ec1c"><h2 id="org418ec1c">What happens to the `this` reserve word in a constructor when a subordinate object is instantiated?</h2><div class="outline-text-2" id="text-org418ec1c"></div></section><section id="slide-orga717b3e"><h3 id="orga717b3e">^</h3><p>Because the `this` word always references the call site, when the constructor function is run, the properties and methods in the constructor are bound to the newley instantiated object.<br></p></section></section><section><section id="slide-org793fe8f"><h2 id="org793fe8f">Are methods and properties in constructor functions created with keys and values seperated by colons `:`?</h2><div class="outline-text-2" id="text-org793fe8f"></div></section><section id="slide-org74e7823"><h3 id="org74e7823">^</h3><p>Nope. The right-hand side of methods and properties in constructors are separated from the left-hand side with equals assignment operators `=` because they are assignment statements<br></p></section></section><section><section id="slide-orgb5c4414"><h2 id="orgb5c4414">Are methods and properties on a class that are not inside the constructor added to subordinate instances?</h2><div class="outline-text-2" id="text-orgb5c4414"></div></section><section id="slide-orgd3a14b2"><h3 id="orgd3a14b2">^</h3><p>The methods and properties in the constructor are added to the newly instantiated object.</p></section><section id="slide-orgd7be106"><h3 id="orgd7be106">^</h3><p>The methods and classes outside of the constructor are available through prototypal inheritance.</p></section></section><section><section id="slide-org09c5992"><h2 id="org09c5992">What happens when a new class extends a class without a constructor?</h2><div class="outline-text-2" id="text-org09c5992"></div></section><section id="slide-org03e8889"><h3 id="org03e8889">^</h3><p>JavaScript creates a constructor in the background and adds all the methods and properties that were in the parent class to the extended class so that a new object from the extended class contains the same properties and methods it would contain if it were instantiated from the extended classes parent.</p></section></section><section><section id="slide-orgff20a3f"><h2 id="orgff20a3f">How to change properties outside a constructor on a parent class in the class that extends it?</h2><div class="outline-text-2" id="text-orgff20a3f"></div></section><section id="slide-orgac10499"><h3 id="orgac10499">^</h3><p>Properties outside the constructor of the parent class on the class that extends it can be changed with direct assignment when the subordinate class is extended<br></p></section><section id="slide-orgb10150f"><h3 id="orgb10150f">^</h3><p>class Coach extends Manager{<br>responsibilities = [’training’, ’practice scheduling’, ’performance assessment’, \\ ’game strategy’, ’morale’, ’press relations’];<br>}<br></p></section></section><section><section id="slide-orgfae3533"><h2 id="orgfae3533">What happens to the `this` reserved word in a constructor in a class that extends a parent class?</h2><div class="outline-text-2" id="text-orgfae3533"></div></section><section id="slide-org1aaa023"><h3 id="org1aaa023">^</h3><p>JavaScript will throw an error, because any object instantiated from the extended class will not know if it should extract methods and properties from the extended class or the extended classes parent.</p></section></section><section><section id="slide-orgae7e9ee"><h2 id="orgae7e9ee">How can the `super` reserved word be used in the constructor of an extended class?</h2><div class="outline-text-2" id="text-orgae7e9ee"></div></section><section id="slide-orgf654442"><h3 id="orgf654442">^</h3><p>A constructor in an extended class can take methods and properties from its parent class as parameters.</p></section><section id="slide-org9701636"><h3 id="org9701636">^</h3><p>When the identifiers of those methods and properties are passed to super() within the extended classes constructor any object instantiated from the extended class will bind `this` reserved words from the super() declaration to the extended class.</p></section></section><section><section id="slide-org4b2bded"><h2 id="org4b2bded">Can properties that exist on the parent class be overwritten on the extended class?</h2><div class="outline-text-2" id="text-org4b2bded"></div></section><section id="slide-orgf426005"><h3 id="orgf426005">^</h3><p>Yes, properties that are not referenced on the extended class’s constructor with the `super` reserved word can be directly assigned in the extended classes constructor to overwrite the property assignments on extended classes parent</p></section></section><section><section id="slide-orgaefca9d"><h2 id="orgaefca9d">Can an extended class’ constructor deconstruct parameters from a data object?</h2><div class="outline-text-2" id="text-orgaefca9d"></div></section><section id="slide-org84d0527"><h3 id="org84d0527">^</h3><p>Yes. Data can be passed into a constructor from a data object. That means json data can be parsed into a data object and passed to a class so that objects can be instantiated from that class based on json data.</p></section></section><section><section id="slide-orgd5e994d"><h2 id="orgd5e994d">Give an example of deconstructing data into an extended class</h2><div class="outline-text-2" id="text-orgd5e994d"></div></section><section id="slide-orgd37ede3"><h3 id="orgd37ede3">^</h3><p>class Player extends Coach{<br>constructor({name=’NA’, height=’NA’, weight=’NA’, salary=’NA’, age=’NA’, \\ accuracy=’NA’, power=’NA’, endurance=’NA’})<br>this.name = name;<br>this.height = height;<br>this.weight = weight;<br>this.salary = salary;<br>this.age = age;<br>this.accuracy = accuracy;<br>this.power = power;<br>this.endurance = endurance;<br>}//end constructor<br>}//end extended class</p></section></section><section><section id="slide-org4203cf0"><h2 id="org4203cf0">What does ’Dunder Proto’ stand for?</h2><div class="outline-text-2" id="text-org4203cf0"></div></section><section id="slide-orga237067"><h3 id="orga237067">^</h3><p>double underscore proto</p></section></section><section><section id="slide-org4fdf7f1"><h2 id="org4fdf7f1">What is Dunder Proto used for?</h2><div class="outline-text-2" id="text-org4fdf7f1"></div></section><section id="slide-org0dbb5ce"><h3 id="org0dbb5ce">^</h3><p>Dunder Proto is used to change the methods and peoperties on prototypes up the protypal chain `_<sub>proto</sub>_`</p></section></section></div></div><script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script><script>// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});</script></body></html>
