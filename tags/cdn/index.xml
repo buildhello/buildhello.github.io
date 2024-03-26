@@ -6,15 +6,14 @@
     <description>Recent content in CDN on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://buildhello.ca/tags/cdn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://buildhello.ca/tags/cdn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Website Images | Build Hello | We design, code, and fix websites, and minimize how much it costs to develop a website over the span of your five year business plan.</title>
       <link>https://buildhello.ca/blog/2021-11-19-website-images/</link>
       <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://buildhello.ca/blog/2021-11-19-website-images/</guid>
       <description>While videos drive more social media engagement than images, images remain one of the most important aspects of web design. They play a key role in creating attraction and conveying brand identity.</description>
     </item>
-    
   </channel>
 </rss>

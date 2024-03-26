@@ -6,15 +6,14 @@
     <description>Recent content in Installation on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 31 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://buildhello.ca/tags/installation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 May 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://buildhello.ca/tags/installation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Maintenance | Build Hello Business | Tracking down that stray semi-colon. Pest Control. Very unpleasant virus removal. Updates!</title>
       <link>https://buildhello.ca/services/troubleshooting/</link>
       <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://buildhello.ca/services/troubleshooting/</guid>
       <description>When you have a website problem, you have a business problem. At Build Hello we put website problems to rest, so your business can rise and shine!</description>
     </item>
-    
   </channel>
 </rss>

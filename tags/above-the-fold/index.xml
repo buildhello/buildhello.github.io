@@ -6,16 +6,14 @@
     <description>Recent content in above-the-fold on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 20 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://buildhello.ca/tags/above-the-fold/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://buildhello.ca/tags/above-the-fold/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What Is Above The Fold Content? | Build Hello | We design, code, and fix websites</title>
       <link>https://buildhello.ca/blog/2021-11-19-what-is-above-the-fold/</link>
       <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://buildhello.ca/blog/2021-11-19-what-is-above-the-fold/</guid>
-      <description>Above The Fold When you first navigate to a website the content you see on the screen is called above the fold content.
-On any device, loading above the fold content first, and the rest of the content later, will speed up the rendering of the website by the browser.</description>
+      <description>Above The Fold When you first navigate to a website the content you see on the screen is called above the fold content.&#xA;On any device, loading above the fold content first, and the rest of the content later, will speed up the rendering of the website by the browser.</description>
     </item>
-    
   </channel>
 </rss>

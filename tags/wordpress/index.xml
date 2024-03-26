@@ -6,33 +6,28 @@
     <description>Recent content in Wordpress on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 22 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://buildhello.ca/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://buildhello.ca/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What Are the Top Four Most Popular Content Management Systems? | Build Hello | We design, code, and fix websites in a way that lowers your five year developer cost.</title>
       <link>https://buildhello.ca/blog/2021-11-27-what-are-the-top-four-most-popular-content-management-systems/</link>
       <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://buildhello.ca/blog/2021-11-27-what-are-the-top-four-most-popular-content-management-systems/</guid>
       <description>Read this post to learn about the top four most popular content management systems used globally in 2021 &amp;hellip;</description>
     </item>
-    
     <item>
       <title>Web Development | Build Hello Business | Basically we build you a space ship, a space station, a space world...whatever you want.</title>
       <link>https://buildhello.ca/services/web_development/</link>
       <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://buildhello.ca/services/web_development/</guid>
       <description>When your business is online, customers can see your on their phones! That&amp;rsquo;s where you want to be! Give us a call to help out with, oh any websites you&amp;rsquo;ve ever dreamed of!</description>
     </item>
-    
     <item>
       <title>Refactoring | Build Hello Business | That&#39;s &#39;refactoring of code,&#39; which is to say modernizing and simplifying any...how can we say this politely...&#39;cryptography&#39; you&#39;ve been saddled with into a modern top tier code base.</title>
       <link>https://buildhello.ca/services/refactoring/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://buildhello.ca/services/refactoring/</guid>
       <description>Refactoring your code base is more than proactive troubleshooting, it&amp;rsquo;s SEO, security, and better functionality all in one. Stay ahead of the crowd, refactor that code base!</description>
     </item>
-    
   </channel>
 </rss>
