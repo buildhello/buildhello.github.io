@@ -1,5 +1,5 @@
-@import "../assets/sass/includes/base/media_queries";
-@import "../assets/sass/includes/base/variables";
+@import "../../../assets/sass/includes/base/media_queries";
+@import "../../../assets/sass/includes/base/variables";
 
 @include font-face("sansForgetica", "/../../fonts/sans_forgetica/SansForgetica-Regular", normal, normal, woff2);
 
@@ -26,7 +26,6 @@ font-size:$big;
 }
 
 @include responsive(tablet){
-//font-size:$gargantuan;
 font-size:$grande;
 }
 

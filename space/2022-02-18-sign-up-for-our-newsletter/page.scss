@@ -1,5 +1,5 @@
-@import "../assets/sass/includes/base/media_queries";
-@import "../assets/sass/includes/base/variables";
+@import "../../../assets/sass/includes/base/media_queries";
+@import "../../../assets/sass/includes/base/variables";
 
 body {
 background-size: cover; 
@@ -97,8 +97,6 @@ grid-template-columns:1fr;
 grid-template-rows: 1fr minmax(6em, auto);
 min-height:60vh;
 }
-
-
 
 @media only screen and (max-width: 574px){
 .wrapper > .main > .main-content{
