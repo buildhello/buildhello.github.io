@@ -1,0 +1,11 @@
+/**
+* https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/
+*/
+
+@font-face {
+  font-family: 'Monaspace';
+  src: 
+    url('https://buildhello.ca/fonts/monaspace/MonaspaceKrypton-SyntaxHighlighter-Regular.woff2'); 
+    format('woff2')
+  ;
+}
