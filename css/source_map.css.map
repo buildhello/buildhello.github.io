@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "source_map.css",
-	"sourceRoot": "F:/Hugo/sites/buildhello-build-directory",
+	"sourceRoot": "f:/Hugo/sites/buildhello-build-directory",
 	"sources": [
 		"sass/sassBundleNewsS.scss",
 		"assets/sass/includes/base/_get-color.scss",
