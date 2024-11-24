@@ -1,0 +1,3 @@
+[submodule "bhcdn"]
+	path = bhcdn
+	url = ./bhcdn
