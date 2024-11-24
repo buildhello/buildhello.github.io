@@ -1,0 +1,3 @@
+[submodule "bhcdn"]
+	path = bhcdn
+	url = https://github.com/buildhello/buildhello.github.io.git
