@@ -1,0 +1,61 @@
+@import "../../../assets/sass/includes/base/media_queries";
+@import "../../../assets/sass/includes/base/variables";
+
+.wrapper > .header {
+background-size:cover;
+}
+
+.wrapper > .banner > .article-title{
+color:#3944CC;
+}
+
+
+.wrapper > .main {
+
+@include responsive(developer){
+grid-column: 4/23;
+}
+
+}//end .main
+
+.wrapper > .main > .main-content{
+justify-content:center;
+}
+
+.wrapper > .main > .main-content > ul{
+width:100%;
+}
+
+.wrapper > .main > .main-content > h2{
+}
+
+
+
+.wrapper > .main > .main-content > .w_30 {
+
+@include responsive(phone){
+width: 90%;
+}
+
+@include responsive(tablet-min){
+width: 45%;
+}
+@include responsive(laptop){
+width: 30%;
+}
+
+}
+
+.wrapper > .main > .main-content  > .aLink > picture {
+border: 1px solid #dcdcdc;
+}
+
+.wrapper > .main > .main-content  > .aLink:hover {
+transform: scale(1.05);
+}
+
+.wrapper > .main > .main-content  > .aLink > .p-caption {
+width:100%;
+color:#2832C2;
+text-decoration:underline;
+}
