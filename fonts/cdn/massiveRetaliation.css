@@ -1,0 +1,8 @@
+@font-face {
+font-family: 'massiveretaliation';
+    src: url('https://buildhello.ca/fonts/massiveretaliation/massiveretaliation.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* This is the correct usage */
+}
+

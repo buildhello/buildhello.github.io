@@ -1,0 +1,7 @@
+@font-face {
+font-family: 'AUTOBAHN';
+    src: url('https://buildhello.ca/fonts/autobahn/AUTOBAHN.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* This is the correct usage */
+}

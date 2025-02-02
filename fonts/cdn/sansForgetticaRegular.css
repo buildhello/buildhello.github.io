@@ -1,0 +1,12 @@
+/**
+* https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/
+*/
+
+@font-face {
+font-family: 'sansForgetica';
+    src: url('https://buildhello.ca/fonts/sans_forgetica/SansForgetica-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* This is the correct usage */
+}
+

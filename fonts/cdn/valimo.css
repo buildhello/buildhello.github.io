@@ -1,0 +1,7 @@
+@font-face {
+font-family: 'valimoRMX';
+    src: url('https://buildhello.ca/fonts/valimo/valimoRMX.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* This is the correct usage */
+}

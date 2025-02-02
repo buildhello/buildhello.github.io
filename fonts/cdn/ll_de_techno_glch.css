@@ -1,0 +1,16 @@
+
+/**
+* LL DEtechno
+*/
+
+
+@font-face {
+font-family: 'LLDEtechnoGlitchGX';
+    src: url('https://buildhello.ca/fonts/v/llDeTechno/LLDEtechnoGlitchGX.ttf') format(truetype) tech(variations);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* This is the correct usage */
+	font-variation-settings: 'glch' 0 100, 'slnt' 0 50; /* Range for custom axes */
+}
+
+

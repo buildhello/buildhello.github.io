@@ -1,0 +1,7 @@
+@font-face {
+font-family: 'AttikaGX';
+    src: url('https://buildhello.ca/fonts/v/attika/AttikaGX.ttf') format(truetype) tech(variations);
+    font-weight: 400 900;
+    font-style: normal;
+    font-display: swap; /* This is the correct usage */
+}
