@@ -4,23 +4,23 @@
 .foldit-bold-700 {
   font-family: "Foldit", serif !important;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 700;//variable
   font-style: normal;
 
 @include responsive(small-phone){
-font-size: 1em !important;
+font-size: 1.5em !important;
 }
 
 @include responsive(galaxy){
-font-size:0.9em !important;
+//font-size:0.9em !important;
 }
 
 @include responsive(phone){
-font-size:1.2em !important;
+font-size:1.5em !important;
 }
 
 @include responsive(tablet){
-font-size:1.5em !important;
+//font-size:1.5em !important;
 }
 
 
