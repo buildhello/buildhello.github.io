@@ -1,0 +1,62 @@
+
+/* @font-face { */
+/* font-family: 'ComicSansMS3'; */
+/*     src: url('https://buildhello.ca/fonts/comic-sans-ms/ComicSansMS3.ttf') format('opentype'); */
+/*     font-weight: normal; */
+/*     font-style: normal; */
+/*     font-display: swap; /\* This is the correct usage *\/ */
+/* } */
+
+
+@font-face {
+font-family: 'ComicSansMS3';
+    src: url('https://buildhello.ca/fonts/comic-sans-ms/ComicSansMS3.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* This is the correct usage */
+}
+
+
+@font-face {
+font-family: 'comici';
+    src: url('https://buildhello.ca/fonts/comic-sans-ms/comici.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* This is the correct usage */
+}
+
+
+
+@font-face {
+font-family: 'COMIC';
+    src: url('https://buildhello.ca/fonts/comic-sans-ms/COMIC.TTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* This is the correct usage */
+}
+
+
+@font-face {
+font-family: 'comicz';
+    src: url('https://buildhello.ca/fonts/comic-sans-ms/comicz.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* This is the correct usage */
+}
+
+
+@font-face {
+font-family: 'comicsansmsgras';
+    src: url('https://buildhello.ca/fonts/comic-sans-ms/design.graffiti.comicsansmsgras.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* This is the correct usage */
+}
+
+@font-face {
+font-family: 'comicsansms';
+    src: url('https://buildhello.ca/fonts/comic-sans-ms/design.graffiti.comicsansms.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* This is the correct usage */
+}
