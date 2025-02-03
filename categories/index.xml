@@ -2,108 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://buildhello.ca/categories/</link>
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://buildhello.ca/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025</title>
-      <link>http://localhost:1313/categories/2025/</link>
+      <link>https://buildhello.ca/categories/2025/</link>
       <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/2025/</guid>
+      <guid>https://buildhello.ca/categories/2025/</guid>
       <description></description>
     </item>
     <item>
       <title>August 2024</title>
-      <link>http://localhost:1313/categories/august-2024/</link>
+      <link>https://buildhello.ca/categories/august-2024/</link>
       <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/august-2024/</guid>
+      <guid>https://buildhello.ca/categories/august-2024/</guid>
       <description></description>
     </item>
     <item>
       <title>April 2024</title>
-      <link>http://localhost:1313/categories/april-2024/</link>
+      <link>https://buildhello.ca/categories/april-2024/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/april-2024/</guid>
+      <guid>https://buildhello.ca/categories/april-2024/</guid>
       <description></description>
     </item>
     <item>
       <title>Jul 2023</title>
-      <link>http://localhost:1313/categories/jul-2023/</link>
+      <link>https://buildhello.ca/categories/jul-2023/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/jul-2023/</guid>
+      <guid>https://buildhello.ca/categories/jul-2023/</guid>
       <description></description>
     </item>
     <item>
       <title>July 2023</title>
-      <link>http://localhost:1313/categories/july-2023/</link>
+      <link>https://buildhello.ca/categories/july-2023/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/july-2023/</guid>
+      <guid>https://buildhello.ca/categories/july-2023/</guid>
       <description></description>
     </item>
     <item>
       <title>Website Reviews</title>
-      <link>http://localhost:1313/categories/website-reviews/</link>
+      <link>https://buildhello.ca/categories/website-reviews/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/website-reviews/</guid>
+      <guid>https://buildhello.ca/categories/website-reviews/</guid>
       <description></description>
     </item>
     <item>
       <title>Build Hello Tech Talks</title>
-      <link>http://localhost:1313/categories/build-hello-tech-talks/</link>
+      <link>https://buildhello.ca/categories/build-hello-tech-talks/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/build-hello-tech-talks/</guid>
+      <guid>https://buildhello.ca/categories/build-hello-tech-talks/</guid>
       <description></description>
     </item>
     <item>
       <title>June 2023</title>
-      <link>http://localhost:1313/categories/june-2023/</link>
+      <link>https://buildhello.ca/categories/june-2023/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/june-2023/</guid>
+      <guid>https://buildhello.ca/categories/june-2023/</guid>
       <description></description>
     </item>
     <item>
       <title>Feb 2022</title>
-      <link>http://localhost:1313/categories/feb-2022/</link>
+      <link>https://buildhello.ca/categories/feb-2022/</link>
       <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/feb-2022/</guid>
+      <guid>https://buildhello.ca/categories/feb-2022/</guid>
       <description></description>
     </item>
     <item>
       <title>Nov 2021</title>
-      <link>http://localhost:1313/categories/nov-2021/</link>
+      <link>https://buildhello.ca/categories/nov-2021/</link>
       <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/nov-2021/</guid>
+      <guid>https://buildhello.ca/categories/nov-2021/</guid>
       <description></description>
     </item>
     <item>
       <title>Oct 2021</title>
-      <link>http://localhost:1313/categories/oct-2021/</link>
+      <link>https://buildhello.ca/categories/oct-2021/</link>
       <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/oct-2021/</guid>
+      <guid>https://buildhello.ca/categories/oct-2021/</guid>
       <description></description>
     </item>
     <item>
       <title>Services</title>
-      <link>http://localhost:1313/categories/services/</link>
+      <link>https://buildhello.ca/categories/services/</link>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/services/</guid>
+      <guid>https://buildhello.ca/categories/services/</guid>
       <description></description>
     </item>
     <item>
       <title>Aug 2020</title>
-      <link>http://localhost:1313/categories/aug-2020/</link>
+      <link>https://buildhello.ca/categories/aug-2020/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/aug-2020/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>May 2023</title>
-      <link>http://localhost:1313/categories/may-2023/</link>
-      <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/may-2023/</guid>
+      <guid>https://buildhello.ca/categories/aug-2020/</guid>
       <description></description>
     </item>
   </channel>

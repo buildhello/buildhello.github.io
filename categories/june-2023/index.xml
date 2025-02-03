@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>June 2023 on </title>
-    <link>http://localhost:1313/categories/june-2023/</link>
+    <link>https://buildhello.ca/categories/june-2023/</link>
     <description>Recent content in June 2023 on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/june-2023/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://buildhello.ca/categories/june-2023/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Hugo Slideshow | Build Hello Tech Talks</title>
-      <link>http://localhost:1313/ex/2023-06-30-website-introduction-to-hugo-slideshow/</link>
+      <link>https://buildhello.ca/ex/2023-06-30-website-introduction-to-hugo-slideshow/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ex/2023-06-30-website-introduction-to-hugo-slideshow/</guid>
+      <guid>https://buildhello.ca/ex/2023-06-30-website-introduction-to-hugo-slideshow/</guid>
       <description>Deciding the technology to use for your website is challenging. In this episode, we share a few things business owners may want to know about Hugo.</description>
     </item>
     <item>
       <title>VIITA Watches | Build Hello Website Reviews</title>
-      <link>http://localhost:1313/space_ex/2023-06-30-website-review-viita-watches/</link>
+      <link>https://buildhello.ca/space_ex/2023-06-30-website-review-viita-watches/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/space_ex/2023-06-30-website-review-viita-watches/</guid>
+      <guid>https://buildhello.ca/space_ex/2023-06-30-website-review-viita-watches/</guid>
       <description>VIITA creates world class watches and other luxury accessories. We looked to their .com domain to find a luxury, high-quality, website for review!</description>
     </item>
   </channel>

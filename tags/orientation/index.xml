@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Orientation on </title>
-    <link>http://localhost:1313/tags/orientation/</link>
+    <link>https://buildhello.ca/tags/orientation/</link>
     <description>Recent content in Orientation on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 10 Jul 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/orientation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://buildhello.ca/tags/orientation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build Hello Recruitment</title>
-      <link>http://localhost:1313/newsletter/hiring/</link>
+      <link>https://buildhello.ca/newsletter/hiring/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/newsletter/hiring/</guid>
+      <guid>https://buildhello.ca/newsletter/hiring/</guid>
       <description>&lt;h2 id=&#34;welcome-to-build-hello-recruitment&#34;&gt;Welcome to Build Hello Recruitment&lt;/h2&gt;&#xA;&lt;p&gt;We&amp;rsquo;re currently in a &lt;b&gt;start-up&lt;/b&gt; stage. &lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;That means we&amp;rsquo;re &lt;b&gt;&amp;lsquo;picking teams,&amp;rsquo;&lt;/b&gt; so to speak.&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;our-process&#34;&gt;Our Process&lt;/h2&gt;&#xA;&lt;p&gt;The process we follow as a start-up, and the process you may want to follow, as a potential Build Hello partner or employee, is similar to the processes professional sports teams follow.&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Build Hello Orientation Videos</title>
-      <link>http://localhost:1313/other/2020-08-18-hiring/</link>
+      <link>https://buildhello.ca/other/2020-08-18-hiring/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/other/2020-08-18-hiring/</guid>
+      <guid>https://buildhello.ca/other/2020-08-18-hiring/</guid>
       <description>&lt;h2 id=&#34;welcome-to-build-hello-recruitment&#34;&gt;Welcome to Build Hello Recruitment&lt;/h2&gt;&#xA;&lt;p&gt;We&amp;rsquo;re currently in a start-up stage. &lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;That means we&amp;rsquo;re &amp;lsquo;picking teams,&amp;rsquo; so to speak.&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;The process we follow as a start-up, and the process you may want to follow, as a potential Build Hello partner or employee, is similar to the processes professional sports teams follow.&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>http://localhost:1313/ex/</link>
+    <link>https://buildhello.ca/ex/</link>
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/ex/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://buildhello.ca/ex/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Hugo Slideshow | Build Hello Tech Talks</title>
-      <link>http://localhost:1313/ex/2023-06-30-website-introduction-to-hugo-slideshow/</link>
+      <link>https://buildhello.ca/ex/2023-06-30-website-introduction-to-hugo-slideshow/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ex/2023-06-30-website-introduction-to-hugo-slideshow/</guid>
+      <guid>https://buildhello.ca/ex/2023-06-30-website-introduction-to-hugo-slideshow/</guid>
       <description>Deciding the technology to use for your website is challenging. In this episode, we share a few things business owners may want to know about Hugo.</description>
     </item>
   </channel>

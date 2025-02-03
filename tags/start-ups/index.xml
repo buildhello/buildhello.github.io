@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Start Ups on </title>
-    <link>http://localhost:1313/tags/start-ups/</link>
+    <link>https://buildhello.ca/tags/start-ups/</link>
     <description>Recent content in Start Ups on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 05 Jun 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/start-ups/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://buildhello.ca/tags/start-ups/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Starter Package | Build Hello Business | Many fine tasks quickly combined and mixed like pancake batter into one incredibly complete looking website, for just $899?</title>
-      <link>http://localhost:1313/services/starter_package/</link>
+      <link>https://buildhello.ca/services/starter_package/</link>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/starter_package/</guid>
+      <guid>https://buildhello.ca/services/starter_package/</guid>
       <description>Starting a business means launching a new website, but building it yourself takes forever. Our quickstart starter package delivers the bare minimum. It&amp;rsquo;s an easy way to get something good looking up you can work on later.</description>
     </item>
   </channel>

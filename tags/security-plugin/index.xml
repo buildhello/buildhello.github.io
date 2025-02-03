@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security Plugin on </title>
-    <link>http://localhost:1313/tags/security-plugin/</link>
+    <link>https://buildhello.ca/tags/security-plugin/</link>
     <description>Recent content in Security Plugin on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 31 May 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/security-plugin/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://buildhello.ca/tags/security-plugin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Maintenance | Build Hello Business | Tracking down that stray semi-colon. Pest Control. Very unpleasant virus removal. Updates!</title>
-      <link>http://localhost:1313/services/troubleshooting/</link>
+      <link>https://buildhello.ca/services/troubleshooting/</link>
       <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/troubleshooting/</guid>
+      <guid>https://buildhello.ca/services/troubleshooting/</guid>
       <description>When you have a website problem, you have a business problem. At Build Hello we put website problems to rest, so your business can rise and shine!</description>
     </item>
   </channel>

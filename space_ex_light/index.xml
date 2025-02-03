@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>http://localhost:1313/space_ex_light/</link>
+    <link>https://buildhello.ca/space_ex_light/</link>
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/space_ex_light/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://buildhello.ca/space_ex_light/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trends In Web Development - 2025</title>
-      <link>http://localhost:1313/space_ex_light/2025-01-25-trends-in-web-development/</link>
+      <link>https://buildhello.ca/space_ex_light/2025-01-25-trends-in-web-development/</link>
       <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/space_ex_light/2025-01-25-trends-in-web-development/</guid>
+      <guid>https://buildhello.ca/space_ex_light/2025-01-25-trends-in-web-development/</guid>
       <description>As we dive into 2025, the web development landscape is poised for significant transformations driven by emerging technologies. Some of the key trends to watch in 2025 include:</description>
     </item>
     <item>
       <title>Why Build A Website With Hugo, the Hugely Popular Static Website Generator?</title>
-      <link>http://localhost:1313/space_ex_light/2022-02-10-why-should-we-build-our-website-with-hugo/</link>
+      <link>https://buildhello.ca/space_ex_light/2022-02-10-why-should-we-build-our-website-with-hugo/</link>
       <pubDate>Sun, 13 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/space_ex_light/2022-02-10-why-should-we-build-our-website-with-hugo/</guid>
+      <guid>https://buildhello.ca/space_ex_light/2022-02-10-why-should-we-build-our-website-with-hugo/</guid>
       <description>There&amp;rsquo;s every reason to build a website with Hugo. Starting with lightening fast builds, low maintenance, minimal hosting resource demands, easy application development life-cycle.</description>
     </item>
   </channel>
