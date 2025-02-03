@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Terms and Privacy on </title>
-    <link>https://buildhello.ca/newsletter/terms_and_privacy/</link>
+    <link>http://localhost:1313/newsletter/terms_and_privacy/</link>
     <description>Recent content in Terms and Privacy on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 19 Mar 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://buildhello.ca/newsletter/terms_and_privacy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/newsletter/terms_and_privacy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Privacy</title>
-      <link>https://buildhello.ca/newsletter/terms_and_privacy/privacy/</link>
+      <link>http://localhost:1313/newsletter/terms_and_privacy/privacy/</link>
       <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/newsletter/terms_and_privacy/privacy/</guid>
+      <guid>http://localhost:1313/newsletter/terms_and_privacy/privacy/</guid>
       <description>&lt;h1 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h1&gt;&#xA;&lt;h2 id=&#34;last-updated-august-11-2016&#34;&gt;Last updated: August 11, 2016&lt;/h2&gt;&#xA;&lt;p&gt;This Privacy Policy relates to information collected by any websites, applications and/or other online services that Build Hello may make available from time to time (collectively, &amp;ldquo;Build Hello&amp;rdquo; or &amp;ldquo;we&amp;rdquo; or &amp;ldquo;us&amp;rdquo; or &amp;ldquo;our&amp;rdquo; or the &amp;ldquo;Site&amp;rdquo;) and is part of the Build Hello Terms of Use and Conditions located &lt;a class = &#34;sh3&#34; href= &#34;&#34;&gt;here&lt;/a&gt;.&#xA;We reserve the right to change, modify or amend this policy at any time by posting changes on this site. Your continued use of the resources on this site, after changes are posted, constitutes your acceptance of this policy as modified by the posted changes. Terms of Use and Privacy Policy We encourage you to periodically review this policy.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Terms</title>
-      <link>https://buildhello.ca/newsletter/terms_and_privacy/terms/</link>
+      <link>http://localhost:1313/newsletter/terms_and_privacy/terms/</link>
       <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/newsletter/terms_and_privacy/terms/</guid>
+      <guid>http://localhost:1313/newsletter/terms_and_privacy/terms/</guid>
       <description>&lt;h1 id=&#34;terms-and-conditions-of-use&#34;&gt;Terms and Conditions of Use:&lt;/h1&gt;&#xA;&lt;h2 id=&#34;last-updated-july-08th-2023&#34;&gt;Last updated: July 08th, 2023&lt;/h2&gt;&#xA;&lt;p&gt;Build Hello (“Build Hello” or “we”, &lt;a href=&#34;https://www.buildhello.ca&#34;&gt;www.buildhello.ca&lt;/a&gt;, “our” or “us”) is both a Trade Name and Trade Mark, owned by Yuri Tricys. Build Hello operates the Build Hello website located at &lt;a href=&#34;https://buildhello.ca&#34;&gt;https://buildhello.ca&lt;/a&gt;, and engages in web technology consulting, web development, and web design services, collectively &amp;lsquo;The Services.&amp;rsquo;  &lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
     </item>
   </channel>

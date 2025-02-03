@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nov 2021 on </title>
-    <link>https://buildhello.ca/categories/nov-2021/</link>
+    <link>http://localhost:1313/categories/nov-2021/</link>
     <description>Recent content in Nov 2021 on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 22 Nov 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://buildhello.ca/categories/nov-2021/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/nov-2021/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What Are the Top Four Most Popular Content Management Systems? | Build Hello | We design, code, and fix websites in a way that lowers your five year developer cost.</title>
-      <link>https://buildhello.ca/blog/2021-11-27-what-are-the-top-four-most-popular-content-management-systems/</link>
+      <link>http://localhost:1313/blog/2021-11-27-what-are-the-top-four-most-popular-content-management-systems/</link>
       <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/blog/2021-11-27-what-are-the-top-four-most-popular-content-management-systems/</guid>
+      <guid>http://localhost:1313/blog/2021-11-27-what-are-the-top-four-most-popular-content-management-systems/</guid>
       <description>Read this post to learn about the top four most popular content management systems used globally in 2021 &amp;hellip;</description>
     </item>
     <item>
       <title>What Is Above The Fold Content? | Build Hello | We design, code, and fix websites</title>
-      <link>https://buildhello.ca/blog/2021-11-19-what-is-above-the-fold/</link>
+      <link>http://localhost:1313/blog/2021-11-19-what-is-above-the-fold/</link>
       <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/blog/2021-11-19-what-is-above-the-fold/</guid>
+      <guid>http://localhost:1313/blog/2021-11-19-what-is-above-the-fold/</guid>
       <description>&lt;iframe class=&#34;mobile-iframe w_75&#34; src=&#34;https://www.youtube-nocookie.com/embed/9hj0Hel4Nhc;rel=0;modestbranding=1;iv_load_policy=3;showinfo=0;autohide=0;&#34; allowfullscreen frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen&#34; load=&#34;lazyload&#34;&gt;&#xD;&#xA;&lt;/iframe&gt;&#xD;&#xA;&#xA;&lt;h2 id=&#34;above-the-fold&#34;&gt;Above The Fold&lt;/h2&gt;&#xA;&lt;!--start-summary--&gt;&#xD;&#xA;&lt;p class= &#34;p-news&#34;&gt;When you first navigate to a website the content you see on the screen is called &lt;b&gt;above the fold&lt;/b&gt; content.&lt;/p&gt;&#xD;&#xA;&lt;p class= &#34;p-news&#34;&gt;On any device, loading &lt;b&gt;above the fold&lt;/b&gt; content first, and the rest of the content later, will speed up the rendering of the website by the browser.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Website Images | Build Hello | We design, code, and fix websites, and minimize how much it costs to develop a website over the span of your five year business plan.</title>
-      <link>https://buildhello.ca/blog/2021-11-19-website-images/</link>
+      <link>http://localhost:1313/blog/2021-11-19-website-images/</link>
       <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/blog/2021-11-19-website-images/</guid>
+      <guid>http://localhost:1313/blog/2021-11-19-website-images/</guid>
       <description>While videos drive more social media engagement than images, images remain one of the most important aspects of web design. They play a key role in creating attraction and conveying brand identity.</description>
     </item>
     <item>
       <title>What is Lighthouse? | Build Hello | We design, code, and fix websites, and we do it in a way that lowers your five-year developer cost.</title>
-      <link>https://buildhello.ca/blog/2021-11-19-what-is-lighthouse/</link>
+      <link>http://localhost:1313/blog/2021-11-19-what-is-lighthouse/</link>
       <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/blog/2021-11-19-what-is-lighthouse/</guid>
+      <guid>http://localhost:1313/blog/2021-11-19-what-is-lighthouse/</guid>
       <description>Chrome browser comes with an easy to use website audit tool included. Auditing your website will let you know what Chrome thinks about it in terms of performance. Learn how to audit your website here.</description>
     </item>
     <item>
       <title>The Effect of Disfluency on Retention. Why You May Want to Be A Bit Confusing in var_year ?</title>
-      <link>https://buildhello.ca/ex_light/2021-11-01-selecting-a-font-for-your-project/</link>
+      <link>http://localhost:1313/ex_light/2021-11-01-selecting-a-font-for-your-project/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/ex_light/2021-11-01-selecting-a-font-for-your-project/</guid>
+      <guid>http://localhost:1313/ex_light/2021-11-01-selecting-a-font-for-your-project/</guid>
       <description>It could have been a typical Wednesday afternoon, in 2011, in the university&amp;rsquo;s psychology department. Connor Diemand-Yauman could have sat down across from Daniel Oppenheimer, a look of intrigue on his face.</description>
     </item>
   </channel>

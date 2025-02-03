@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>https://buildhello.ca/seo/</link>
+    <link>http://localhost:1313/seo/</link>
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 06 Jan 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://buildhello.ca/seo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/seo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://buildhello.ca/seo/presentation/</link>
+      <link>http://localhost:1313/seo/presentation/</link>
       <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/seo/presentation/</guid>
+      <guid>http://localhost:1313/seo/presentation/</guid>
       <description>Pretium quam vulputate dignissim suspendisse in est ante in nibh mauris, cursus mattis molestie a? Orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis!</description>
     </item>
   </channel>

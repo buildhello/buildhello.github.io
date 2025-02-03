@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fonts on </title>
-    <link>https://buildhello.ca/tags/fonts/</link>
+    <link>http://localhost:1313/tags/fonts/</link>
     <description>Recent content in Fonts on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://buildhello.ca/tags/fonts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/fonts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Effect of Disfluency on Retention. Why You May Want to Be A Bit Confusing in var_year ?</title>
-      <link>https://buildhello.ca/ex_light/2021-11-01-selecting-a-font-for-your-project/</link>
+      <link>http://localhost:1313/ex_light/2021-11-01-selecting-a-font-for-your-project/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/ex_light/2021-11-01-selecting-a-font-for-your-project/</guid>
+      <guid>http://localhost:1313/ex_light/2021-11-01-selecting-a-font-for-your-project/</guid>
       <description>It could have been a typical Wednesday afternoon, in 2011, in the university&amp;rsquo;s psychology department. Connor Diemand-Yauman could have sat down across from Daniel Oppenheimer, a look of intrigue on his face.</description>
     </item>
   </channel>

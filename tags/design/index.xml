@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design on </title>
-    <link>https://buildhello.ca/tags/design/</link>
+    <link>http://localhost:1313/tags/design/</link>
     <description>Recent content in Design on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://buildhello.ca/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Effect of Disfluency on Retention. Why You May Want to Be A Bit Confusing in var_year ?</title>
-      <link>https://buildhello.ca/ex_light/2021-11-01-selecting-a-font-for-your-project/</link>
+      <link>http://localhost:1313/ex_light/2021-11-01-selecting-a-font-for-your-project/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/ex_light/2021-11-01-selecting-a-font-for-your-project/</guid>
+      <guid>http://localhost:1313/ex_light/2021-11-01-selecting-a-font-for-your-project/</guid>
       <description>It could have been a typical Wednesday afternoon, in 2011, in the university&amp;rsquo;s psychology department. Connor Diemand-Yauman could have sat down across from Daniel Oppenheimer, a look of intrigue on his face.</description>
     </item>
     <item>
       <title>Design | Build Hello Business | Sketches. Scribbles on the back of napkins. Wireframes. Mockups. Prototypes.</title>
-      <link>https://buildhello.ca/services/design/</link>
+      <link>http://localhost:1313/services/design/</link>
       <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/services/design/</guid>
+      <guid>http://localhost:1313/services/design/</guid>
       <description>Because it feels good to know your website design is original you. We help out with sexy ideas, and even put together prototypes and mockups you can view and share with your team online.</description>
     </item>
   </channel>

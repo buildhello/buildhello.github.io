@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ssg on </title>
-    <link>https://buildhello.ca/tags/ssg/</link>
+    <link>http://localhost:1313/tags/ssg/</link>
     <description>Recent content in Ssg on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://buildhello.ca/tags/ssg/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ssg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Hugo Slideshow | Build Hello Tech Talks</title>
-      <link>https://buildhello.ca/ex/2023-06-30-website-introduction-to-hugo-slideshow/</link>
+      <link>http://localhost:1313/ex/2023-06-30-website-introduction-to-hugo-slideshow/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/ex/2023-06-30-website-introduction-to-hugo-slideshow/</guid>
+      <guid>http://localhost:1313/ex/2023-06-30-website-introduction-to-hugo-slideshow/</guid>
       <description>Deciding the technology to use for your website is challenging. In this episode, we share a few things business owners may want to know about Hugo.</description>
     </item>
     <item>
       <title>Why Build A Website With Hugo, the Hugely Popular Static Website Generator?</title>
-      <link>https://buildhello.ca/space_ex_light/2022-02-10-why-should-we-build-our-website-with-hugo/</link>
+      <link>http://localhost:1313/space_ex_light/2022-02-10-why-should-we-build-our-website-with-hugo/</link>
       <pubDate>Sun, 13 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/space_ex_light/2022-02-10-why-should-we-build-our-website-with-hugo/</guid>
+      <guid>http://localhost:1313/space_ex_light/2022-02-10-why-should-we-build-our-website-with-hugo/</guid>
       <description>There&amp;rsquo;s every reason to build a website with Hugo. Starting with lightening fast builds, low maintenance, minimal hosting resource demands, easy application development life-cycle.</description>
     </item>
   </channel>

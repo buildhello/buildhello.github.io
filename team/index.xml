@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Build Hello Team on </title>
-    <link>https://buildhello.ca/team/</link>
+    <link>http://localhost:1313/team/</link>
     <description>Recent content in Build Hello Team on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 31 May 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://buildhello.ca/team/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/team/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://buildhello.ca/team/team_one/</link>
+      <link>http://localhost:1313/team/team_one/</link>
       <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/team/team_one/</guid>
+      <guid>http://localhost:1313/team/team_one/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://buildhello.ca/team/team_five/</link>
+      <link>http://localhost:1313/team/team_five/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/team/team_five/</guid>
+      <guid>http://localhost:1313/team/team_five/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://buildhello.ca/team/team_four/</link>
+      <link>http://localhost:1313/team/team_four/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/team/team_four/</guid>
+      <guid>http://localhost:1313/team/team_four/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://buildhello.ca/team/team_six/</link>
+      <link>http://localhost:1313/team/team_six/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/team/team_six/</guid>
+      <guid>http://localhost:1313/team/team_six/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://buildhello.ca/team/team_three/</link>
+      <link>http://localhost:1313/team/team_three/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/team/team_three/</guid>
+      <guid>http://localhost:1313/team/team_three/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://buildhello.ca/team/team_two/</link>
+      <link>http://localhost:1313/team/team_two/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/team/team_two/</guid>
+      <guid>http://localhost:1313/team/team_two/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Above-the-Fold on </title>
-    <link>https://buildhello.ca/tags/above-the-fold/</link>
+    <link>http://localhost:1313/tags/above-the-fold/</link>
     <description>Recent content in Above-the-Fold on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 20 Nov 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://buildhello.ca/tags/above-the-fold/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/above-the-fold/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What Is Above The Fold Content? | Build Hello | We design, code, and fix websites</title>
-      <link>https://buildhello.ca/blog/2021-11-19-what-is-above-the-fold/</link>
+      <link>http://localhost:1313/blog/2021-11-19-what-is-above-the-fold/</link>
       <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/blog/2021-11-19-what-is-above-the-fold/</guid>
+      <guid>http://localhost:1313/blog/2021-11-19-what-is-above-the-fold/</guid>
       <description>&lt;iframe class=&#34;mobile-iframe w_75&#34; src=&#34;https://www.youtube-nocookie.com/embed/9hj0Hel4Nhc;rel=0;modestbranding=1;iv_load_policy=3;showinfo=0;autohide=0;&#34; allowfullscreen frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen&#34; load=&#34;lazyload&#34;&gt;&#xD;&#xA;&lt;/iframe&gt;&#xD;&#xA;&#xA;&lt;h2 id=&#34;above-the-fold&#34;&gt;Above The Fold&lt;/h2&gt;&#xA;&lt;!--start-summary--&gt;&#xD;&#xA;&lt;p class= &#34;p-news&#34;&gt;When you first navigate to a website the content you see on the screen is called &lt;b&gt;above the fold&lt;/b&gt; content.&lt;/p&gt;&#xD;&#xA;&lt;p class= &#34;p-news&#34;&gt;On any device, loading &lt;b&gt;above the fold&lt;/b&gt; content first, and the rest of the content later, will speed up the rendering of the website by the browser.&lt;/p&gt;</description>
     </item>
   </channel>

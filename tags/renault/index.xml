@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Renault on </title>
-    <link>https://buildhello.ca/tags/renault/</link>
+    <link>http://localhost:1313/tags/renault/</link>
     <description>Recent content in Renault on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://buildhello.ca/tags/renault/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/renault/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VIITA Watches | Build Hello Website Reviews</title>
-      <link>https://buildhello.ca/space_ex/2023-06-30-website-review-viita-watches/</link>
+      <link>http://localhost:1313/space_ex/2023-06-30-website-review-viita-watches/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/space_ex/2023-06-30-website-review-viita-watches/</guid>
+      <guid>http://localhost:1313/space_ex/2023-06-30-website-review-viita-watches/</guid>
       <description>VIITA creates world class watches and other luxury accessories. We looked to their .com domain to find a luxury, high-quality, website for review!</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Social Media Posts on </title>
-    <link>https://buildhello.ca/tags/social-media-posts/</link>
+    <link>http://localhost:1313/tags/social-media-posts/</link>
     <description>Recent content in Social Media Posts on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 02 Jun 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://buildhello.ca/tags/social-media-posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/social-media-posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Content Writing | Build Hello Business | Carefully crafted words arranged in clever, campy and carefree, or confident and credible, crisp, non-cursive character strings (assuming you don&#39;t want cursive.)</title>
-      <link>https://buildhello.ca/services/content/</link>
+      <link>http://localhost:1313/services/content/</link>
       <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://buildhello.ca/services/content/</guid>
+      <guid>http://localhost:1313/services/content/</guid>
       <description>Text, text, and more text. We write it. We edit it. We make it yours. Content writing for the web is a technical art-form. It&amp;rsquo;s a blend of research, style, and optimization. It&amp;rsquo;s something we do for you.</description>
     </item>
   </channel>
