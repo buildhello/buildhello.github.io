@@ -6,6 +6,11 @@
  * Dracula colors by Zeno Rocha
  * https://draculatheme.com/contribute
  */
+
+
+@import url(https://buildhello.ca/fonts/cdn/league-gothic.css);
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
 html * {
   color-profile: sRGB;
   rendering-intent: auto;
