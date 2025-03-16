@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Software Tester';
+    src: url('https://buildhello.ca/fonts/software-tester/software_tester_7-webfont.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+	font-display: swap; /* This is the correct usage */
+}
+

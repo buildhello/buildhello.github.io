@@ -111,3 +111,8 @@ margin:3em auto;
 #survey-iframe-container #ownership-survey body {
 overflow:hidden;
 }
+
+#survey-iframe-container{
+display:flex;
+flex-wrap:wrap;
+}
