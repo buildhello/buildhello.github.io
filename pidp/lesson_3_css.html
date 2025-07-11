@@ -1,10 +1,143 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title></title><meta name="author" content=""><meta name="description" content=""><meta name="keywords" content=""><style type="text/css">.underline { text-decoration: underline; }</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/blood.css" id="theme"><!-- If the query includes 'print-pdf', include the PDF print sheet --><script>if( window.location.search.match( /print-pdf/gi ) ) {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title></title>
+<meta name="author" content=""/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/blood.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
         link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
-    }</script><style type="text/css">#sec-title-slide>h3{color:red !important; margin:-80px 0px 0px 0px !important;.present{margin:-50px 0px !important;}.reveal .controls{color:#00f500 !important;} .reveal a:hover .r-frame {color:#00f500 !important;} .reveal a {color:#00f500 !important;} .reveal a:hover{color:#00f500 !important;} .reveal .roll span:after{background:#007e00 !important;} .reveal .progress {color:#00f500 !important;} .figure{display:flex;flex-wrap:wrap;}</style><link rel="stylesheet" type="text/css" href="https://buildhello.ca/orientation/blood.css"><meta name="robots" content="noindex, nofollow"></head><body><div class="reveal"><div class="slides"><section id="sec-title-slide" data-background="./media/1__MsWQYq0zwKFAn6Y9wJmeg.png" data-background-size="cover" data-background-repeat="none" data-background-opacity="0.8"><h3></h3></section><section><section id="slide-orgda20934"><h2 id="orgda20934">Intro</h2><div class="outline-text-2" id="text-orgda20934"></div></section><section id="slide-orgf54612c"><h3 id="orgf54612c">^</h3><p>Yesterday we talked about HTML, the Hyper-Text Markup Language that’s responsible for the structure of our websites</p></section><section id="slide-org5dd5c82"><h3 id="org5dd5c82">^</h3><p>Today we’re going to talk about CSS, which is the language used to style websites</p></section><section id="slide-orge66b6f7"><h3 id="orge66b6f7">^</h3><div id="orgdb4eb4f" class="figure"><p><img src="./media/64dcc7c33b5ae_html_vs_css_01.jpg" alt="64dcc7c33b5ae_html_vs_css_01.jpg" class="img-1" width="100%;" style="margin:0px 0px 0px 0px;"></p></div></section></section><section><section id="slide-orgeb8ed0f"><h2 id="orgeb8ed0f">Objective</h2><div class="outline-text-2" id="text-orgeb8ed0f"></div></section><section id="slide-org016c563"><h3 id="org016c563">^</h3><p>After this lesson you will know three distinct characteristics of CSS</p></section></section><section><section id="slide-org01963b4"><h2 id="org01963b4">What is CSS</h2><div class="outline-text-2" id="text-org01963b4"></div></section><section id="slide-orge9e220a"><h3 id="orge9e220a">^</h3><p>CSS stands for Cascading Style Sheets</p></section><section id="slide-org19b6b01"><h3 id="org19b6b01">^</h3><p>CSS is a rules-based language used to apply styles to HTML elements or groups of elements</p></section><section id="slide-org6c75701"><h3 id="org6c75701">^</h3><p>What do we mean by a rules based language? Any ideas?</p></section><section id="slide-orge5b9154"><h3 id="orge5b9154">^</h3><p>Interpretation of rules, written with correct syntax, to match blocks of CSS with HTML elements</p></section><section id="slide-org625120e"><h3 id="org625120e">^</h3><p>Within our rules based language, we have ’selectors’, ’properties’, ’syntax’, ’rules’</p></section></section><section><section id="slide-org9ac694e"><h2 id="org9ac694e">What are CSS Selectors</h2><div class="outline-text-2" id="text-org9ac694e"></div></section><section id="slide-org71ea7b9"><h3 id="org71ea7b9">^</h3><p>CSS selectors are key words we arrange and write in our CSS documents, that tell the browser to target specific HTML elements</p></section><section id="slide-orgbedd495"><h3 id="orgbedd495">^</h3><div class="org-src-container"><pre class="src src-html"><code trim>body <span style="color: #6c9ef8;">{</span>
+    }
+</script>
+<style type="text/css">#sec-title-slide>h3{color:red !important; margin:-80px 0px 0px 0px !important;.present{margin:-50px 0px !important;}.reveal .controls{color:#00f500 !important;} .reveal a:hover .r-frame {color:#00f500 !important;} .reveal a {color:#00f500 !important;} .reveal a:hover{color:#00f500 !important;} .reveal .roll span:after{background:#007e00 !important;} .reveal .progress {color:#00f500 !important;} .figure{display:flex;flex-wrap:wrap;}</style>
+<link rel="stylesheet" type="text/css" href="https://buildhello.ca/orientation/blood.css" />
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide" data-background="./media/1__MsWQYq0zwKFAn6Y9wJmeg.png" data-background-size="cover" data-background-repeat="none" data-background-opacity="0.8"><h3></h3>
+</section>
+
+
+<section>
+<section id="slide-orgda20934">
+<h2 id="orgda20934">Intro</h2>
+<div class="outline-text-2" id="text-orgda20934">
+</div>
+</section>
+<section id="slide-orgf54612c">
+<h3 id="orgf54612c">^</h3>
+<p>
+Yesterday we talked about HTML, the Hyper-Text Markup Language that&rsquo;s responsible for the structure of our websites
+</p>
+
+</section>
+<section id="slide-org5dd5c82">
+<h3 id="org5dd5c82">^</h3>
+<p>
+Today we&rsquo;re going to talk about CSS, which is the language used to style websites   
+</p>
+
+</section>
+<section id="slide-orge66b6f7">
+<h3 id="orge66b6f7">^</h3>
+
+<div id="orgdb4eb4f" class="figure">
+<p><img src="./media/64dcc7c33b5ae_html_vs_css_01.jpg" alt="64dcc7c33b5ae_html_vs_css_01.jpg" class="img-1" width="100%;" style="margin:0px 0px 0px 0px;">
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgeb8ed0f">
+<h2 id="orgeb8ed0f">Objective</h2>
+<div class="outline-text-2" id="text-orgeb8ed0f">
+</div>
+</section>
+<section id="slide-org016c563">
+<h3 id="org016c563">^</h3>
+<p>
+After this lesson you will know three distinct characteristics of CSS
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org01963b4">
+<h2 id="org01963b4">What is CSS</h2>
+<div class="outline-text-2" id="text-org01963b4">
+</div>
+</section>
+<section id="slide-orge9e220a">
+<h3 id="orge9e220a">^</h3>
+<p>
+CSS stands for Cascading Style Sheets 
+</p>
+
+</section>
+<section id="slide-org19b6b01">
+<h3 id="org19b6b01">^</h3>
+<p>
+CSS is a rules-based language used to apply styles to HTML elements or groups of elements
+</p>
+
+</section>
+<section id="slide-org6c75701">
+<h3 id="org6c75701">^</h3>
+<p>
+What do we mean by a rules based language? Any ideas? 
+</p>
+
+</section>
+<section id="slide-orge5b9154">
+<h3 id="orge5b9154">^</h3>
+<p>
+Interpretation of rules, written with correct syntax, to match blocks of CSS with HTML elements
+</p>
+
+</section>
+<section id="slide-org625120e">
+<h3 id="org625120e">^</h3>
+<p>
+Within our rules based language, we have &rsquo;selectors&rsquo;, &rsquo;properties&rsquo;, &rsquo;syntax&rsquo;, &rsquo;rules&rsquo; 
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org9ac694e">
+<h2 id="org9ac694e">What are CSS Selectors</h2>
+<div class="outline-text-2" id="text-org9ac694e">
+</div>
+</section>
+<section id="slide-org71ea7b9">
+<h3 id="org71ea7b9">^</h3>
+<p>
+CSS selectors are key words we arrange and write in our CSS documents, that tell the browser to target specific HTML elements
+</p>
+
+</section>
+<section id="slide-orgbedd495">
+<h3 id="orgbedd495">^</h3>
+<div class="org-src-container">
+
+<pre  class="src src-html"   ><code trim>body <span style="color: #6c9ef8;">{</span>
 background-color: #fff;
 color: #120300; 
 font-family: arial, verdana, helvetica, sans-serif; //web-safe fonts, sans-serif
@@ -14,32 +147,213 @@ background-image: url<span style="color: #b77fdb;">(</span>"scenic-background.jp
 background-repeat: no-repeat;
 background-size:100%;
 <span style="color: #6c9ef8;">}</span>
-</code></pre></div></section><section id="slide-org999c534"><h3 id="org999c534">^</h3><div id="orgbca56fc" class="figure"><p><img src="./media/css-selectors-1.png" alt="css-selectors-1.png" class="img-1" width="100%;" style="margin:0px 0px 0px 0px;"></p></div></section><section id="slide-org0317270"><h3 id="org0317270">^ ID selector</h3><div class="org-src-container"><pre class="src src-html"><code trim>#id-attribute-name <span style="color: #6c9ef8;">{</span>
+</code></pre>
+</div>
+
+</section>
+<section id="slide-org999c534">
+<h3 id="org999c534">^</h3>
+
+<div id="orgbca56fc" class="figure">
+<p><img src="./media/css-selectors-1.png" alt="css-selectors-1.png" class="img-1" width="100%;" style="margin:0px 0px 0px 0px;">    
+</p>
+</div>
+
+</section>
+<section id="slide-org0317270">
+<h3 id="org0317270">^ ID selector</h3>
+<div class="org-src-container">
+
+<pre  class="src src-html"   ><code trim>#id-attribute-name <span style="color: #6c9ef8;">{</span>
 
 
 <span style="color: #6c9ef8;">}</span>
-</code></pre></div></section><section id="slide-org04ad4b0"><h3 id="org04ad4b0">^ Class Selector</h3><div class="org-src-container"><pre class="src src-html"><code trim>.class-attribute-name <span style="color: #6c9ef8;">{</span>
+</code></pre>
+</div>
+
+</section>
+<section id="slide-org04ad4b0">
+<h3 id="org04ad4b0">^ Class Selector</h3>
+<div class="org-src-container">
+
+<pre  class="src src-html"   ><code trim>.class-attribute-name <span style="color: #6c9ef8;">{</span>
 
 
 
 <span style="color: #6c9ef8;">}</span>
-</code></pre></div></section><section id="slide-org42d92ac"><h3 id="org42d92ac">^ Element</h3><div class="org-src-container"><pre class="src src-html"><code trim>html <span style="color: #6c9ef8;">{</span>
+</code></pre>
+</div>
+
+</section>
+<section id="slide-org42d92ac">
+<h3 id="org42d92ac">^ Element</h3>
+<div class="org-src-container">
+
+<pre  class="src src-html"   ><code trim>html <span style="color: #6c9ef8;">{</span>
 
 
 <span style="color: #6c9ef8;">}</span>
-</code></pre></div></section><section id="slide-org1457db0"><h3 id="org1457db0">^ Star Selector</h3><div class="org-src-container"><pre class="src src-html"><code trim>
+</code></pre>
+</div>
+
+</section>
+<section id="slide-org1457db0">
+<h3 id="org1457db0">^ Star Selector</h3>
+<div class="org-src-container">
+
+<pre  class="src src-html"   ><code trim>
 \* <span style="color: #6c9ef8;">{</span>
 
 
 <span style="color: #6c9ef8;">}</span>
 
-</code></pre></div></section><section id="slide-org1b49dba"><h3 id="org1b49dba">^ Psuedo Classes</h3><div class="org-src-container"><pre class="src src-example"><code trim>
+</code></pre>
+</div>
+
+</section>
+<section id="slide-org1b49dba">
+<h3 id="org1b49dba">^ Psuedo Classes</h3>
+<div class="org-src-container">
+
+<pre  class="src src-example"   ><code trim>
 div:hover {
 
 
 }
 
-</code></pre></div></section></section><section><section id="slide-org976d87a"><h2 id="org976d87a">CSS Syntax</h2><div id="orgd0d231d" class="figure"><p><img src="./media/css-syntax.png" alt="css-syntax.png" class="img-1" width="100%;" style="margin:0px 0px 0px 0px;"></p></div></section></section><section><section id="slide-org3b61258"><h2 id="org3b61258">CSS Background</h2><div id="org68135e5" class="figure"><p><img src="./media/cover-and-contain.jpg" alt="cover-and-contain.jpg" class="img-1" width="100%;" style="margin:0px 0px 0px 0px;"></p></div></section></section><section><section id="slide-org294a74c"><h2 id="org294a74c">Question 1</h2><div class="outline-text-2" id="text-org294a74c"></div></section><section id="slide-org8d974fc"><h3 id="org8d974fc">^</h3><p>Between HTML and CSS, which language is for structure and which language is for style?</p></section><section id="slide-org7dac8a8"><h3 id="org7dac8a8">^</h3><p>HTML is for Structure, CSS is for style</p></section></section><section><section id="slide-org31a1657"><h2 id="org31a1657">Question 2</h2><div class="outline-text-2" id="text-org31a1657"></div></section><section id="slide-orgf8fc356"><h3 id="orgf8fc356">^</h3><p>Is CSS a markup language or a rules based language?</p></section><section id="slide-orge080fb7"><h3 id="orge080fb7">^</h3><p>CSS is a rules-based language where you define rules to apply styles to HTML elements or groups of elements</p></section></section><section><section id="slide-orga13863d"><h2 id="orga13863d">Question 3</h2><div class="outline-text-2" id="text-orga13863d"></div></section><section id="slide-org0b50874"><h3 id="org0b50874">^</h3><p>Where does the browser get the CSS from?</p></section><section id="slide-orgbf12b71"><h3 id="orgbf12b71">^</h3><p>Acceptable answers:</p><ol><li>From a stylesheet</li><li>From the HTML document</li><li>From the style attribute</li><li>From the style tag</li><li>From JavaScript</li></ol></section></section><section><section id="slide-org683438f"><h2 id="org683438f">Summary</h2><div class="outline-text-2" id="text-org683438f"></div></section><section id="slide-org43eb4f2"><h3 id="org43eb4f2">^</h3><p>In this lesson we introduced CSS, discussed how CSS is used to style website and HTML is used to structure websites.</p></section><section id="slide-org7a67e3b"><h3 id="org7a67e3b">^</h3><p>We then introduced the concept of CSS selectors, and looked at 5 key types of CSS selectors. Next, we introduced CSS properties and syntax.</p></section><section id="slide-org2576c16"><h3 id="org2576c16">^</h3><p>Finally, we answered three questions about characteristics of CSS</p></section></section></div></div><script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script><script>// Full list of configuration options available here:
+</code></pre>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org976d87a">
+<h2 id="org976d87a">CSS Syntax</h2>
+
+<div id="orgd0d231d" class="figure">
+<p><img src="./media/css-syntax.png" alt="css-syntax.png" class="img-1" width="100%;" style="margin:0px 0px 0px 0px;">
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org3b61258">
+<h2 id="org3b61258">CSS Background</h2>
+
+<div id="org68135e5" class="figure">
+<p><img src="./media/cover-and-contain.jpg" alt="cover-and-contain.jpg" class="img-1" width="100%;" style="margin:0px 0px 0px 0px;">
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org294a74c">
+<h2 id="org294a74c">Question 1</h2>
+<div class="outline-text-2" id="text-org294a74c">
+</div>
+</section>
+<section id="slide-org8d974fc">
+<h3 id="org8d974fc">^</h3>
+<p>
+Between HTML and CSS, which language is for structure and which language is for style?
+</p>
+
+</section>
+<section id="slide-org7dac8a8">
+<h3 id="org7dac8a8">^</h3>
+<p>
+HTML is for Structure, CSS is for style
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org31a1657">
+<h2 id="org31a1657">Question 2</h2>
+<div class="outline-text-2" id="text-org31a1657">
+</div>
+</section>
+<section id="slide-orgf8fc356">
+<h3 id="orgf8fc356">^</h3>
+<p>
+Is CSS a markup language or a rules based language?
+</p>
+
+</section>
+<section id="slide-orge080fb7">
+<h3 id="orge080fb7">^</h3>
+<p>
+CSS is a rules-based language where you define rules to apply styles to HTML elements or groups of elements
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-orga13863d">
+<h2 id="orga13863d">Question 3</h2>
+<div class="outline-text-2" id="text-orga13863d">
+</div>
+</section>
+<section id="slide-org0b50874">
+<h3 id="org0b50874">^</h3>
+<p>
+Where does the browser get the CSS from?
+</p>
+
+</section>
+<section id="slide-orgbf12b71">
+<h3 id="orgbf12b71">^</h3>
+<p>
+Acceptable answers:
+</p>
+
+<ol>
+<li>From a stylesheet</li>
+<li>From the HTML document</li>
+<li>From the style attribute</li>
+<li>From the style tag</li>
+<li>From JavaScript</li>
+
+</ol>
+
+</section>
+</section>
+<section>
+<section id="slide-org683438f">
+<h2 id="org683438f">Summary</h2>
+<div class="outline-text-2" id="text-org683438f">
+</div>
+</section>
+<section id="slide-org43eb4f2">
+<h3 id="org43eb4f2">^</h3>
+<p>
+In this lesson we introduced CSS, discussed how CSS is used to style website
+and HTML is used to structure websites.
+</p>
+
+</section>
+<section id="slide-org7a67e3b">
+<h3 id="org7a67e3b">^</h3>
+<p>
+We then introduced the concept of CSS selectors, and looked at 5 key types of CSS selectors. 
+Next, we introduced CSS properties and syntax. 
+</p>
+
+</section>
+<section id="slide-org2576c16">
+<h3 id="org2576c16">^</h3>
+<p>
+Finally, we answered three questions about characteristics of CSS
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
 // https://github.com/hakimel/reveal.js#configuration
 Reveal.initialize({
 
@@ -50,4 +364,8 @@ dependencies: [
  { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
  { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
 
-});</script></body></html>
+});
+
+</script>
+</body>
+</html>
