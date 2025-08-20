@@ -1,107 +1,144 @@
 .kanit-thin {
-  font-family: "Kanit", sans-serif;
-  font-weight: 100;
-  font-style: normal;
+font-family: "Kanit", sans-serif;
+src: url('https://buildhello.ca/fonts/kanit/Kanit-Thin.woff2') format('woff2');
+font-weight: 100;
+font-style: normal;
+font-display: swap;
 }
 
 .kanit-extralight {
-  font-family: "Kanit", sans-serif;
-  font-weight: 200;
-  font-style: normal;
+font-family: "Kanit", sans-serif;
+src: url('https://buildhello.ca/fonts/kanit/Kanit-ExtraLight.woff2') format('woff2');
+font-weight: 200;
+font-style: normal;
+font-display: swap;
 }
 
 .kanit-light {
-  font-family: "Kanit", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+font-family: "Kanit", sans-serif;
+src: url('https://buildhello.ca/fonts/kanit/Kanit-Light.woff2') format('woff2');
+font-weight: 300;
+font-style: normal;
+font-display: swap;
 }
 
 .kanit-regular {
-  font-family: "Kanit", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+font-family: "Kanit", sans-serif;
+src: url('https://buildhello.ca/fonts/kanit/Kanit-Regular.woff2') format('woff2');
+font-weight: 400;
+font-style: normal;
+font-display: swap;
 }
 
 .kanit-medium {
-  font-family: "Kanit", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+font-family: "Kanit", sans-serif;
+src: url('https://buildhello.ca/fonts/kanit/Kanit-Medium.woff2') format('woff2');
+font-weight: 500;
+font-style: normal;
+font-display: swap;
 }
 
 .kanit-semibold {
-  font-family: "Kanit", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+font-family: "Kanit", sans-serif;
+src: url('https://buildhello.ca/fonts/kanit/Kanit-SemiBold.woff2') format('woff2');
+font-weight: 600;
+font-style: normal;
+font-display: swap;
 }
 
 .kanit-bold {
-  font-family: "Kanit", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+font-family: "Kanit", sans-serif;
+src: url('https://buildhello.ca/fonts/kanit/Kanit-Bold.woff2') format('woff2');
+font-weight: 700;
+font-style: normal;
+font-display: swap;
 }
 
 .kanit-extrabold {
-  font-family: "Kanit", sans-serif;
-  font-weight: 800;
-  font-style: normal;
+font-family: "Kanit", sans-serif;
+src: url('https://buildhello.ca/fonts/kanit/Kanit-ExtraBold.woff2') format('woff2');
+font-weight: 800;
+font-style: normal;
+font-display: swap;
 }
 
 .kanit-black {
-  font-family: "Kanit", sans-serif;
-  font-weight: 900;
-  font-style: normal;
+font-family: "Kanit", sans-serif;
+src: url('https://buildhello.ca/fonts/kanit/Kanit-Black.woff2') format('woff2');
+font-weight: 900;
+font-style: normal;
+font-display: swap;
 }
 
 .kanit-thin-italic {
-  font-family: "Kanit", sans-serif;
-  font-weight: 100;
-  font-style: italic;
+font-family: "Kanit", sans-serif;
+src: url('https://buildhello.ca/fonts/kanit/Kanit-ThinItalic.woff2') format('woff2');
+font-weight: 100;
+font-style: italic;
+font-display: swap;
 }
 
 .kanit-extralight-italic {
-  font-family: "Kanit", sans-serif;
-  font-weight: 200;
-  font-style: italic;
+font-family: "Kanit", sans-serif;
+src: url('https://buildhello.ca/fonts/kanit/Kanit-ExtraLightItalic.woff2') format('woff2');
+font-weight: 200;
+font-style: italic;
+font-display: swap;
 }
 
 .kanit-light-italic {
-  font-family: "Kanit", sans-serif;
-  font-weight: 300;
-  font-style: italic;
+font-family: "Kanit", sans-serif;
+src: url('https://buildhello.ca/fonts/kanit/Kanit-LightItalic.woff2') format('woff2');
+font-weight: 300;
+font-style: italic;
+font-display: swap;
 }
 
 .kanit-regular-italic {
-  font-family: "Kanit", sans-serif;
-  font-weight: 400;
-  font-style: italic;
+font-family: "Kanit", sans-serif;
+src: url('https://buildhello.ca/fonts/kanit/Kanit-Italic.woff2') format('woff2');
+font-weight: 400;
+font-style: italic;
+font-display: swap;
 }
 
 .kanit-medium-italic {
-  font-family: "Kanit", sans-serif;
-  font-weight: 500;
-  font-style: italic;
+font-family: "Kanit", sans-serif;
+src: url('https://buildhello.ca/fonts/kanit/Kanit-MediumItalic.woff2') format('woff2');
+font-weight: 500;
+font-style: italic;
+font-display: swap;
 }
 
 .kanit-semibold-italic {
-  font-family: "Kanit", sans-serif;
-  font-weight: 600;
-  font-style: italic;
+font-family: "Kanit", sans-serif;
+src: url('https://buildhello.ca/fonts/kanit/Kanit-SemiBoldItalic.woff2') format('woff2');
+font-weight: 600;
+font-style: italic;
+font-display: swap;
 }
 
 .kanit-bold-italic {
-  font-family: "Kanit", sans-serif;
-  font-weight: 700;
-  font-style: italic;
+font-family: "Kanit", sans-serif;
+src: url('https://buildhello.ca/fonts/kanit/Kanit-BoldItalic.woff2') format('woff2');
+font-weight: 700;
+font-style: italic;
+font-display: swap;
 }
 
 .kanit-extrabold-italic {
-  font-family: "Kanit", sans-serif;
-  font-weight: 800;
-  font-style: italic;
+font-family: "Kanit", sans-serif;
+src: url('https://buildhello.ca/fonts/kanit/Kanit-ExtraBoldItalic.woff2') format('woff2');
+font-weight: 800;
+font-style: italic;
+font-display: swap;
 }
 
 .kanit-black-italic {
-  font-family: "Kanit", sans-serif;
-  font-weight: 900;
-  font-style: italic;
+font-family: "Kanit", sans-serif;
+src: url('https://buildhello.ca/fonts/kanit/Kanit-BlackItalic.woff2') format('woff2');
+font-weight: 900;
+font-style: italic;
+font-display: swap;
 }
+
