@@ -1,0 +1,24 @@
+@import "../../../assets/sass/includes/base/media_queries";
+@import "../../../assets/sass/includes/base/variables";
+
+.author_table{
+padding:3em 0em;
+}
+
+
+.mobAFont {
+font-family: sf compact display,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+font-size: 1em;
+width: 100%;
+margin: 0.4em 0;
+}
+
+
+.mobAFont > font {
+color:#767676 !important;
+}
+
+
+.mobile-iframe{
+display:inline-block !important;
+}
