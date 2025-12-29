@@ -1,9 +1,12 @@
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css https://gongzhitaao.org/orgcss/org.css */
 html {
-    font-family: sans-serif;
-    line-height: 1.15;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%}
+font-family: sans-serif;
+line-height: 1.15;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%
+touch-action: manipulation;
+}
+
 body {
     margin: 0;
 }
