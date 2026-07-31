@@ -1,7 +1,0 @@
-@font-face {
-    font-family: 'League Gothic';
-    src: url('https://buildhello.ca/fonts/league-gothic/league-gothic.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-	font-display: swap; /* This is the correct usage */
-}
